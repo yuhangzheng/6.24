@@ -29,5 +29,10 @@ public interface AdministerDAO {
     public Integer update(Administrator administer);
 
     public Integer regPassword(@Param("regPwd") String regPwd, @Param("adminName") String adminName);
-    
+
+    Administrator queryByPrimaryKey(Integer stuId);
+
+    int updateByAdminId(@Param("adminId") Integer adminId, @Param("administrator") Administrator administrator);
+
+    int updatePwd(@Param("adminId") Integer adminId, @Param("administrator") Administrator administrator);
 }
