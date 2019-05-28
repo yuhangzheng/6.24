@@ -6,6 +6,8 @@ import java.util.Objects;
 public class Administrator implements Serializable {
     private Integer adminId;
 
+    private Integer test;
+
     private String adminName;
 
     private String adminPwd;
