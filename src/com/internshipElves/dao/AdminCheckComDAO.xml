@@ -104,14 +104,18 @@
       admin_check_com_prepare_b = #{adminCheckComPrepareB,jdbcType=VARCHAR}
     where admin_check_com_id = #{adminCheckComId,jdbcType=INTEGER}
   </update>
-<!--需要新增实体-->
-  <select id="getComResume" resultType="com.internshipElves.entity.ComGetResume">
-    SELECT stu_name As stuName,stu_gender As stuGender,stu_degree As stuDegree,stu_addr_city As stuAddrCity,
-            com_release_job_name AS comJobName,com_name As comName,com_release_job_requir As comJobRequir,
-            stu_tel As stuTel,stu_email As stuEmail,deliver_resume_time As deliverResumeTime,d1.resume_id As resumeId
-    from  student As s1,com_release_job As c1,com_message As c2,deliver_resume As d1 ,resume As r1
-    where s1.stu_id = d1.stu_id and  d1.com_id = c2.com_id and c2.com_id = c1.com_id
-           and d1.deliver_prepare_a = c1.com_release_job_id and d1.resumeId = r1.resumeId and d1.com_id = ${comId}
-
+<!--
+    0.需要新增实体AdminGetCom √
+    1.DAO接口中没有此方法，调用？
+    2.是否需要写DeliverCom？
+-->
+  <select id="getComInfo" resultType="com.internshipElves.entity.AdminGetCom">
+    SELECT com_email As comEmail, com_create_date As comCreateDate, com_name As comName,
+    com_inter_addr As comInterAddr, com_city As comCity, com_field As comField, com_scale As comScale,
+    com_deplo As comDeplo, com_introduce As comIntroduce, com_founder_name As comFounderName,
+    com_label_one As comLabelOne, com_label_two As comLabelTwo, com_label_three As comLabelThree
+    from company As c, com_message As c1, com_introduce As c2, com_create_team As c3, com_label As c4
+    where  c.com_id = c1.com_id and c.com_id = c2.com_id and c.com_id = c3.com_id and c.com_id = c4.com_id
+    and c.com_id = ${comId}
   </select>
 </mapper>
