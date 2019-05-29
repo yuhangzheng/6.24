@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 @Mapper
 @Repository("administerDao")
-public interface AdministerDAO {
+public interface AdministratorDAO {
     int deleteByPrimaryKey(Integer adminId);
 
     int insert(Administrator record);
