@@ -123,35 +123,35 @@
 
     <select id="isValidEmail" resultType="String">
     SELECT admin_email
-    from admindent
+    from administrator
     where admin_email=#{email}
   </select>
 
     <update id="updatePwd">
-    UPDATE admindent
+    UPDATE administrator
     set admin_pwd = #{adminPwd}
     where admin_id = #{adminId}
   </update>
 
     <update id="regPassword">
-     UPDATE admindent
+     UPDATE administrator
      set admin_pwd = #{regPwd}
      where admin_tel = #{adminTel}
   </update>
 
     <insert id="saveRegistByEmailAndPwd">
-    INSERT into admindent(admin_pwd,admin_email,admin_create_time)
+    INSERT into administrator(admin_pwd,admin_email,admin_create_time)
     VALUES (#{adminPwd},#{adminEmail},#{adminCreateTime})
   </insert>
 
     <insert id="saveRegistByTelAndPwd">
-    INSERT INTO admindent(admin_pwd,admin_tel,admin_create_time)
+    INSERT INTO administrator(admin_pwd,admin_tel,admin_create_time)
     VALUES (#{adminPwd},#{adminTel},#{adminCreateTime})
   </insert>
 
-    <select id="queryById" resultType="com.internshipElves.entity.admindent">
+    <select id="queryById" resultType="com.internshipElves.entity.Administrator">
         SELECT <include refid="Base_Column_List"/>
-        from admindent
+        from administrator
         where admin_id = #{adminId}
     </select>
 

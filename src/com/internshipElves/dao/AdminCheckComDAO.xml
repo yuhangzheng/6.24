@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.internshipElves.dao.AdminCheckComDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.AdminCheckComDAO">
+  <resultMap id="BaseResultMap" type="com.internshipElves.entity.AdminCheckCom">
     <id column="admin_check_com_id" jdbcType="INTEGER" property="adminCheckComId" />
     <result column="com_id" jdbcType="INTEGER" property="comId" />
     <result column="admin_check_com_status" jdbcType="INTEGER" property="adminCheckComStatus" />

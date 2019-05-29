@@ -22,3 +22,10 @@ public interface AdminCheckStuDAO {
     int updateByPrimaryKey(AdminCheckStu record);
 
 }
+
+/*
+*   DAO:AdminCheckStuDAO.xml
+*   entity:AdminGetStu
+*   Deliver???
+*
+* */
