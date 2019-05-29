@@ -97,7 +97,7 @@
   </update>
   <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.AdminCheckCom">
     update admin_check_com
-    set com_id = #{resumeId,jdbcType=INTEGER},
+    set com_id = #{comId,jdbcType=INTEGER},
       admin_check_com_status = #{adminCheckComStatus,jdbcType=INTEGER},
       admin_check_com_time = #{adminCheckComTime,jdbcType=DATE},
       admin_check_com_prepare_a = #{adminCheckComPrepareA,jdbcType=VARCHAR},
