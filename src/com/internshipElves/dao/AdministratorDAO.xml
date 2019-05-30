@@ -107,7 +107,7 @@
     <select id="isValidName" resultType="String">
     SELECT admin_name
     from administrator
-    where admin_tel=#{adminTel}
+    where admin_name=#{adminName}
   </select>
 
 
@@ -119,14 +119,6 @@
         where admin_id = #{adminId,jdbcType=INTEGER}
     </select>
 
-
-
-    <select id="isValidEmail" resultType="String">
-    SELECT admin_email
-    from administrator
-    where admin_email=#{email}
-  </select>
-
     <update id="updatePwd">
     UPDATE administrator
     set admin_pwd = #{adminPwd}
@@ -136,17 +128,12 @@
     <update id="regPassword">
      UPDATE administrator
      set admin_pwd = #{regPwd}
-     where admin_tel = #{adminTel}
+     where admin_name = #{adminName}
   </update>
 
-    <insert id="saveRegistByEmailAndPwd">
-    INSERT into administrator(admin_pwd,admin_email,admin_create_time)
-    VALUES (#{adminPwd},#{adminEmail},#{adminCreateTime})
-  </insert>
-
-    <insert id="saveRegistByTelAndPwd">
-    INSERT INTO administrator(admin_pwd,admin_tel,admin_create_time)
-    VALUES (#{adminPwd},#{adminTel},#{adminCreateTime})
+    <insert id="saveRegistByNameAndPwd">
+    INSERT into administrator(admin_pwd,admin_name)
+    VALUES (#{adminPwd},#{adminName})
   </insert>
 
     <select id="queryById" resultType="com.internshipElves.entity.Administrator">
