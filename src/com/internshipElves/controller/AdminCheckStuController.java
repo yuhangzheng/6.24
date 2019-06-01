@@ -1,8 +1,11 @@
 package com.internshipElves.controller;
 
+import com.internshipElves.entity.AdminCheckStu;
 import com.internshipElves.entity.AdminGetCom;
+import com.internshipElves.entity.AdminGetStu;
 import com.internshipElves.service.AdminCheckComService;
 import com.internshipElves.entity.AdminCheckCom;
+import com.internshipElves.service.AdminCheckStuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,23 +15,23 @@ import java.util.*;
 
 @RequestMapping("adminCheckCom")
 @Controller("adminCheckComController")
-public class AdminCheckComController {
+public class AdminCheckStuController {
 
     @Autowired
-    private AdminCheckComService adminCheckComService;
+    private AdminCheckStuService adminCheckStuService;
 
     @RequestMapping("queryAll")
     public String queryAll(HttpServletRequest request){
-        List<AdminGetCom> list = adminCheckComService.queryAll();
-        for(AdminGetCom acc : list){
+        List<AdminGetStu> list = adminCheckStuService.queryAll();
+        for(AdminGetStu acc : list){
             request.getSession().setAttribute("acc",acc);
         }
         return "test";
     }
 
     @RequestMapping("deleteCom")
-    public String deleteCom(HttpServletRequest request, AdminCheckCom adminCheckCom){
-        Integer rows = adminCheckComService.deleteByComId(adminCheckCom.getComId());
+    public String deleteCom(HttpServletRequest request, AdminCheckStu adminCheckStu){
+        Integer rows = adminCheckStuService.deleteByStuId(adminCheckStu.getStuId());
         return rows.toString();
     }
 }

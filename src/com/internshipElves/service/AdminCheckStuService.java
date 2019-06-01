@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface AdminCheckStuService {
     public List<AdminGetStu> queryAll();
+
+    public Integer deleteByStuId(Integer stuId);
 }

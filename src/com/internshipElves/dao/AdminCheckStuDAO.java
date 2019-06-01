@@ -23,6 +23,8 @@ public interface AdminCheckStuDAO {
     int updateByPrimaryKey(AdminCheckStu record);
 
     List<AdminGetStu> queryAll();
+
+    int deleteBySelectiveKey(Integer stuId);
 }
 
 /*

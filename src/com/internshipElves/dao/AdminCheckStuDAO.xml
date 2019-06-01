@@ -112,4 +112,10 @@
     from student As s
   </select>
 
+    <delete id="deleteBySelectiveKey" parameterType="java.lang.Integer">
+    delete from admin_check_stu
+    where stu_id = #{stuId,jdbcType=INTEGER};
+    delete from student
+    where stu_id = #{stuId,jdbcType=INTEGER};
+  </delete>
 </mapper>

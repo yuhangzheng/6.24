@@ -19,4 +19,9 @@ public class AdminCheckStuServiceImpl implements AdminCheckStuService {
         List<AdminGetStu> list = adminCheckStuDAO.queryAll();
         return list;
     }
+
+    @Override
+    public Integer deleteByStuId(Integer stuId) {
+        return adminCheckStuDAO.deleteBySelectiveKey(stuId);
+    }
 }
