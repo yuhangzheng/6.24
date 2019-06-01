@@ -2,6 +2,7 @@ package com.internshipElves.dao;
 
 
 import com.internshipElves.entity.AdminCheckStu;
+import com.internshipElves.entity.AdminGetStu;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 import java.util.*;
@@ -21,7 +22,7 @@ public interface AdminCheckStuDAO {
 
     int updateByPrimaryKey(AdminCheckStu record);
 
-    List<AdminCheckStu> queryAll();
+    List<AdminGetStu> queryAll();
 }
 
 /*
