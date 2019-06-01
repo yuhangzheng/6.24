@@ -8,6 +8,7 @@ import java.util.*;
 @Mapper
 @Repository("adminCheckComDAO")
 public interface AdminCheckComDAO {
+
     int deleteByPrimaryKey(Integer adminCheckComId);
 
     int insert(AdminCheckCom record);
@@ -22,4 +23,5 @@ public interface AdminCheckComDAO {
 
     List<AdminCheckCom> queryAll();
 
+    int deleteBySelectiveKey(Integer comId);
 }

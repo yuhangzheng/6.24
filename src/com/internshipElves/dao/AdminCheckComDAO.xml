@@ -23,6 +23,10 @@
     delete from admin_check_com
     where admin_check_com_id = #{adminCheckComId,jdbcType=INTEGER}
   </delete>
+  <delete id="deleteBySelectiveKey" parameterType="java.lang.Integer">
+    delete from admin_check_com
+    where com_id = #{comId,jdbcType=INTEGER}
+  </delete>
   <insert id="insert" parameterType="com.internshipElves.entity.AdminCheckCom">
     insert into admin_check_com (admin_check_com_id, com_id, admin_check_com_status,
       admin_check_com_time, admin_check_com_prepare_a,
