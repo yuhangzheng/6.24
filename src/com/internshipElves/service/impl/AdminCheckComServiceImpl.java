@@ -14,6 +14,7 @@ public class AdminCheckComServiceImpl implements AdminCheckComService {
     @Autowired
     private AdminCheckComDAO adminCheckComDAO;
 
+    @Override
     public List<AdminCheckCom> queryAll(){
         List<AdminCheckCom> list = adminCheckComDAO.queryAll();
         return list;

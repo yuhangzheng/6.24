@@ -105,20 +105,11 @@
     where admin_check_stu_id = #{adminCheckStuId,jdbcType=INTEGER}
   </update>
 
-  <select id="getStuInfo" resultType="com.internshipElves.entity.AdminGetStu">
+  <select id="queryAll" resultType="com.internshipElves.entity.AdminGetStu">
     SELECT stu_name As stuName, stu_birth As stuBirth, stu_gender As stuGender, stu_addr_city As stuAddrCity,
     stu_tel As stuTel, stu_email As stuEmail, stu_school As stuSchool, stu_read_date As stuReadDate,
     stu_major As stuMajor, stu_degree As stuDegree, stu_photo As stuPhoto
     from student As s
-    where s.stu_id = ${stuId}
   </select>
-
-  <select id="queryAll" resultMap="BaseResultMap">
-    select admin_check_stu_id, stu_id, admin_check_stu_status, admin_check_stu_time, stu_name, stu_birth,
-    stu_gender, stu_addr_city, stu_tel, stu_email, stu_school, stu_read_date, stu_major, stu_degree, stu_photo
-    from admin_check_stu_id As acs, student As s
-    where acs.stu_id = s.stu_id
-  </select>
-
 
 </mapper>
