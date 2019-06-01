@@ -2,9 +2,9 @@ package com.internshipElves.dao;
 
 
 import com.internshipElves.entity.AdminCheckStu;
-import com.internshipElves.entity.ComCheckResume;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
+import java.util.*;
 
 @Mapper
 @Repository("adminCheckStuDAO")
@@ -21,6 +21,7 @@ public interface AdminCheckStuDAO {
 
     int updateByPrimaryKey(AdminCheckStu record);
 
+    List<AdminCheckStu> queryAll();
 }
 
 /*
