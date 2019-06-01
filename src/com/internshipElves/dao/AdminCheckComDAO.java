@@ -3,6 +3,7 @@ package com.internshipElves.dao;
 import com.internshipElves.entity.AdminCheckCom;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
+import java.util.*;
 
 @Mapper
 @Repository("adminCheckComDAO")
@@ -18,5 +19,7 @@ public interface AdminCheckComDAO {
     int updateByPrimaryKeySelective(AdminCheckCom record);
 
     int updateByPrimaryKey(AdminCheckCom record);
+
+    List<AdminCheckCom> queryAll();
 
 }
