@@ -55,7 +55,7 @@
             </ul>
             <ul class="loginTop">
                 <c:choose>
-                    <c:when test="${empty stuId}">
+                    <c:when test="${empty stuId  && empty comId}">
                         <li><a href="${pageContext.request.contextPath}/internshipElves/comLogin.jsp" rel="nofollow">企业入口</a></li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/internshipElves/login.jsp" rel="nofollow">学生入口</a></li>
@@ -67,11 +67,18 @@
                         <li><a href="${pageContext.request.contextPath}/stuLogin/logout">退出</a></li>
                     </c:when>
 
-                    <c:otherwise>
-                        <li> <a href="${pageContext.request.contextPath}/student/getInfo?id=${stuId}">欢迎${stuPhoneMail}</a></li>
+                    <c:when test = "${!empty stuId || !empty stuPhoneMail}">
+                        <li> <a href="${pageContext.request.contextPath}/personCenter/loginIn">欢迎${stuPhoneMail}</a></li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/stuLogin/logout">退出</a></li>
-                    </c:otherwise>
+                    </c:when>
+
+                    <c:when test = "${!empty comId || !empty comPhoneMail}">
+                        <li> <a href="${pageContext.request.contextPath}/internshipElves/jobreleasesuccess.jsp">欢迎${comPhoneMail}</a></li>
+                        <li>|</li>
+                        <li><a href="${pageContext.request.contextPath}/comLogin/logout">退出</a></li>
+                    </c:when>
+
                 </c:choose>
             </ul>
         </div>
