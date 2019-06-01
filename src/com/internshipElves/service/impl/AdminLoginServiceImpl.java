@@ -7,7 +7,7 @@ import com.internshipElves.service.AdminLoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service("adminLoginService")
+@Service
 public class AdminLoginServiceImpl implements AdminLoginService {
 
     @Autowired

@@ -2,10 +2,13 @@ package com.internshipElves.dao;
 
 import com.internshipElves.entity.ComLogin;
 import com.internshipElves.entity.Company;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
-;
 
+@Mapper
+@Repository("comLoginDao")
 public interface ComLoginDAO {
 
     /**

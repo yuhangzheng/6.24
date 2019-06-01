@@ -17,7 +17,7 @@ import javax.servlet.http.HttpSession;
 import java.util.Date;
 
 @Controller
-@RequestMapping("personCenter")
+@RequestMapping("/personCenter")
 public class PersonCenterController {
     @Autowired
     private StudentService studentService;
@@ -48,7 +48,7 @@ public class PersonCenterController {
     }
 
 
-    @RequestMapping("loginIn")
+    @RequestMapping("/loginIn")
     public ModelAndView loginIn(HttpServletRequest request) {
         ModelAndView mav = new ModelAndView();
         HttpSession session = request.getSession();

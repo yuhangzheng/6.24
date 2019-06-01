@@ -95,10 +95,12 @@ function login(){
         var stuPwd = document.getElementById("loginPwd").value;
         var imgCode = document.getElementsByClassName("loginImgCode")[0].value;
         var formData = "stuPhoneMail="+stuPhoneMail+"&stuPwd="+stuPwd+"&imgCode="+imgCode;
+        console.log(formData);
         var url = "/stuLogin/login";
         xhr.open("POST",url,true);
         xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded; charset=UTF-8");
         xhr.onreadystatechange = loginResponse;
+        console.log(formData);
         xhr.send(formData);
     }
 }
