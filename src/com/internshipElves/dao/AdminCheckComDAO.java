@@ -1,6 +1,7 @@
 package com.internshipElves.dao;
 
 import com.internshipElves.entity.AdminCheckCom;
+import com.internshipElves.entity.AdminGetCom;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 import java.util.*;
@@ -21,7 +22,7 @@ public interface AdminCheckComDAO {
 
     int updateByPrimaryKey(AdminCheckCom record);
 
-    List<AdminCheckCom> queryAll();
+    List<AdminGetCom> queryAll();
 
     int deleteBySelectiveKey(Integer comId);
 }
