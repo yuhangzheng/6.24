@@ -29,8 +29,8 @@ public class AdminCheckStuController {
         return "test";
     }
 
-    @RequestMapping("deleteCom")
-    public String deleteCom(HttpServletRequest request, AdminCheckStu adminCheckStu){
+    @RequestMapping("deleteStu")
+    public String deleteStu(HttpServletRequest request, AdminCheckStu adminCheckStu){
         Integer rows = adminCheckStuService.deleteByStuId(adminCheckStu.getStuId());
         return rows.toString();
     }
