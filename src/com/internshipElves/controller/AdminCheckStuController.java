@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.HttpServletRequest;
 import java.util.*;
 
-@RequestMapping("adminCheckCom")
-@Controller("adminCheckComController")
+@RequestMapping("adminCheckStu")
+@Controller("adminCheckStuController")
 public class AdminCheckStuController {
 
     @Autowired
