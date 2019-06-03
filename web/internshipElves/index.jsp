@@ -1,3 +1,4 @@
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -55,10 +56,12 @@
             </ul>
             <ul class="loginTop">
                 <c:choose>
-                    <c:when test="${empty stuId  && empty comId}">
+                    <c:when test="${empty stuId  && empty comId && empty adminId}">
                         <li><a href="${pageContext.request.contextPath}/internshipElves/comLogin.jsp" rel="nofollow">企业入口</a></li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/internshipElves/login.jsp" rel="nofollow">学生入口</a></li>
+                        <li>|</li>
+                        <li><a href="${pageContext.request.contextPath}/internshipElves/adminLogin.jsp" rel="nofollow">管理员入口</a></li>
                     </c:when>
 
                     <c:when test="${!empty stuId && !empty stuName}">
@@ -77,6 +80,12 @@
                         <li> <a href="${pageContext.request.contextPath}/internshipElves/jobreleasesuccess.jsp">欢迎${comPhoneMail}</a></li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/comLogin/logout">退出</a></li>
+                    </c:when>
+
+                    <c:when test="${!empty adminId && !empty adminName}">
+                        <li><a href="${pageContext.request.contextPath}/personCenter/isLogin">欢迎管理员${adminName}</a></li>
+                        <li>|</li>
+                        <li><a href="${pageContext.request.contextPath}/adminLogin/logout">退出</a></li>
                     </c:when>
 
                 </c:choose>

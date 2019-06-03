@@ -20,9 +20,9 @@ public class AdminLogin implements Serializable {
 
     private Integer adminId;
 
-    private String stuLoginPrepareA;
+    private String adminLoginPrepareA;
 
-    private String stuLoginPrepareB;
+    private String adminLoginPrepareB;
 
     private static final long serialVersionUID = 1L;
 
@@ -74,20 +74,20 @@ public class AdminLogin implements Serializable {
         this.adminId = adminId;
     }
 
-    public String getStuLoginPrepareA() {
-        return stuLoginPrepareA;
+    public String getAdminLoginPrepareA() {
+        return adminLoginPrepareA;
     }
 
-    public void setStuLoginPrepareA(String stuLoginPrepareA) {
-        this.stuLoginPrepareA = stuLoginPrepareA;
+    public void setAdminLoginPrepareA(String adminLoginPrepareA) {
+        this.adminLoginPrepareA = adminLoginPrepareA;
     }
 
-    public String getStuLoginPrepareB() {
-        return stuLoginPrepareB;
+    public String getAdminLoginPrepareB() {
+        return adminLoginPrepareB;
     }
 
-    public void setStuLoginPrepareB(String stuLoginPrepareB) {
-        this.stuLoginPrepareB = stuLoginPrepareB;
+    public void setAdminLoginPrepareB(String adminLoginPrepareB) {
+        this.adminLoginPrepareB = adminLoginPrepareB;
     }
 
     public String getAdminLoginName() {
@@ -102,21 +102,21 @@ public class AdminLogin implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof AdminLogin)) return false;
-        AdminLogin that = (AdminLogin) o;
-        return Objects.equals(adminLoginId, that.adminLoginId) &&
-                Objects.equals(adminLoginName, that.adminLoginName) &&
-                Objects.equals(adminLoginPwd, that.adminLoginPwd) &&
-                Objects.equals(adminLoginTime, that.adminLoginTime) &&
-                Objects.equals(adminPreLoginTime, that.adminPreLoginTime) &&
-                Objects.equals(adminLoginStatus, that.adminLoginStatus) &&
-                Objects.equals(adminId, that.adminId) &&
-                Objects.equals(stuLoginPrepareA, that.stuLoginPrepareA) &&
-                Objects.equals(stuLoginPrepareB, that.stuLoginPrepareB);
+        AdminLogin login = (AdminLogin) o;
+        return Objects.equals(adminLoginId, login.adminLoginId) &&
+                Objects.equals(adminLoginName, login.adminLoginName) &&
+                Objects.equals(adminLoginPwd, login.adminLoginPwd) &&
+                Objects.equals(adminLoginTime, login.adminLoginTime) &&
+                Objects.equals(adminPreLoginTime, login.adminPreLoginTime) &&
+                Objects.equals(adminLoginStatus, login.adminLoginStatus) &&
+                Objects.equals(adminId, login.adminId) &&
+                Objects.equals(adminLoginPrepareA, login.adminLoginPrepareA) &&
+                Objects.equals(adminLoginPrepareB, login.adminLoginPrepareB);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(adminLoginId, adminLoginName, adminLoginPwd, adminLoginTime, adminPreLoginTime, adminLoginStatus, adminId, stuLoginPrepareA, stuLoginPrepareB);
+        return Objects.hash(adminLoginId, adminLoginName, adminLoginPwd, adminLoginTime, adminPreLoginTime, adminLoginStatus, adminId, adminLoginPrepareA, adminLoginPrepareB);
     }
 
     @Override
@@ -129,8 +129,8 @@ public class AdminLogin implements Serializable {
                 ", adminPreLoginTime=" + adminPreLoginTime +
                 ", adminLoginStatus=" + adminLoginStatus +
                 ", adminId=" + adminId +
-                ", stuLoginPrepareA='" + stuLoginPrepareA + '\'' +
-                ", stuLoginPrepareB='" + stuLoginPrepareB + '\'' +
+                ", adminLoginPrepareA='" + adminLoginPrepareA + '\'' +
+                ", adminLoginPrepareB='" + adminLoginPrepareB + '\'' +
                 '}';
     }
 }

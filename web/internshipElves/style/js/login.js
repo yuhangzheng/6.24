@@ -14,6 +14,18 @@ function loginTelAndPwd() {
     }
 }
 
+function loginName() {
+    document.getElementsByClassName("loginMessage")[0].innerText="";
+    var values = document.getElementsByClassName("loginInfo")[0].value;
+    if(values==null || values==""){
+        document.getElementsByClassName("loginMsg")[0].innerText = "请输入用户名";
+        return false;
+    }else{
+        document.getElementsByClassName("loginMsg")[0].innerText = null;
+        return true;
+    }
+}
+
 /**
  * 验证登录密码
  * @returns {boolean}
@@ -80,6 +92,28 @@ function loginAll() {
 }
 
 /**
+ * 验证登录手机号码，登录密码，登录验证码
+ * @returns {boolean}
+ */
+function adminLoginAll() {
+    document.getElementsByClassName("loginMessage")[0].innerText = "";
+    if(!loginName()){
+        loginName();
+    }
+    if(!loginPassword()){
+        loginPassword();
+    }
+    if(!loginImg()){
+        loginImg();
+    }
+    if(loginName() &&loginPassword() && loginImg()){
+        return true
+    }else{
+        return false;
+    }
+}
+
+/**
  * 登录
  */
 var xhr = null;
@@ -97,6 +131,31 @@ function login(){
         var formData = "stuPhoneMail="+stuPhoneMail+"&stuPwd="+stuPwd+"&imgCode="+imgCode;
         console.log(formData);
         var url = "/stuLogin/login";
+        xhr.open("POST",url,true);
+        xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded; charset=UTF-8");
+        xhr.onreadystatechange = loginResponse;
+        console.log(formData);
+        xhr.send(formData);
+    }
+}
+
+/**
+ * 登录
+ */
+function adminLogin(){
+    if(adminLoginAll()){
+        if(window.XMLHttpRequest){
+            xhr = new XMLHttpRequest();
+        }else{
+            xhr = new ActiveXObject('Microsoft.XMLHTTP');
+        }
+
+        var adminName = document.getElementById("loginName").value;
+        var adminPwd = document.getElementById("loginPwd").value;
+        var imgCode = document.getElementsByClassName("loginImgCode")[0].value;
+        var formData = "adminName="+adminName+"&adminPwd="+adminPwd+"&imgCode="+imgCode;
+        console.log(formData);
+        var url = "/adminLogin/login";
         xhr.open("POST",url,true);
         xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded; charset=UTF-8");
         xhr.onreadystatechange = loginResponse;
