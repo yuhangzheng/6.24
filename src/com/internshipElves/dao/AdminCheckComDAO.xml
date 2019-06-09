@@ -24,10 +24,8 @@
     where admin_check_com_id = #{adminCheckComId,jdbcType=INTEGER}
   </delete>
   <delete id="deleteBySelectiveKey" parameterType="java.lang.Integer">
-    delete from admin_check_com
-    where com_id = #{comId,jdbcType=INTEGER};
-    delete from company
-    where com_id = #{comId,jdbcType=INTEGER};
+    delete from admin_check_com where com_id = #{comId,jdbcType=INTEGER};
+    delete from company where com_id = #{comId,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.internshipElves.entity.AdminCheckCom">
     insert into admin_check_com (admin_check_com_id, com_id, admin_check_com_status,
@@ -114,8 +112,9 @@
   <select id="queryAll" resultType="com.internshipElves.entity.AdminGetCom">
     SELECT com_email As comEmail, com_create_date As comCreateDate, com_name As comName,
     com_inter_addr As comInterAddr, com_city As comCity, com_field As comField, com_scale As comScale,
-    com_deplo As comDeplo, com_introduce As comIntroduce, com_founder_name As comFounderName,
-    com_label_one As comLabelOne, com_label_two As comLabelTwo, com_label_three As comLabelThree
+    com_deplo As comDeplo, c2.com_introduce As comIntroduce, com_founder_name As comFounderName,
+    com_label_one As comLabelOne, com_label_two As comLabelTwo, com_label_three As comLabelThree,
+    c.com_id As comId
     from company As c, com_message As c1, com_introduce As c2, com_create_team As c3, com_label As c4
     where  c.com_id = c1.com_id and c.com_id = c2.com_id and c.com_id = c3.com_id and c.com_id = c4.com_id
   </select>

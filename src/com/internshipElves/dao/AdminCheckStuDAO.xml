@@ -108,7 +108,7 @@
   <select id="queryAll" resultType="com.internshipElves.entity.AdminGetStu">
     SELECT stu_name As stuName, stu_birth As stuBirth, stu_gender As stuGender, stu_addr_city As stuAddrCity,
     stu_tel As stuTel, stu_email As stuEmail, stu_school As stuSchool, stu_read_date As stuReadDate,
-    stu_major As stuMajor, stu_degree As stuDegree, stu_photo As stuPhoto
+    stu_major As stuMajor, stu_degree As stuDegree, stu_photo As stuPhoto,
     from student As s
   </select>
 

@@ -19,7 +19,7 @@ import java.util.Date;
 import java.util.List;
 
 @Controller
-@RequestMapping("/releaseJob")
+@RequestMapping("releaseJob")
 public class ComReleaseJobController {
     private int id;
     @Autowired

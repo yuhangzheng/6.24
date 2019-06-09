@@ -5,30 +5,33 @@ import com.internshipElves.service.AdminCheckComService;
 import com.internshipElves.entity.AdminCheckCom;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.util.*;
 
-@RequestMapping("adminCheckCom")
+@RequestMapping("/adminCheckCom")
 @Controller("adminCheckComController")
 public class AdminCheckComController {
 
     @Autowired
     private AdminCheckComService adminCheckComService;
 
-    @RequestMapping("queryAll")
+    @RequestMapping("/queryAll")
     public String queryAll(HttpServletRequest request){
         List<AdminGetCom> list = adminCheckComService.queryAll();
-        for(AdminGetCom acc : list){
-            request.getSession().setAttribute("acc",acc);
-        }
-        return "test";
+            request.getSession().setAttribute("comlist",list);
+        return "check";
     }
 
-    @RequestMapping("deleteCom")
-    public String deleteCom(HttpServletRequest request, AdminCheckCom adminCheckCom){
-        Integer rows = adminCheckComService.deleteByComId(adminCheckCom.getComId());
-        return rows.toString();
+    @PostMapping("/deleteCom")
+    public String deleteCom(HttpServletRequest request, HttpServletResponse response, int comId){
+        Integer rows = adminCheckComService.deleteByComId(comId);
+        queryAll(request);
+        return "check";
     }
 }
