@@ -23,8 +23,10 @@ public class AdminCheckComController {
 
     @RequestMapping("/queryAll")
     public String queryAll(HttpServletRequest request){
+        request.removeAttribute("stuList");
         List<AdminGetCom> list = adminCheckComService.queryAll();
-            request.getSession().setAttribute("comlist",list);
+        request.getSession().setAttribute("comList",list);
+        request.getSession().setAttribute("status", "com");
         return "check";
     }
 
