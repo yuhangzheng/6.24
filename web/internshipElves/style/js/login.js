@@ -179,7 +179,7 @@ function loginResponse() {
         if(result == "2")
             document.getElementById("loginMsg").innerText = "表示用户名和密码错误";
         if(result == "3")
-            window.location = "/internshipElves/check.jsp";
+            window.location = "/internshipElves/index.jsp";
     }
 }
 // function xx(){
