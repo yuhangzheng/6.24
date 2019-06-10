@@ -124,7 +124,8 @@
           <script>
               var  xhr= null;
               function  saveTeam() {
-                  var  url_saveTeam='${pageContext.request.contextPath}/comCreateTeam/founder';
+                  var  url_saveTeam='${pageContext.request.contextPath}/internshipElves/index02.jsp';
+                  <%--var  url_saveTeam='${pageContext.request.contextPath}/comCreateTeam/founder';--%>
                   if (window.XMLHttpRequest){
                       xhr =new XMLHttpRequest();
                   }else {

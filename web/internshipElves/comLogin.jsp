@@ -53,7 +53,7 @@
 
     <div id = "register_right">
         <div class="register_right_r1">
-            <span>没有账号? 直接 <a href="${pageContext.request.contextPath}/internshipElves/register2.jsp">注册</a></span>
+            <span>没有账号? 直接 <a href="${pageContext.request.contextPath}/internshipElves/comRegister.jsp">注册</a></span>
         </div>
         <div class="register_right_r2">
             <div class="register_right_r2_Ba">

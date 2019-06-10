@@ -96,7 +96,8 @@
         <script>
             var  xhr =null;
             function saveProduct() {
-                var  url_saveProduct='${pageContext.request.contextPath}/comProduct/index02';
+                var  url_saveProduct='${pageContext.request.contextPath}/internshipElves/index03.jsp';
+                <%--var  url_saveProduct='${pageContext.request.contextPath}/comProduct/index02';--%>
                 if (window.XMLHttpRequest){
                     xhr =new XMLHttpRequest();
                 }else {

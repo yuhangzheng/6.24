@@ -44,7 +44,7 @@ public class ComReleaseJobController {
     public String insert(ComReleaseJob comReleaseJob) {
         comReleaseJob.setComId(1);
         int row = comReleaseJobService.insert(comReleaseJob);
-        return "test";
+        return "index06";
     }
 
     //根据id查询企业发布的简历信息
@@ -130,7 +130,7 @@ public class ComReleaseJobController {
     @RequestMapping("getComReleaseJob")
     @ResponseBody
     public List<ComReleaseJob> getComReleaseJob( HttpServletRequest request,String comReleaseJobStatus){
-        Company  company  = (Company)request.getSession().getAttribute("company");
+        Company  company  = (Company)request.getSession().getAttribute("c");
         Integer status  = Integer.parseInt(comReleaseJobStatus);
         List<ComReleaseJob> comReleaseJobs = new ArrayList<>();
         comReleaseJobs =  comReleaseJobService.queryById(company.getComId(),status);

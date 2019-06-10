@@ -21,6 +21,28 @@ function registerTel() {
 }
 
 /**
+ * 邮箱格式验证
+ * @returns {boolean}
+ */
+function registerMail() {
+    var values = document.getElementsByClassName("registerMailAndPwd")[0].value;
+    var reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$");
+    if(values==null || values==""){
+        document.getElementsByClassName("registerMailMsg")[0].innerText = "请输入常用邮箱";
+        return false;
+    }else{
+        if(!reg.test(values)){
+            document.getElementsByClassName("registerMailMsg")[0].innerText = "请输入正确的邮箱";
+            return false;
+        }else{
+            document.getElementsByClassName("registerMailMsg")[0].innerText = null;
+            return true;
+        }
+    }
+}
+
+
+/**
  * 密码验证
  * @returns {boolean}
  */
@@ -91,6 +113,19 @@ function registerAll() {
 }
 
 /**
+ * 公司端表单所有信息的验证
+ * @returns {boolean}
+ */
+function comRegisterAll() {
+    document.getElementById("registerMsg").innerText = "";
+    if(registerMail() && registerPassword() && stuCheckBox() ){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+/**
  * 验证学生端注册
  */
 var xhr = null;
@@ -115,6 +150,30 @@ function register() {
 }
 
 /**
+ * 验证公司端注册
+ */
+var xhr = null;
+function comRegister() {
+    if(comRegisterAll()) {
+        if (window.XMLHttpRequest) {
+            xhr = new XMLHttpRequest();
+        } else {
+            xhr = new ActiveXObject('Microsoft.XMLHTTP');
+        }
+        var url = "/comRegister/register";
+        var comMail = document.getElementById("registerId").value;
+        var comPwd = document.getElementById("registerPwd").value;
+        //var comIdentifyingCode = document.getElementById("registerIdentifyingCode").value;
+
+        var formData = "comMail=" + comMail + "&comPwd=" + comPwd ;
+        xhr.open("POST", url, true);
+        xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded; charset=UTF-8");
+        xhr.onreadystatechange = comRegisterResponse;
+        xhr.send(formData);
+    }
+}
+
+/**
  * 注册响应
  */
 function registerResponse(){
@@ -127,6 +186,22 @@ function registerResponse(){
             document.getElementById("registerMsg").innerText = "短信验证码错误";
         if(result == "0")
             window.location = "/internshipElves/login.jsp";
+    }
+}
+
+/**
+ * 公司注册响应
+ */
+function comRegisterResponse(){
+    if(xhr.readyState == 4 && xhr.status == 200){
+        document.getElementById("registerMsg").innerText = "";
+        var result = JSON.parse(xhr.responseText);
+        if(result == "1")
+            document.getElementById("registerMsg").innerText = "手机号已被注册过";
+        if(result == "2")
+            document.getElementById("registerMsg").innerText = "短信验证码错误";
+        if(result == "0")
+            window.location = "/internshipElves/index01.jsp";
     }
 }
 

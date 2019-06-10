@@ -108,6 +108,7 @@
                         <input type="hidden" value="create" name="preview">
                         <input type="hidden" value="25927" name="companyId">
                         <input type="hidden" value="c29d4a7c35314180bf3be5eb3f00048f" name="resubmitToken">
+                        <input type="hidden" value="1" name="comReleaseJobStatus">
                         <table class="btm">
                             <tbody><tr>
                                 <td width="25"><span class="redstar">*</span></td>

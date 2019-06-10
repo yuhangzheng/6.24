@@ -71,13 +71,13 @@
                     </c:when>
 
                     <c:when test = "${!empty stuId || !empty stuPhoneMail}">
-                        <li> <a href="${pageContext.request.contextPath}/personCenter/loginIn">欢迎${stuPhoneMail}</a></li>
+                        <li> <a href="${pageContext.request.contextPath}/personCenter/isLogin">欢迎${stuPhoneMail}</a></li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/stuLogin/logout">退出</a></li>
                     </c:when>
 
                     <c:when test = "${!empty comId || !empty comPhoneMail}">
-                        <li> <a href="${pageContext.request.contextPath}/internshipElves/jobreleasesuccess.jsp">欢迎${comPhoneMail}</a></li>
+                        <li> <a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">欢迎${comPhoneMail}</a></li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/comLogin/logout">退出</a></li>
                     </c:when>

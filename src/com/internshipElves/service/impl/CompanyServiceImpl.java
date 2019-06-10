@@ -49,6 +49,11 @@ public class CompanyServiceImpl implements CompanyService {
 
     }
 
+    @Override
+    public String isRegisterMail(String comMail) {
+        String isReisterMail = companyDAO.isValidEmail(comMail);
+        return isReisterMail;
+    }
 
 
 }

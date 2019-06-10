@@ -166,8 +166,7 @@
     var xhr= null;
     function saveAndNext() {
 
-         <%--var url_saveAndNext = '${pageContext.request.contextPath}/comMessage/index01';--%>
-        var url_saveAndNext = '${pageContext.request.contextPath}/internshipElves/tag.jsp';
+         var url_saveAndNext = '${pageContext.request.contextPath}/internshipElves/tag.jsp';
 
         if (window.XMLHttpRequest) {
             xhr = new XMLHttpRequest();
@@ -184,12 +183,11 @@
 
         var formData = "comName=" + comName + "&comInterAddr="+comInterAddr
             +"&comCity="+comCity+"&comField="+comField+"&comScale="+comScale+"&comDeplo="+comDeplo+"&comIntroduce="+comIntroduce;
-
-            //    alert(formData);
+        alert(formData);
 
         xhr.open("POST", url_saveAndNext,true);
         xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=utf-8");
-    xhr.onreadystatechange = nextIndex;
+         xhr.onreadystatechange = nextIndex;
         xhr.send(formData);
 
     }

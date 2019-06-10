@@ -47,7 +47,7 @@
 
     <div id="container">
         <div class="sidebar">
-            <a class="btn_create" href="releaseJob">发布新职位</a>
+            <a class="btn_create" href="${pageContext.request.contextPath}/internshipElves/releaseJob.jsp">发布新职位</a>
             <dl class="company_center_aside" id="handlemethd">
                 <dt>我收到的简历</dt>
                 <dd class="current" >
@@ -71,10 +71,10 @@
                 <dl class="company_center_aside"  id="comaside">
                       <dt>我发布的职位</dt>
                        <dd class="jobclass">
-                         <a href="positions">有效职位</a>
+                           <a href="${pageContext.request.contextPath}/internshipElves/positions.jsp">有效职位</a>
                        </dd>
                        <dd>
-                         <a href="positions">已下线职位</a>
+                           <a href="${pageContext.request.contextPath}/internshipElves/positions.jsp">已下线职位</a>
                        </dd>
                 </dl>
 

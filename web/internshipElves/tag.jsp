@@ -135,7 +135,8 @@
         <script >
             var  xhr =null;
             function  saveLabel() {
-                var url_saveLabel='${pageContext.request.contextPath}/comLabel/tap';
+                <%--var url_saveLabel='${pageContext.request.contextPath}/comLabel/tap';--%>
+                var url_saveLabel='${pageContext.request.contextPath}/internshipElves/founder.jsp';
                 if (window.XMLHttpRequest){
                     xhr =new XMLHttpRequest();
                 }else {
