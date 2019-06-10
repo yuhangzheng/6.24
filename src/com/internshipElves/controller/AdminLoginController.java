@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.portlet.ModelAndView;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -57,9 +57,11 @@ public class AdminLoginController {
 
     @RequestMapping("/logout")
     public ModelAndView logout(HttpSession session){
+        System.out.println("进入了管理员logout");
         ModelAndView mav = new ModelAndView();
         session.removeAttribute("adminId");
         session.removeAttribute("adminName");
+        System.out.println("adminId:"+session.getAttribute("adminId"));
         mav.setViewName("index");
         return mav;
     }
