@@ -78,7 +78,7 @@
                     </c:when>
 
                     <c:when test="${!empty adminId && !empty adminName}">
-                        <li><a href="${pageContext.request.contextPath}/personCenter/isLogin">欢迎管理员${adminName}</a></li>
+                        <li>欢迎管理员${adminName}</li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/adminLogin/logout">退出</a></li>
                     </c:when>
@@ -157,7 +157,7 @@
                         }
                     } else if(session.getAttribute("stuList")!= null && session.getAttribute("status") != null && session.getAttribute("status").equals("stu")){
                         List<AdminGetStu> list = (List<AdminGetStu>) session.getAttribute("stuList");
-                        out.print("<tr><th>学生姓名/th><th>学生生日</th><th>学生性别</th><th>学生地址</th><th>学生电话</th><th>学生电子邮件</th><th>学生学校</th><th>操作按钮</th></tr>");
+                        out.print("<tr><th>学生姓名</th><th>学生生日</th><th>学生性别</th><th>学生地址</th><th>学生电话</th><th>学生电子邮件</th><th>学生学校</th><th>操作按钮</th></tr>");
                         for(AdminGetStu ags : list) {
                             out.print("<th>" + ags.getStuName() + "</th>");
                             out.print("<th>" + ags.getStuBirth() + "</th>");
