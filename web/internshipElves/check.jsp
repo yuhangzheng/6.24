@@ -78,7 +78,7 @@
                     </c:when>
 
                     <c:when test="${!empty adminId && !empty adminName}">
-                        <li><a href="${pageContext.request.contextPath}/personCenter/isLogin">欢迎管理员${adminName}</a></li>
+                        <li>欢迎管理员${adminName}</li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/adminLogin/logout">退出</a></li>
                     </c:when>
