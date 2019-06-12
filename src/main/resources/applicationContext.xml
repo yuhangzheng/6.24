@@ -21,11 +21,21 @@
     <!--引入dbconn.properiies数据源对象-->
     <context:property-placeholder location="classpath:dbconn.properties"/>
 
+    <!-- 配置事务管理器 -->
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!-- 注入数据库连接池 -->
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- 配置基于注解的声明式事务 -->
+    <tx:annotation-driven transaction-manager="transactionManager" />
+
     <!--导入数据库配置文件-->
     <!--需要datasource对象 dataSource是一个接口 所以需要子类 就注入一个DriverManagerDataSource
     而且该子类又依赖于四个属性，如下-->
 
-    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource" >
         <property name="driverClassName" value="${mysql.driver}"/>
         <property name="url" value="${mysql.url}"/>
         <property name="username" value="${mysql.user}"/>
@@ -37,6 +47,7 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <property name="mapperLocations" value="classpath:mapper/*DAO.xml"/>
+        <property name="typeAliasesPackage" value="com.internshipElves.dao" />
     </bean>
 
 

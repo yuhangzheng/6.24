@@ -50,7 +50,7 @@
                 <li ><a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow">个人中心</a></li>
                 <c:choose>
                     <c:when test="${empty stuId}">
-                        <li ><a href="create.html" rel="nofollow">企业中心</a></li>preview
+                        <li ><a href="forum" rel="nofollow">论坛</a></li>preview
                     </c:when>
                 </c:choose>
             </ul>
