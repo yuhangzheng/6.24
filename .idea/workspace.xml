@@ -2,13 +2,608 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="实习精灵:war exploded" />
+      <artifact name="实习精灵:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa4df4da-f6d1-431a-939b-7b41956a0934" name="Default" comment="更新了管理员后台管理功能" />
+    <list default="true" id="aa4df4da-f6d1-431a-939b-7b41956a0934" name="Default" comment="项目修改成maven工程">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/AdminCheckComController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/AdminCheckStuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/AdminLoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/AdminRegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/CheckVerificationCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/ComCreateTeamController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/ComInformationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/ComIntroduceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/ComLabelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/ComLoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/ComMessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/ComProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/ComReleaseJobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/CompanyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/CompanyHandleResumeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/DeliverResumeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/HandleHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/InformationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/JobListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/MyResumeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/PersonCenterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/PreviewResumeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/StuLoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/ValidateCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/comRegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/controller/stuRegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/AdminCheckComDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/AdminCheckComDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/AdminCheckStuDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/AdminCheckStuDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/AdminLoginDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/AdminLoginDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/AdministratorDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/AdministratorDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComCheckResumeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComCheckResumeDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComCreateTeamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComCreateTeamDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComIntroduceDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComIntroduceDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComLabelDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComLabelDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComLoginDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComLoginDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComMessageDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComMessageDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComProductDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComReleaseJobDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ComReleaseJobDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/CompanyDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/CompanyDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/DeliverResumeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/DeliverResumeDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/LoginDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/LoginDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ProExpDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ProExpDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ResumeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/ResumeDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/StudentDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/StudentDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/StudentLoginDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/dao/StudentLoginDAO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/AdminCheckCom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/AdminCheckStu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/AdminGetCom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/AdminGetStu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/AdminLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/Administrator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/ComCheckResume.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/ComCreateTeam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/ComGetResume.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/ComIntroduce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/ComLabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/ComLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/ComMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/ComProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/ComReleaseJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/DeliverResume.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/DeliverResumeKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/DeliveryAndResume.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/GetplaceByIp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/HotJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/Job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/ProExp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/Resume.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/entity/StudentLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/AdminCheckComService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/AdminCheckStuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/AdminLoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/ComCreateTeamService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/ComIntroduceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/ComLabelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/ComLoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/ComMessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/ComProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/ComReleaseJobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/CompanyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/DeliverResumeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/ProExpService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/ResumeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/StudentLoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/AdminCheckComServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/AdminCheckStuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/AdminLoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/ComCreateTeamServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/ComIntroduceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/ComLabelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/ComLoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/ComMessageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/ComProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/ComReleaseJobServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/CompanyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/DeliverResumeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/ProExpServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/ResumeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/StudentLoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/util/EncipherConst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/util/PageModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/internshipElves/util/RegisterUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/dbconn.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/springmvc-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/adminLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/adminLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/comLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/comLogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/comRegister.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/comRegister.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/comRegister2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/comRegister2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/companyList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/companyList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/delivery.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/delivery.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/employInformation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/employInformation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/founder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/founder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/getpass.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/getpass.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/index01.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/index01.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/index02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/index02.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/index03.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/index03.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/index06.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/index06.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/jobreleasesuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/jobreleasesuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/myResume.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/myResume.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/myhome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/myhome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/myhome1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/myhome1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/pending.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/pending.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/personCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/personCenter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/personInformation1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/personInformation1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/personInformation2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/personInformation2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/personInformation3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/personInformation3.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/positions.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/positions.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/preview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/preview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/reg.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/reg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/register2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/register2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/releaseJob.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/releaseJob.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/colorbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/colorbox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/css_register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/css_register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/css_register1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/css_register1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/delivery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/delivery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/employInformation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/employInformation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/external.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/external.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/foot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/foot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/404.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/ab.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/ab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/ad_122.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/ad_122.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/ad_280.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/ad_280.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/ad_durex.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/ad_durex.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/ad_ggj_prize.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/ad_ggj_prize.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/ad_index.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/ad_index.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/ad_index_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/ad_index_r.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/ad_rising.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/ad_rising.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/addnew.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/addnew.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/alert.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/alert.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/arr.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/arr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/backtop.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/backtop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/bbs_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/bbs_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/bbs_login.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/bbs_login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/bbs_side.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/bbs_side.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/bgwall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/bgwall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/brackets.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/brackets.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/breakline.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/breakline.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/button.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/button.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/buttons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/buttons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/c_edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/c_edit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/check_popbox_close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/check_popbox_close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/checkbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/checkbox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/close_grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/close_grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/close_notice.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/close_notice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/collection_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/collection_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/collection_tip.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/collection_tip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/confirm.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/confirm.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/control_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/control_current.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/controls.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/controls.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/corners.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/corners.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/du_close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/du_close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/edit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/expire_tip.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/expire_tip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/expired_tip.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/expired_tip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/footbar_btn_green.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/footbar_btn_green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/footbar_btn_green_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/footbar_btn_green_hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/footbar_btn_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/footbar_btn_red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/footbar_btn_red_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/footbar_btn_red_hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/footbar_comma.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/footbar_comma.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/footbar_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/footbar_img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/footbar_login.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/footbar_login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/footbar_no.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/footbar_no.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/footbar_register.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/footbar_register.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/footbar_text.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/footbar_text.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/footerbar_repeat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/footerbar_repeat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/ggj_repeat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/ggj_repeat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/gotPrize.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/gotPrize.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/gotPrize01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/gotPrize01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/gotPrize02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/gotPrize02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/hc_list_bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/hc_list_bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/hc_list_bg_curr.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/hc_list_bg_curr.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/homeNoResult.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/homeNoResult.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/horizontal.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/horizontal.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/hot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/hot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/icon_add.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/icon_add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/icon_file.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/icon_file.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/icon_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/icon_new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/index.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/index.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/index01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/index01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/index_ad_rt.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/index_ad_rt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/index_resume.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/index_resume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/index_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/index_s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/index_s01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/index_s01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/jd_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/jd_btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/jd_dot_l.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/jd_dot_l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/jd_dot_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/jd_dot_r.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/jd_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/jd_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/jiathis_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/jiathis_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/jiathis_ico_24x24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/jiathis_ico_24x24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/jiathis_ico_32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/jiathis_ico_32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/job_122.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/job_122.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/job_122_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/job_122_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/job_detail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/job_detail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/lb_error.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/lb_error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/loading_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/loading_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/login_btm.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/login_btm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/logo_upload.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/logo_upload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/menu_arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/menu_arrow.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/menu_check.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/menu_check.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/msg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/msg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/myjob_option1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/myjob_option1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/myjob_option2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/myjob_option2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/no1234.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/no1234.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/noResumeReceived.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/noResumeReceived.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/noreply.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/noreply.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/noresult.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/noresult.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/noresult_50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/noresult_50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/noresult_95.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/noresult_95.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/noticeDot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/noticeDot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/offer_status.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/offer_status.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/open_services_steps.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/open_services_steps.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/overlay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/overlay01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/overlay01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/overlay02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/overlay02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/overlay_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/overlay_light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/partner_enter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/partner_enter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/position_del.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/position_del.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/preview_btn_unverify.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/preview_btn_unverify.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/profile_add.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/profile_add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/profile_cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/profile_cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/profile_cover_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/profile_cover_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/profile_op.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/profile_op.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/profile_select_139.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/profile_select_139.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/profile_select_190.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/profile_select_190.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/profile_select_287.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/profile_select_287.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/profile_select_410.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/profile_select_410.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/profile_square.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/profile_square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/progress.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/progress.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/progress_close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/progress_close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/publish_tip.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/publish_tip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/qr_cloud_close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/qr_cloud_close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/qr_cloud_resume.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/qr_cloud_resume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/qr_index.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/qr_index.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/qr_register.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/qr_register.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/qrcode.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/qrcode.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/quote_l.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/quote_l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/quote_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/quote_r.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/radio.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/radio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/radioSel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/radioSel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/radio_checked.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/radio_checked.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/record.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/record.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/record_check.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/record_check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/refresh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/registor_now.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/registor_now.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/remind.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/remind.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/resume.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/resume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/resume_dashed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/resume_dashed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/resume_preview_btns.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/resume_preview_btns.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/resume_square.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/resume_square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/resume_tip_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/resume_tip_home.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/resume_tip_joblist.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/resume_tip_joblist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/resume_tip_unhandle_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/resume_tip_unhandle_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/resume_tip_unhandle_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/resume_tip_unhandle_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/resume_tip_unhandle_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/resume_tip_unhandle_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/resume_web.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/resume_web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/resumeset.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/resumeset.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/reward.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/reward.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/reward_big.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/reward_big.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/right_reason.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/right_reason.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/s_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/s_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/s_choose.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/s_choose.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/s_drop.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/s_drop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/saoma.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/saoma.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/saowo_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/saowo_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/saowo_title.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/saowo_title.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/select.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/select.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/select_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/select_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/select_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/select_r.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/select_short.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/select_short.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/service_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/service_icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/sina-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/sina-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/square.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/square.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/stars.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/stars.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/starsPop.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/starsPop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/status_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/status_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/status_dot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/status_dot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/sub.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/sub.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/sub_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/sub_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/subscribe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/subscribe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/subscribe_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/subscribe_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/thumb_cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/thumb_cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/tip_didi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/tip_didi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/tip_success.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/tip_success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/tipclose.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/tipclose.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/tipclose_b4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/tipclose_b4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/title_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/title_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/title_arrow01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/title_arrow01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/title_arrow_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/title_arrow_new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/ui-icons_ffffff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/unread.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/unread.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/unresume.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/unresume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/unvalid.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/unvalid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/upload_file.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/upload_file.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/user_choose.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/user_choose.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/user_warn.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/user_warn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/valid.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/valid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/vertical.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/vertical.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/wbqq.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/wbqq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/welcome_c.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/welcome_c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/img/xs.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/img/xs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/jiathis_share.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/jiathis_share.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/login1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/login1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/personCenter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/personCenter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/personInformation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/personInformation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/reg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/reg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/style.css.bak" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/style.css.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/top.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/css/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/05ca024b95d242bb8178edaa5bd1b25a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/05ca024b95d242bb8178edaa5bd1b25a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/11c812bedb4a481fa06ca488dac2f23f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/11c812bedb4a481fa06ca488dac2f23f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/2bba2b71d0b0443eaea1774f7ee17c9f.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/2bba2b71d0b0443eaea1774f7ee17c9f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/329b56ef443c4ae2a2024955f58705f8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/329b56ef443c4ae2a2024955f58705f8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/354d445c5fd84f1990b91eb559677eb5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/354d445c5fd84f1990b91eb559677eb5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/381b343557774270a508206b3a725f39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/381b343557774270a508206b3a725f39.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/3ad1d8845e8345019006b38cd45302c0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/3ad1d8845e8345019006b38cd45302c0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/4469b1b83b1f46c7adec255c4b1e4802.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/4469b1b83b1f46c7adec255c4b1e4802.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/451a3ab87bb149a5b0779baf81f0a667.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/451a3ab87bb149a5b0779baf81f0a667.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/50.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/5caf8f9631114bf990f87bb11360653e.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/5caf8f9631114bf990f87bb11360653e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/73338ca8e1694b298d223745670f8daf_318969.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/73338ca8e1694b298d223745670f8daf_318969.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/7fdf693be1044ed8a71f561420162a3b.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/7fdf693be1044ed8a71f561420162a3b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/8d63eda78f714d2dacb0e5d201bbce2e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/8d63eda78f714d2dacb0e5d201bbce2e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/8e05f869fe0640318d62c562d6a9a322.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/8e05f869fe0640318d62c562d6a9a322.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/a254b11ecead45bda166afa8aaa9c8bc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/a254b11ecead45bda166afa8aaa9c8bc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/aboutus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/aboutus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/b533f6e729e74b418fcd6862bbde95dc_318969.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/b533f6e729e74b418fcd6862bbde95dc_318969.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/c0052c69ef4546c3b7d08366d0744974.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/c0052c69ef4546c3b7d08366d0744974.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/c5e0d4d3dc9047c89986c9eca2feb277.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/c5e0d4d3dc9047c89986c9eca2feb277.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/c75654bc2ab141df8218983cfe5c89f9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/c75654bc2ab141df8218983cfe5c89f9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/c9d8a0756d1442caa328adcf28a38857.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/c9d8a0756d1442caa328adcf28a38857.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/cloud_m.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/cloud_m.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/cloud_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/cloud_s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/companylist_qr.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/companylist_qr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/copyright_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/copyright_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/d03110162390422bb97cebc7fd2ab586.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/d03110162390422bb97cebc7fd2ab586.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/d05a2cc6e6c94bdd80e074eb05e37ebd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/d05a2cc6e6c94bdd80e074eb05e37ebd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/d1f91afa15eb451eaef4d14dcb3b54ec_318969.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/d1f91afa15eb451eaef4d14dcb3b54ec_318969.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/default_headpic.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/default_headpic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/e802e0078d194e76afbb7abb102af275.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/e802e0078d194e76afbb7abb102af275.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/f4822a445a8b495ebad81fcfad3e40e2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/f4822a445a8b495ebad81fcfad3e40e2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/f57de6b836fa454ebd13c41537e152ba.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/f57de6b836fa454ebd13c41537e152ba.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/ff80808140ac5ed90140b953972e0215.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/ff80808140ac5ed90140b953972e0215.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/ff80808142a8df050142b1674c596676.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/ff80808142a8df050142b1674c596676.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/ff80808142e0968f0142e0d41f1205f2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/ff80808142e0968f0142e0d41f1205f2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/ff8080814356e881014357741e5910f1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/ff8080814356e881014357741e5910f1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/ff808081441c19bf01441f9a47190b3a.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/ff808081441c19bf01441f9a47190b3a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/ff80808145ae05750145b0467a1c7ddd.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/ff80808145ae05750145b0467a1c7ddd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/ff80808146d99c970146efd983ea016a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/ff80808146d99c970146efd983ea016a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/footbar_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/footbar_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/get_flash_player.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/get_flash_player.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/img/addrPage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/img/addrPage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/img/bgs.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/img/bgs.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/img/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/img/blank.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/img/mapctrls1d3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/img/mapctrls1d3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/img/mapctrls2d0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/img/mapctrls2d0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/img/mapctrls2d0_mb.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/img/mapctrls2d0_mb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/img/markers_new_ie6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/img/markers_new_ie6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/img/node.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/img/node.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/img/nodeT.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/img/nodeT.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/img/sel_body_n_top.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/img/sel_body_n_top.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/job_qr_btm.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/job_qr_btm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/jquery_school.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/jquery_school.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/leader_default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/leader_default.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/leader_default.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/leader_default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/linuxcn.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/linuxcn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/logo_default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/logo_default.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/logo_default.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/logo_default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/logo_default01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/logo_default01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/logo_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/logo_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/mapctrls.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/mapctrls.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/mapctrls2d0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/mapctrls2d0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/marker_red_sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/marker_red_sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/muke.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/muke.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/product_default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/product_default.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/product_default.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/product_default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/psw_step1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/psw_step1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/qq.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/qq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/qr_delivery.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/qr_delivery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/qr_resume.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/qr_resume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/qrcode.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/qrcode.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/quote_l.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/quote_l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/quote_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/quote_r.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/rising280.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/rising280.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/step1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/step1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/step2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/step2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/step3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/step3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/step4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/step4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/step5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/step5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/subject280.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/subject280.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/timg9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/timg9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/tiponce.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/tiponce.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/valid.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/valid.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/w3cplus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/w3cplus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/weibo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/weibo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/wx1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/wx1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/wx2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/wx2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/wx3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/wx3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/zhouyou.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/zhouyou.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/zhubajie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/zhubajie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/库里.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/库里.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/images/捕获.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/捕获.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/Chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/Chart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/additional-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/additional-methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/agree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/agree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/ajaxCross.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/ajaxCross.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/ajaxfileupload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/ajaxfileupload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/allmobilize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/allmobilize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/analytics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/analytics01.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/analytics01.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/certification.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/certification.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/collections.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/collections.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/comRegister.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/comRegister.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/comlogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/comlogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/company.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/company.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/company_list.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/company_list.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/conv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/conv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/conversion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/conversion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/count.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/count.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/delivery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/delivery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/employInformation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/employInformation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/excanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/excanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/getPass.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/getPass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/getVerificationCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/getVerificationCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/h.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/h.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/home.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/home.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/hotJobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/hotJobs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/jia.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/jia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/job_detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/job_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/job_list.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/job_list.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/jobs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/jobs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/jquery-hbzx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/jquery-hbzx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/jquery.1.10.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/jquery.1.10.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/jquery.colorbox-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/jquery.colorbox-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/jquery.lib.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/jquery.lib.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/jquery.tinymce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/jquery.tinymce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/jquery.ui.datetimepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/jquery.ui.datetimepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/login1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/login1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/newJobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/newJobs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/pending.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/pending.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/personInformation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/personInformation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/profile.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/profile.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/received_resumes.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/received_resumes.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/reg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/reg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/register1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/register1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/releaseJob.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/releaseJob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/search.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/search.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/services.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/services.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/setting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/setting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/step1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/step1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/step2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/step2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/step3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/step3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/step4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/step4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/step5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/step5.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/sub.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/sub.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/swfobject_modified.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/swfobject_modified.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/tinymce.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/tongji.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/tongji.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/style/js/wb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/wb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/internshipElves/tag.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/tag.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实习精灵.iml" beforeDir="false" afterPath="$PROJECT_DIR$/实习精灵.iml" afterDir="false" />
+    </list>
     <list id="05198abe-9bb5-4c94-ad27-4140be90ed76" name="Revert &quot;更新了AdminLoginController&quot;" comment="Revert &quot;更新了AdminLoginController&quot;&#10;&#10;This reverts commit 4a839a60" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,69 +627,117 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1276584810">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="2" />
+          <entry key="js" value="2" />
+          <entry key="jsp" value="2" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="2" />
+          <entry key="JSP" value="2" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="properties" value="4" />
+          <entry key="txt" value="17" />
+          <entry key="xml" value="187" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="187" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/AdminCheckStuController.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            <state relative-caret-position="280">
+              <caret line="76" column="4" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/internshipElves/adminLogin.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
+            <state relative-caret-position="-107">
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+              <folding>
+                <element signature="e#1830#1844#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-494">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/adminLogin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
               <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="181" column="42" lean-forward="true" selection-start-line="181" selection-start-column="42" selection-end-line="181" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/comlogin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/internshipElves/style/js/login.js">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="175" column="25" lean-forward="true" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/internshipElves/index01.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/internshipElves/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1281">
-              <caret line="61" column="90" selection-start-line="61" selection-start-column="90" selection-end-line="61" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/AdminLoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/StuLoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1281">
-              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="177">
+              <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -114,7 +757,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>style</find>
       <find>预览在线简历</find>
       <find>js</find>
       <find>www.baidu.com</find>
@@ -144,6 +786,7 @@
       <find>delete</find>
       <find>count</find>
       <find>check</find>
+      <find>../re</find>
     </findStrings>
     <replaceStrings>
       <replace>admin</replace>
@@ -165,12 +808,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/internshipElves/service/DeliverResumeService.java" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/service/impl/DeliverResumeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/dao/DeliverResumeDAO.java" />
-        <option value="$PROJECT_DIR$/web/internshipElves/employInformation.jsp" />
-        <option value="$PROJECT_DIR$/web/internshipElves/personCenter.jsp" />
-        <option value="$PROJECT_DIR$/web/internshipElves/personInformation1.jsp" />
         <option value="$PROJECT_DIR$/web/internshipElves/personInformation2.jsp" />
         <option value="$PROJECT_DIR$/web/internshipElves/personInformation3.jsp" />
         <option value="$PROJECT_DIR$/src/com/internshipElves/controller/MyResumeController.java" />
@@ -216,8 +853,20 @@
         <option value="$PROJECT_DIR$/web/internshipElves/check.jsp" />
         <option value="$PROJECT_DIR$/src/com/internshipElves/controller/AdminCheckComController.java" />
         <option value="$PROJECT_DIR$/web/internshipElves/style/js/login.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/logging.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/dbconn.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/login.js" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -226,16 +875,34 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="实习精灵" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="实习精灵" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="978" />
+    <option name="y" value="143" />
+    <option name="width" value="1065" />
+    <option name="height" value="834" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -244,54 +911,112 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="internshipElves-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internshipElves-master" type="462c0819:PsiDirectoryNode" />
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="internshipElves-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internshipElves-master" type="462c0819:PsiDirectoryNode" />
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="internshipElves-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internshipElves-master" type="462c0819:PsiDirectoryNode" />
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="internshipElves-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internshipElves-master" type="462c0819:PsiDirectoryNode" />
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="internshipElves-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internshipElves-master" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="internshipElves-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internshipElves-master" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="internshipElves-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="internshipElves-master" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,21 +1024,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../6.24-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560331050449" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\管理信息系统\6.24\src\main\resources" />
+      <recent name="D:\study\管理信息系统\6.24\lib" />
       <recent name="C:\Users\HP\Desktop\Compressed\internshipElves-master\web\internshipElves" />
-      <recent name="D:\study\workspace\internshipElves\web\internshipElves\style\images" />
-      <recent name="F:\internshipElves\web\internshipElves\style\images" />
-      <recent name="E:\internshipElves\web\internshipElves" />
-      <recent name="E:\internshipElves\web" />
+      <recent name="E:\整合\internshipElves(1)\internshipElves\web\internshipElves" />
+      <recent name="E:\整合\internshipElves(1)\internshipElves\src\com\internshipElves\controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.internshipElves.controller" />
@@ -321,12 +1047,12 @@
       <recent name="com.internshipElves.service" />
       <recent name="com.internshipElves.util" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\管理信息系统\6.24\src\main\resources\mapper" />
+      <recent name="D:\study\管理信息系统\6.24\src\main\java\com" />
+      <recent name="D:\study\管理信息系统\6.24\src\main\resources" />
+      <recent name="D:\study\管理信息系统\6.24\src\main\webapp" />
       <recent name="C:\Users\HP\Desktop\Compressed\internshipElves-master\web\internshipElves" />
-      <recent name="E:\整合\internshipElves(1)\internshipElves\web\internshipElves" />
-      <recent name="E:\整合\internshipElves(1)\internshipElves\src\com\internshipElves\controller" />
-      <recent name="E:\整合\internshipElves(1)\internshipElves\web\internshipElves\style\css" />
-      <recent name="E:\整合\internshipElves(1)\internshipElves\web\internshipElves\style\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,7 +1068,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet">
+    <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -357,14 +1083,12 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -374,8 +1098,9 @@
     </configuration>
     <configuration name="Tomcat 8.5.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="实习精灵:war exploded">
+        <artifact name="实习精灵:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -384,11 +1109,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_33_实习精灵" />
       </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="51807" />
       </RunnerSettings>
@@ -440,7 +1165,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="实习精灵:war exploded" />
+          <artifact name="实习精灵:war" />
         </option>
       </method>
     </configuration>
@@ -541,6 +1266,9 @@
       <workItem from="1560162619646" duration="17000" />
       <workItem from="1560162906638" duration="74000" />
       <workItem from="1560163018800" duration="332000" />
+      <workItem from="1560234887949" duration="5712000" />
+      <workItem from="1560304521160" duration="6693000" />
+      <workItem from="1560328576516" duration="2448000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559028123538</created>
@@ -735,7 +1463,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="456131000" />
+    <option name="totallyTimeSpent" value="470984000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -747,10 +1475,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16644295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -760,19 +1487,19 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850778" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.3363029" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.35602838" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39982653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159913" side_tool="true" weight="0.3363029" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.2494432" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32962137" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.24822696" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4989339" weight="0.32962137" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32921347" />
-      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32962137" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32907802" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
@@ -782,7 +1509,7 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.06510067" />
       <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
@@ -835,6 +1562,9 @@
       </list>
     </option>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="更新了AdminDao" />
@@ -851,99 +1581,36 @@
     <MESSAGE value="更新了管理员登陆功能" />
     <MESSAGE value="Revert &quot;更新了管理员后台管理功能&quot;&#10;&#10;This reverts commit c676dbf2" />
     <MESSAGE value="更新了管理员后台管理功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了管理员后台管理功能" />
+    <MESSAGE value="项目修改成maven工程" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目修改成maven工程" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/ComMessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/CompanyHandleResumeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/MyResumeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/dao/AdminCheckStuDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/service/impl/AdminCheckStuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/service/AdminCheckStuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/PersonCenterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/PreviewResumeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-307">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/ComInformationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComInformationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2155">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/HandleHomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/HandleHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/DeliverResumeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/DeliverResumeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/ComProductController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComProductController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
@@ -957,51 +1624,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/entity/AdminLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/entity/AdminLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
-          <folding>
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#2020#2021#0" expanded="true" />
-            <element signature="e#2080#2081#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/entity/AdminGetCom.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/entity/AdminGetCom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/style/js/register.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/register.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/positions.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/positions.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2331" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/preview.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/preview.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1197" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/companyList.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/companyList.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9450">
           <folding>
@@ -1014,229 +1668,281 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/JobListController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/JobListController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="43" lean-forward="true" selection-start-line="40" selection-end-line="126" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/entity/Job.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/entity/Job.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-294">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/entity/ComReleaseJob.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/entity/ComReleaseJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/dao/DeliverResumeDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/dao/DeliverResumeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/dao/ComReleaseJobDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/dao/ComReleaseJobDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="75" column="65" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/dao/ComReleaseJobDAO.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ComReleaseJobDAO.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/dao/AdminCheckComDAO.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminCheckComDAO.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="116" column="6" selection-start-line="116" selection-start-column="6" selection-end-line="116" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/dao/AdminCheckComDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/dao/AdminCheckComDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/service/impl/AdminCheckComServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/AdminCheckComServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/service/impl/ComReleaseJobServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ComReleaseJobServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="89" column="23" lean-forward="true" selection-start-line="86" selection-end-line="91" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/service/ComReleaseJobService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/ComReleaseJobService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="44" column="5" selection-start-line="44" selection-end-line="46" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/service/AdminCheckComService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/AdminCheckComService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/list.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="140" column="58" lean-forward="true" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/dbconn.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="101" selection-start-line="1" selection-start-column="101" selection-end-line="1" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/ComReleaseJobController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="118" column="59" selection-start-line="118" selection-start-column="59" selection-end-line="118" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/InformationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/InformationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/dao/AdminCheckStuDAO.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminCheckStuDAO.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="111" column="16" lean-forward="true" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/springmvc-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="948">
-          <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/comLogin.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/comLogin.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="45" column="69" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/stuRegisterController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/stuRegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/check.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/check.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="141" column="63" selection-start-line="141" selection-start-column="63" selection-end-line="141" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/AdminCheckComController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/AdminCheckStuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="28" column="59" lean-forward="true" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/AdminCheckStuController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state relative-caret-position="972">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/adminLogin.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/logging.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TabMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实习精灵.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dbconn.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index01.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/AdminLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/StuLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/AdminCheckComController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComReleaseJobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="76" column="4" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <element signature="e#1830#1844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/adminLogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
           <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/index01.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="61" column="90" selection-start-line="61" selection-start-column="90" selection-end-line="61" selection-end-column="90" />
+        <state relative-caret-position="-494">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/AdminLoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="267">
+          <caret line="181" column="42" lean-forward="true" selection-start-line="181" selection-start-column="42" selection-end-line="181" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/internshipElves/controller/StuLoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/comlogin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/internshipElves/style/js/login.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="175" column="25" lean-forward="true" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
+        <state relative-caret-position="177">
+          <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1246,11 +1952,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>实习精灵:war exploded</last-edited>
+          <last-edited>实习精灵:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
