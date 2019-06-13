@@ -76,7 +76,7 @@
                         <dl>
                             <dt>薪酬激励</dt>
                             <dd>
-                                <ul class="reset">
+                                <ul class="reset" id = "label_one">
                                     <li>年终分红</li>
                                     <li>绩效奖金</li>
                                     <li>股票期权</li>
@@ -88,7 +88,7 @@
                         <dl>
                             <dt>员工福利</dt>
                             <dd>
-                                <ul class="reset">
+                                <ul class="reset" id = "label_two">
                                     <li>五险一金</li>
                                     <li>通讯津贴</li>
                                     <li>交通补助</li>
@@ -99,7 +99,7 @@
                         <dl>
                             <dt>员工关怀</dt>
                             <dd>
-                                <ul class="reset">
+                                <ul class="reset" id = "label_three">
                                     <li>免费班车</li>
                                     <li>节日礼物</li>
                                     <li>年度旅游</li>
@@ -112,7 +112,7 @@
                         <dl>
                             <dt>其他</dt>
                             <dd>
-                                <ul class="reset">
+                                <ul class="reset" id = "label_four">
                                     <li>岗位晋升</li>
                                     <li>技能培训</li>
                                     <li>管理规范</li>
@@ -136,19 +136,18 @@
             var  xhr =null;
             function  saveLabel() {
                 <%--var url_saveLabel='${pageContext.request.contextPath}/comLabel/tap';--%>
-                var url_saveLabel='${pageContext.request.contextPath}/internshipElves/founder.jsp';
+                var url_saveLabel='${pageContext.request.contextPath}/comLabel/register';
                 if (window.XMLHttpRequest){
                     xhr =new XMLHttpRequest();
                 }else {
                     xhr= new ActiveXObject("Microsoft.XMLHTTP");
                 }
-
                 var comLabelOne = "comLabelOne="+ document.getElementById("labels").innerText;
                 alert(comLabelOne);
                 xhr.open("POST",url_saveLabel,true);
                 xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=utf-8");
                 xhr.onreadystatechange = nextIndex2;
-                xhr.send(comLabelOne)
+                xhr.send(comLabelOne);
 
             }
             function nextIndex2() {

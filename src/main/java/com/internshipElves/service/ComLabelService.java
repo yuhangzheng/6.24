@@ -9,5 +9,5 @@ public interface ComLabelService {
      * @param comLabel   企业标签
      * @return    返回comLabel
      */
-    public Integer insertComLabel(ComLabel comLabel) ;
+    public Integer insertComLabel(Integer comId, String comLabel) ;
 }

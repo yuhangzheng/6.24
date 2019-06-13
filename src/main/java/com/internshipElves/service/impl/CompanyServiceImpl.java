@@ -3,7 +3,6 @@ package com.internshipElves.service.impl;
 import com.internshipElves.dao.CompanyDAO;
 import com.internshipElves.entity.Company;
 import com.internshipElves.service.CompanyService;
-import com.internshipElves.util.DataBaseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -28,7 +27,7 @@ public class CompanyServiceImpl implements CompanyService {
         company.setComEmail(comEmail);
         company.setComPwd(comPwd);
         company.setComCreateDate(new Date());
-        company.setComId(DataBaseUtil.getMaxId()+1);
+
         Integer  rows  =companyDAO.saveRegistByEmailAndPwd(company);
 
             System.out.println("邮箱密码受影响行 数   ：" + rows);
@@ -54,6 +53,12 @@ public class CompanyServiceImpl implements CompanyService {
     public String isRegisterMail(String comMail) {
         String isReisterMail = companyDAO.isValidEmail(comMail);
         return isReisterMail;
+    }
+
+    @Override
+    public Company queryId(String comMail){
+        Company company = companyDAO.queryByMail(comMail);
+        return company;
     }
 
 
