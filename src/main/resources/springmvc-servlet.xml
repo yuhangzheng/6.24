@@ -68,6 +68,7 @@
     <mvc:resources mapping="/json/*" location="internshipElves/style/js/"/>
     <mvc:resources mapping="/css/img/*" location="internshipElves/style/css/img/"/>
     <mvc:resources mapping="/images/img/*" location="internshipElves/style/images/img/"/>
+    <mvc:resources mapping="/images/avatar/*" location="internshipElves/style/images/avatar/"/>
 
 
 
