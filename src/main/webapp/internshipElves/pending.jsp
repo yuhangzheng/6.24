@@ -29,12 +29,12 @@
 <div id="body">
     <div id="header">
         <div class="wrapper">
-            <a class="logo" href="${pageContext.request.contextPath}/main/webapp/internshipElves/index.jsp">
+            <a class="logo" href="${pageContext.request.contextPath}/internshipElves/index.jsp">
                 <img width="229" height="43" alt="实习精灵" src="/images/logo.png">
             </a>
             <ul id="navheader" class="reset">
-                <li><a href="${pageContext.request.contextPath}/main/webapp/internshipElves/index.jsp">首页</a></li>
-                <li><a target="_blank" href="${pageContext.request.contextPath}/main/webapp/internshipElves/companyList.jsp">公司</a></li>
+                <li><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
+                <li><a target="_blank" href="${pageContext.request.contextPath}/internshipElves/companyList.jsp">公司</a></li>
                 <li><a rel="nofollow" href="${pageContext.request.contextPath}/internshipElves/myhome2.jsp">企业中心</a></li>
             </ul>
             <dl class="collapsible_menu">
@@ -47,7 +47,7 @@
 
     <div id="container">
         <div class="sidebar">
-            <a class="btn_create" href="${pageContext.request.contextPath}/main/webapp/internshipElves/releaseJob.jsp">发布新职位</a>
+            <a class="btn_create" href="${pageContext.request.contextPath}/internshipElves/releaseJob.jsp">发布新职位</a>
             <dl class="company_center_aside" id="handlemethd">
                 <dt>我收到的简历</dt>
                 <dd class="current" >
@@ -71,10 +71,10 @@
                 <dl class="company_center_aside"  id="comaside">
                       <dt>我发布的职位</dt>
                        <dd class="jobclass">
-                           <a href="${pageContext.request.contextPath}/main/webapp/internshipElves/positions.jsp">有效职位</a>
+                           <a href="${pageContext.request.contextPath}/internshipElves/positions.jsp">有效职位</a>
                        </dd>
                        <dd>
-                           <a href="${pageContext.request.contextPath}/main/webapp/internshipElves/positions.jsp">已下线职位</a>
+                           <a href="${pageContext.request.contextPath}/internshipElves/positions.jsp">已下线职位</a>
                        </dd>
                 </dl>
 

@@ -1,7 +1,10 @@
 package com.internshipElves.controller;
 
 import com.internshipElves.entity.AdminCheckStu;
+import com.internshipElves.entity.AdminGetCom;
 import com.internshipElves.entity.AdminGetStu;
+import com.internshipElves.service.AdminCheckComService;
+import com.internshipElves.entity.AdminCheckCom;
 import com.internshipElves.service.AdminCheckStuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

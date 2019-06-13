@@ -23,7 +23,7 @@
 <div id = "register">
     <div id = "register_left">
         <div class="register_left_r1">
-            <a href="${pageContext.request.contextPath}/main/webapp/internshipElves/login.jsp">企业登录</a>
+            <a href="${pageContext.request.contextPath}/internshipElves/login.jsp">企业登录</a>
         </div>
 
         <div class="register_left_r2">
@@ -41,7 +41,7 @@
 
                 <div class="remember">
                     <div class="reb_stu"><input type="checkbox" id="reb_me"><label>记住我</label></div>
-                    <div class="reb_pwd"><a href="${pageContext.request.contextPath}/main/webapp/internshipElves/getpass.jsp"><pre>忘记密码</pre></a></div>
+                    <div class="reb_pwd"><a href="${pageContext.request.contextPath}/internshipElves/getpass.jsp"><pre>忘记密码</pre></a></div>
                 </div>
                 <button type="button" class = "loginButton" onclick="comlogin()"><span>登录</span></button>
 
@@ -53,7 +53,7 @@
 
     <div id = "register_right">
         <div class="register_right_r1">
-            <span>没有账号? 直接 <a href="${pageContext.request.contextPath}/main/webapp/internshipElves/comRegister.jsp">注册</a></span>
+            <span>没有账号? 直接 <a href="${pageContext.request.contextPath}/internshipElves/comRegister.jsp">注册</a></span>
         </div>
         <div class="register_right_r2">
             <div class="register_right_r2_Ba">
