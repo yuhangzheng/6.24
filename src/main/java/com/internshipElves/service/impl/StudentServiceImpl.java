@@ -3,6 +3,7 @@ package com.internshipElves.service.impl;
 import com.internshipElves.dao.StudentDAO;
 import com.internshipElves.entity.Student;
 import com.internshipElves.service.StudentService;
+import com.internshipElves.util.DataBaseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -21,6 +22,7 @@ public class StudentServiceImpl implements StudentService {
         student.setStuCreateTime(date);
         student.setStuTel(stuTel);
         student.setStuPwd(password);
+        student.setStuId(DataBaseUtil.getMaxId()+1);
         System.out.println(student);
         Integer rows = studentDAO.saveRegistByTelAndPwd(student);
         System.out.println("影响的行数为："+rows);
@@ -34,6 +36,7 @@ public class StudentServiceImpl implements StudentService {
         student.setStuCreateTime(date);
         student.setStuEmail(stuEmail);
         student.setStuPwd(password);
+        student.setStuId(DataBaseUtil.getMaxId()+1);
         Integer rows = studentDAO.saveRegistByEmailAndPwd(student);
         System.out.print("受影响的行数为："+rows);
         return rows;

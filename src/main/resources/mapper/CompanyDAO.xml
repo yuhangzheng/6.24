@@ -189,8 +189,8 @@
 
   <!--注册添加 邮箱 和 密码-->
   <insert id="saveRegistByEmailAndPwd" >
-    INSERT  INTO  company(com_email,com_pwd,com_create_date)
-    VALUES  (#{comEmail},#{comPwd},#{comCreateDate})
+    INSERT  INTO  company(com_id,com_email,com_pwd,com_create_date)
+    VALUES  (#{comId},#{comEmail},#{comPwd},#{comCreateDate})
   </insert>
 
   <!--根据ID 获取邮箱密码-->

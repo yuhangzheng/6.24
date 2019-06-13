@@ -395,13 +395,13 @@
   </update>
 
   <insert id="saveRegistByEmailAndPwd">
-    INSERT into student(stu_pwd,stu_email,stu_create_time)
-    VALUES (#{stuPwd},#{stuEmail},#{stuCreateTime})
+    INSERT into student(stu_id,stu_pwd,stu_email,stu_create_time)
+    VALUES (#{stuId},#{stuPwd},#{stuEmail},#{stuCreateTime})
   </insert>
 
   <insert id="saveRegistByTelAndPwd">
-    INSERT INTO student(stu_pwd,stu_tel,stu_create_time)
-    VALUES (#{stuPwd},#{stuTel},#{stuCreateTime})
+    INSERT INTO student(stu_id,stu_pwd,stu_tel,stu_create_time)
+    VALUES (#{stuId},#{stuPwd},#{stuTel},#{stuCreateTime})
   </insert>
 
   <select id="queryById" resultType="com.internshipElves.entity.Student">
