@@ -7,10 +7,10 @@ public interface ComCreateTeamService {
 
     /**
      *   添加创始人信息
-     * @param comCreateTeam 创始人信息
+     * @
      * @return   创始人信息
      */
-    public   Integer  saveCreateTeam(ComCreateTeam comCreateTeam);
+    public   Integer  saveCreateTeam(Integer comId, String comFounderName, String comPosition, String comWeibo, String comFounderIntro);
 
     /**
      *   查询创始人信息

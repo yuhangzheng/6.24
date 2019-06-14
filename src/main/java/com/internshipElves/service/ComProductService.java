@@ -5,10 +5,10 @@ import com.internshipElves.entity.ComProduct;
 public interface ComProductService {
     /**
      *       添加企业产品
-     * @param comProduct
+     *
      * @return
      */
-    public   Integer  insertProduct(ComProduct comProduct);
+    public   Integer  insertProduct(Integer comId, String comProductName, String comProductAddr, String comProductIntro);
 
 
     /**

@@ -79,7 +79,7 @@
         <script>
             var  xhr =null;
             function saveIntroduce() {
-                var  url_saveIntroduce ='${pageContext.request.contextPath}/internshipElves/comLogin.jsp';
+                var  url_saveIntroduce ='${pageContext.request.contextPath}/comIntroduce/index03';
                 <%--var  url_saveIntroduce ='${pageContext.request.contextPath}/comIntroduce/index03';--%>
                 if (window.XMLHttpRequest) {
                     xhr = new XMLHttpRequest();

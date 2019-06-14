@@ -20,17 +20,17 @@ public class ComCreateTeamController {
 
     /**
      *   添加创始团队信息
-     * @param comCreateTeam   创始团队
+     *
      * @param request  当前用户id
      * @return  返回 添加行数
      */
     @PostMapping("/founder")
     @ResponseBody
-    public String registerTeam(ComCreateTeam comCreateTeam, HttpServletRequest  request){
+    public String registerTeam(String comFounderName, String comPosition, String comWeibo, String comFounderIntro, HttpServletRequest  request){
       //  ModelAndView mav= new ModelAndView("index06");
-      Company company =(Company)request.getSession().getAttribute("company");
-          comCreateTeam.setComId(company.getComId());
-           Integer  rows=  comCreateTeamService.saveCreateTeam(comCreateTeam);
+      Company company =(Company)request.getSession().getAttribute("c");
+        Integer comId = company.getComId();
+           Integer  rows=  comCreateTeamService.saveCreateTeam(comId, comFounderName, comPosition, comWeibo, comFounderIntro);
         System.out.println("rows   ="+ rows);
         return   rows.toString();
     }
