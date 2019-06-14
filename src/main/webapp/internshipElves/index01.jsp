@@ -182,7 +182,7 @@
         var comDeplo =  document.getElementById("s_radio_hidden").value;
         var comIntroduce =  document.getElementById("temptation").value;
 
-        var formData = "comName=" + comName + "&comInterAddr="+comInterAddr
+        var formData = "?comName=" + comName + "&comInterAddr="+comInterAddr
             +"&comCity="+comCity+"&comField="+comField+"&comScale="+comScale+"&comDeplo="+comDeplo+"&comIntroduce="+comIntroduce;
 
             //    alert(formData);
