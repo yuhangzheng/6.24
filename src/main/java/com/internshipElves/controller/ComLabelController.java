@@ -18,17 +18,30 @@ public class ComLabelController {
 
     @Autowired
     private ComLabelService comLabelService;
+//
+//    @PostMapping("/tap")
+//    @ResponseBody
+//    public String registerLabel(ComLabel comLabel , HttpServletRequest request){
+//  //      ModelAndView mav=new ModelAndView("index06");
+//
+//         Company company= (Company) request.getSession().getAttribute("company");
+//                    comLabel.setComId(company.getComId());
+//         Integer rows= comLabelService.insertComLabel(comLabel);
+//         System.out.println(rows+"--------------------------");
+//         return  toString();
+//    }
 
-    @PostMapping("/tap")
+    @PostMapping("/register")
     @ResponseBody
-    public String registerLabel(ComLabel comLabel , HttpServletRequest request){
-  //      ModelAndView mav=new ModelAndView("index06");
+    public String labelRegister(String comLabelOne, HttpServletRequest request){
 
-         Company company= (Company) request.getSession().getAttribute("company");
-                    comLabel.setComId(company.getComId());
-         Integer rows= comLabelService.insertComLabel(comLabel);
-         System.out.println(rows+"--------------------------");
-         return  toString();
+        Company company = (Company)request.getSession().getAttribute("c");
+        Integer comId = company.getComId();
+       System.out.println("comlabel: " +comLabelOne);
+
+        int row = comLabelService.insertComLabel(comId, comLabelOne);
+        return "1";
     }
+
 
 }

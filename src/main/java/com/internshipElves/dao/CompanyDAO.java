@@ -45,6 +45,13 @@ public interface CompanyDAO {
     public Company queryById(Integer comId);
 
     /**
+     * 根据email查询id
+     * @param comMail
+     * @return 返回用户详细信息
+     */
+    public Company queryByMail(String comMail);
+
+    /**
      * 修改用户信息
      * @param conpany 要修改的用户信息
      * @return 返回受影响的行数
@@ -58,5 +65,5 @@ public interface CompanyDAO {
      * @param password 登录密码
      * @return 返回登录用户信息，若返回null,表示账户或密码错误
      */
-    public Company checkEmailAndPwd(@Param ("email") String email, @Param ("password") String password);
+    public Company checkEmailAndPwd(@Param("email") String email, @Param("password") String password);
 }
