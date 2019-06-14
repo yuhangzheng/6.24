@@ -154,7 +154,7 @@
                         <h3>一句话介绍</h3>
                         <input type="text" placeholder="一句话概括公司亮点，如公司愿景、领导团队等，限50字" maxlength="50" name="temptation" id="temptation">
                         <span style="display:none;" class="error" id="beError"></span>
-<%--                        <input type="hidden" id="companyId" name="companyId" value="25927">--%>
+                        <input type="hidden" id="companyId" name="companyId" value="25927">
                         <input type="hidden" id="companyName" name="companyName" value="福建平潭协创进出口贸易有限公司">
                         <input type="button"   value="保存，下一步" id="stepBtn" class="btn_big fr" onclick="saveAndNext()">
 
@@ -167,7 +167,7 @@
     function saveAndNext() {
 
          <%--var url_saveAndNext = '${pageContext.request.contextPath}/comMessage/index01';--%>
-        var url_saveAndNext = '${pageContext.request.contextPath}/comMessage/register';
+        var url_saveAndNext = '${pageContext.request.contextPath}/internshipElves/tag.jsp';
 
         if (window.XMLHttpRequest) {
             xhr = new XMLHttpRequest();
@@ -189,7 +189,7 @@
 
         xhr.open("POST", url_saveAndNext,true);
         xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=utf-8");
-        xhr.onreadystatechange = nextIndex;
+    xhr.onreadystatechange = nextIndex;
         xhr.send(formData);
 
     }

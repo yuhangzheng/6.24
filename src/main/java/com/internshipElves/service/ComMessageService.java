@@ -13,8 +13,7 @@ public interface ComMessageService {
      * @param
      * @return   返回 comMessage
      */
-    public Integer insertComMessage(Integer comId, String comName, String comInterAddr, String comCity, String comField, String comScale, String comDeplo,
-                                    String comIntroduce) ;
+    public Integer insertComMessage(ComMessage comMessage) ;
 
     /**
      * 根据id查询信息
@@ -49,7 +48,7 @@ public interface ComMessageService {
     //查询所有的公司列表
     public List<ComMessage> queryAll(String comCity, String comDeplo, String comField);
     //分页获得公司列表
-    public List<ComMessage> queryByPage(Integer startRecord, Integer pageSize, String comCity, String comDeplo, String comField);
+    public List<ComMessage> queryByPage(Integer startRecord,Integer pageSize,String comCity,String comDeplo,String comField);
 
     //根据条件查询公司列表数
     public Integer queryAllCountByCondition(ComMessage comMessage);

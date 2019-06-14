@@ -2,7 +2,6 @@ package com.internshipElves.service.impl;
 
 import com.internshipElves.dao.ComMessageDAO;
 import com.internshipElves.entity.ComMessage;
-import com.internshipElves.entity.Company;
 import com.internshipElves.service.ComMessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -54,23 +53,12 @@ public class ComMessageServiceImpl implements ComMessageService {
 
     /**
      *  添加公司基本信息
-     * @
+     * @param comMessage   公司基本信息
      * @return   添加行数
      */
     @Override
-    public Integer insertComMessage(Integer comId, String comName, String comInterAddr, String comCity, String comField, String comScale, String comDeplo,
-                                    String comIntroduce) {
-        ComMessage commsg = new ComMessage();
-        commsg.setComId(comId);
-        commsg.setComName(comName);
-        commsg.setComInterAddr(comInterAddr);
-        commsg.setComCity(comCity);
-        commsg.setComField(comField);
-        commsg.setComScale(comScale);
-        commsg.setComDeplo(comDeplo);
-        commsg.setComIntroduce(comIntroduce);
-
-        Integer  rows= comMessageDAO.save(commsg);
+    public Integer insertComMessage(ComMessage comMessage) {
+        Integer  rows= comMessageDAO.save(comMessage);
         System.out.println("添加公司信息返回受影响行数      = " + rows);
         return  rows;
     }

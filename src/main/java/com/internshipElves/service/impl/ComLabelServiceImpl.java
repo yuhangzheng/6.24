@@ -18,13 +18,8 @@ public class ComLabelServiceImpl implements ComLabelService {
      * @return   返回添加行数
      */
     @Override
-    public Integer insertComLabel(Integer comId, String comLabel) {
-
-        ComLabel companyLabel = new ComLabel();
-        companyLabel.setComId(comId);
-        companyLabel.setComLabelOne(comLabel);
-        Integer rows = comLabelDAO.save(companyLabel);
-//            Integer  rows  =comLabelDAO.save(comId, comLabel);
+    public Integer insertComLabel(ComLabel comLabel) {
+            Integer  rows  =comLabelDAO.save(comLabel);
         System.out.println("添加公司标签返回受影响行数      = " + rows);
         return rows;
     }

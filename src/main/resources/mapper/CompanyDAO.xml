@@ -15,7 +15,6 @@
     <result column="company_prepare_a" jdbcType="VARCHAR" property="companyPrepareA" />
     <result column="company_prepare_b" jdbcType="VARCHAR" property="companyPrepareB" />
   </resultMap>
-
   <sql id="Base_Column_List">
     com_id, com_pwd, com_email, com_release_job_id, com_message_id, com_product_id, com_label_id, 
     com_create_team_id, com_status, com_create_date, company_prepare_a, company_prepare_b
@@ -190,21 +189,14 @@
 
   <!--注册添加 邮箱 和 密码-->
   <insert id="saveRegistByEmailAndPwd" >
-    INSERT  INTO  company(com_email,com_pwd,com_create_date)
-    VALUES  (#{comEmail},#{comPwd},#{comCreateDate})
+    INSERT  INTO  company(com_id,com_email,com_pwd,com_create_date)
+    VALUES  (#{comId},#{comEmail},#{comPwd},#{comCreateDate})
   </insert>
 
   <!--根据ID 获取邮箱密码-->
   <select id="queryById"  resultType="com.internshipElves.entity.Company">
     SELECT com_id com_email, com_pwd
     FROM  company
-  </select>
-
-  <!--根据邮箱获取id-->
-  <select id="queryByMail"  resultType="com.internshipElves.entity.Company">
-    SELECT com_id
-    FROM  company
-    WHERE com_email=#{email}
   </select>
 
   <!--根据邮箱和密码登录-->

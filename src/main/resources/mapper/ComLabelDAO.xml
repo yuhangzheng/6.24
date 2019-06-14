@@ -10,7 +10,6 @@
     <result column="com_label_prepare_a" jdbcType="VARCHAR" property="comLabelPrepareA" />
     <result column="com_label_prepare_b" jdbcType="VARCHAR" property="comLabelPrepareB" />
   </resultMap>
-
   <sql id="Base_Column_List">
     com_label_id, com_id, com_label_one, com_label_two, com_label_three, com_label_prepare_a, 
     com_label_prepare_b
@@ -118,7 +117,8 @@
   </update>
 
   <insert id="save" parameterType="com.internshipElves.entity.ComLabel">
-    insert into com_label (com_id, com_label_one)
+    insert into com_label (com_id, com_label_one
+    )
     values (#{comId,jdbcType=INTEGER}, #{comLabelOne,jdbcType=VARCHAR}
     )
   </insert>

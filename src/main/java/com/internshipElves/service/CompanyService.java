@@ -11,7 +11,4 @@ public interface CompanyService {
 
     //3.判断邮箱号码是否注册
     public String isRegisterMail(String comMail);
-
-    //查询公司id
-        Company queryId(String comMail);
 }

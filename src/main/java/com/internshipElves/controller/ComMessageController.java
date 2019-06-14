@@ -1,16 +1,12 @@
 package com.internshipElves.controller;
 
 import com.internshipElves.entity.ComMessage;
-import com.internshipElves.entity.ComReleaseJob;
-import com.internshipElves.entity.Company;
 import com.internshipElves.service.ComMessageService;
 import com.internshipElves.util.PageModel;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.jws.WebParam;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
@@ -19,22 +15,6 @@ import java.util.List;
 public class ComMessageController {
     @Autowired
     ComMessageService comMessageService;
-
-
-    @PostMapping("/register")
-    @ResponseBody
-    public String msgRegister(String comName, String comInterAddr, String comCity, String comField, String comScale, String comDeplo,
-                              String comIntroduce , HttpServletRequest request){
-
-        Company company = (Company)request.getSession().getAttribute("c");
-        Integer comId = company.getComId();
-//        System.out.println(comId);
-            int row = comMessageService.insertComMessage(comId, comName, comInterAddr, comCity, comField, comScale, comDeplo,
-                    comIntroduce ) ;
-            return "1";
-        }
-
-
 
 
 
