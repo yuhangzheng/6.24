@@ -17,13 +17,22 @@ public class ComCreateTeamServiceImpl implements ComCreateTeamService {
 
     /**
      *     添加创始人信息
-     * @param comCreateTeam 创始人信息
+     *
      * @return  返回受影响行数
      */
     @Override
-    public Integer saveCreateTeam(ComCreateTeam comCreateTeam) {
+    public Integer saveCreateTeam(Integer comId, String comFounderName, String comPosition, String comWeibo, String comFounderIntro) {
+
+//        System.out.println("返回受影响受影响行数   ：  " + rows);
+            ComCreateTeam comCreateTeam = new ComCreateTeam();
+            comCreateTeam.setComId(comId);
+            comCreateTeam.setComFounderName(comFounderName);
+            comCreateTeam.setComPosition(comPosition);
+            comCreateTeam.setComWeibo(comWeibo);
+            comCreateTeam.setComFounderIntro(comFounderIntro);
+
         Integer  rows =  comCreateTeamDAO.insert(comCreateTeam);
-        System.out.println("返回受影响受影响行数   ：  " + rows);
+        System.out.println("添加创始团队信息返回受影响行数      = " + rows);
         return rows;
     }
 

@@ -19,8 +19,11 @@ public class ComIntroduceServiceImpl implements ComIntroduceService {
      * @return   返回受影响行数
      */
     @Override
-    public Integer insertComIntroduce(ComIntroduce comIntroduce) {
-           Integer  rows =   comIntroduceDAO.insert(comIntroduce);
+    public Integer insertComIntroduce(Integer comId, String comIntroduce) {
+            ComIntroduce companyIntroduce = new ComIntroduce();
+            companyIntroduce.setComId(comId);
+            companyIntroduce.setComIntroduce(comIntroduce);
+           Integer  rows =   comIntroduceDAO.insert(companyIntroduce);
            System.out.println("添加公司介绍 返回行数  ： " +rows);
         return rows;
     }

@@ -26,11 +26,11 @@ public class ComIntroduceController {
      */
     @PostMapping("/index03")
     @ResponseBody
-    public String  registerIntroduce(ComIntroduce comIntroduce  , HttpServletRequest  request){
+    public String  registerIntroduce(String comIntroduce  , HttpServletRequest  request){
 
-        Company company  =  (Company)request.getSession().getAttribute("company");
-        comIntroduce.setComId(company.getComId());
-        Integer  rows  =comIntroduceService.insertComIntroduce(comIntroduce);
+        Company company  =  (Company)request.getSession().getAttribute("c");
+        Integer comId = company.getComId();
+        Integer  rows  =comIntroduceService.insertComIntroduce(comId, comIntroduce);
 
         return   rows.toString();
     }
