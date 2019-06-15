@@ -54,7 +54,7 @@
 
     <div id="container">
         <div class="sidebar">
-            <a class="btn_create" href="releaseJob">发布新职位</a>
+            <a class="btn_create" href="${pageContext.request.contextPath}/internshipElves/releaseJob.jsp">发布新职位</a>
             <dl class="company_center_aside">
                 <dt>我收到的简历</dt>
                 <dd>

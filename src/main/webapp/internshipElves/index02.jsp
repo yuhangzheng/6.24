@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: xingdong
-  Date: 2018/10/15
-  Time: 20:42
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -96,7 +90,7 @@
         <script>
             var  xhr =null;
             function saveProduct() {
-                var  url_saveProduct='${pageContext.request.contextPath}/internshipElves/index03.jsp';
+                var  url_saveProduct='${pageContext.request.contextPath}/comProduct/index02';
                 <%--var  url_saveProduct='${pageContext.request.contextPath}/comProduct/index02';--%>
                 if (window.XMLHttpRequest){
                     xhr =new XMLHttpRequest();
@@ -121,6 +115,7 @@
             function nextIndex4() {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     var row = xhr.responseText;
+                    console.log(row);
 
                     if (row != 0) {
 

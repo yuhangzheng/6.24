@@ -17,7 +17,12 @@ public class ComProductServiceImpl implements ComProductService {
      * @return
      */
     @Override
-    public Integer insertProduct(ComProduct comProduct) {
+    public Integer insertProduct(Integer comId, String comProductName, String comProductAddr, String comProductIntro){
+        ComProduct comProduct = new ComProduct();
+        comProduct.setComId(comId);
+        comProduct.setComProductName(comProductName);
+        comProduct.setComProductAddr(comProductAddr);
+        comProduct.setComProductIntro(comProductIntro);
          Integer rows =  comProductDAO.insert(comProduct);
          System.out.println("-------添加企业产品返回受印象行数 ："+rows);
          return rows;

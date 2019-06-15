@@ -9,7 +9,7 @@ public interface ComIntroduceService {
      * @param comIntroduce
      * @return
      */
-    public   Integer   insertComIntroduce(ComIntroduce comIntroduce);
+    public   Integer   insertComIntroduce(Integer comId, String comIntroduce);
 
 
     /**
