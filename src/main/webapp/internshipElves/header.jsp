@@ -1,7 +1,5 @@
 <%@ page import="com.internshipElves.entity.User" %>
-<%@ page import="com.internshipElves.service.UserService" %>
-<%@ page import="com.internshipElves.service.impl.UserServiceImpl" %>
-<%@ page import="com.internshipElves.dao.UserMapper" %>
+<%@ page import="com.internshipElves.util.DataBaseGet" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
@@ -37,10 +35,8 @@
                 <c:if test="${!empty adminId}">
                     <c:set var ="userId" value="${adminId}" scope="session"></c:set>
                 </c:if>
-                <%  UserServiceImpl userService = new UserServiceImpl();
-                    int uid = (int) session.getAttribute("userId");
-                    User user=userService.getUserById(uid);
-                    session.setAttribute("username",user.getUsername());%>
+                <%  User user = DataBaseGet.getUser(request,session);
+                    session.setAttribute("user",user);%>
                 <c:if test="${empty userId}">
                 <!--未登陆-->
                  <ul class="nav navbar-nav navbar-right">

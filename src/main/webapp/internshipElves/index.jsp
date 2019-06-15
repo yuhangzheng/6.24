@@ -48,11 +48,7 @@
                 <li ><a href="${pageContext.request.contextPath}/student/isLogin" >我的简历<label style="color: red;font-size: 14px;">${tip}</label></a></li>
                 <li ><a href="${pageContext.request.contextPath}/internshipElves/companyList.jsp" target="_blank">公司</a></li>
                 <li ><a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow">个人中心</a></li>
-                <c:choose>
-                    <c:when test="${empty stuId}">
-                        <li ><a href="create.html" rel="nofollow">企业中心</a></li>preview
-                    </c:when>
-                </c:choose>
+                <li ><a href="forum" rel="nofollow">论坛</a></li>
             </ul>
             <ul class="loginTop">
                 <c:choose>
