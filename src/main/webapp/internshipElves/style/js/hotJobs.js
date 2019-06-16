@@ -53,7 +53,7 @@ function hotJobsResponse() {
        for (var i = 0; i < results.length; i++) {
            hotJob1.innerHTML += '<li class="clearfix"><div class="hot_pos_l" id="hot_pos_l">' +
                '<div class="mb10">' +
-               '<a href="h/jobs/148393.html" target="_blank">' + results[i].comJobName + '</a>'+
+               '<a href="/releaseJob/queryByComReleaseJobId/id/' + results[i].jobId + '" target="_blank">' + results[i].comJobName + '</a>'+
                '&nbsp;' +
                '<span class="c9">' + "[" + results[i].comCity + "]" + '</span>' +
                '</div><span><em class="c7">' + "月薪：" + '</em>' + results[i].comSalaryLow + "k-" + results[i].comSalaryHigh + "k" + '</span>' +

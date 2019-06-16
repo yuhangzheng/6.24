@@ -1,9 +1,11 @@
 package com.internshipElves.entity;
 
 import java.util.Date;
+import java.util.Objects;
 
 public class HotJob {
 
+    private int jobId;
     //公司名称
     private String comName;
     //职位名称
@@ -30,6 +32,14 @@ public class HotJob {
     private String comDeplo;
     //规模
     private String comScale;
+
+    public int getJobId() {
+        return jobId;
+    }
+
+    public void setJobId(int jobId) {
+        this.jobId = jobId;
+    }
 
     public String getComName() {
         return comName;
@@ -138,51 +148,34 @@ public class HotJob {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
+        if (!(o instanceof HotJob)) return false;
         HotJob hotJob = (HotJob) o;
-
-        if (comName != null ? !comName.equals(hotJob.comName) : hotJob.comName != null) return false;
-        if (comJobName != null ? !comJobName.equals(hotJob.comJobName) : hotJob.comJobName != null) return false;
-        if (comCity != null ? !comCity.equals(hotJob.comCity) : hotJob.comCity != null) return false;
-        if (comSalaryLow != null ? !comSalaryLow.equals(hotJob.comSalaryLow) : hotJob.comSalaryLow != null)
-            return false;
-        if (comSalaryHigh != null ? !comSalaryHigh.equals(hotJob.comSalaryHigh) : hotJob.comSalaryHigh != null)
-            return false;
-        if (comJobExp != null ? !comJobExp.equals(hotJob.comJobExp) : hotJob.comJobExp != null) return false;
-        if (comJobRequir != null ? !comJobRequir.equals(hotJob.comJobRequir) : hotJob.comJobRequir != null)
-            return false;
-        if (comJobTemp != null ? !comJobTemp.equals(hotJob.comJobTemp) : hotJob.comJobTemp != null) return false;
-        if (comJobTime != null ? !comJobTime.equals(hotJob.comJobTime) : hotJob.comJobTime != null) return false;
-        if (comField != null ? !comField.equals(hotJob.comField) : hotJob.comField != null) return false;
-        if (comFounderName != null ? !comFounderName.equals(hotJob.comFounderName) : hotJob.comFounderName != null)
-            return false;
-        if (comDeplo != null ? !comDeplo.equals(hotJob.comDeplo) : hotJob.comDeplo != null) return false;
-        return comScale != null ? comScale.equals(hotJob.comScale) : hotJob.comScale == null;
+        return jobId == hotJob.jobId &&
+                Objects.equals(comName, hotJob.comName) &&
+                Objects.equals(comJobName, hotJob.comJobName) &&
+                Objects.equals(comCity, hotJob.comCity) &&
+                Objects.equals(comSalaryLow, hotJob.comSalaryLow) &&
+                Objects.equals(comSalaryHigh, hotJob.comSalaryHigh) &&
+                Objects.equals(comJobExp, hotJob.comJobExp) &&
+                Objects.equals(comJobRequir, hotJob.comJobRequir) &&
+                Objects.equals(comJobTemp, hotJob.comJobTemp) &&
+                Objects.equals(comJobTime, hotJob.comJobTime) &&
+                Objects.equals(comField, hotJob.comField) &&
+                Objects.equals(comFounderName, hotJob.comFounderName) &&
+                Objects.equals(comDeplo, hotJob.comDeplo) &&
+                Objects.equals(comScale, hotJob.comScale);
     }
 
     @Override
     public int hashCode() {
-        int result = comName != null ? comName.hashCode() : 0;
-        result = 31 * result + (comJobName != null ? comJobName.hashCode() : 0);
-        result = 31 * result + (comCity != null ? comCity.hashCode() : 0);
-        result = 31 * result + (comSalaryLow != null ? comSalaryLow.hashCode() : 0);
-        result = 31 * result + (comSalaryHigh != null ? comSalaryHigh.hashCode() : 0);
-        result = 31 * result + (comJobExp != null ? comJobExp.hashCode() : 0);
-        result = 31 * result + (comJobRequir != null ? comJobRequir.hashCode() : 0);
-        result = 31 * result + (comJobTemp != null ? comJobTemp.hashCode() : 0);
-        result = 31 * result + (comJobTime != null ? comJobTime.hashCode() : 0);
-        result = 31 * result + (comField != null ? comField.hashCode() : 0);
-        result = 31 * result + (comFounderName != null ? comFounderName.hashCode() : 0);
-        result = 31 * result + (comDeplo != null ? comDeplo.hashCode() : 0);
-        result = 31 * result + (comScale != null ? comScale.hashCode() : 0);
-        return result;
+        return Objects.hash(jobId, comName, comJobName, comCity, comSalaryLow, comSalaryHigh, comJobExp, comJobRequir, comJobTemp, comJobTime, comField, comFounderName, comDeplo, comScale);
     }
 
     @Override
     public String toString() {
         return "HotJob{" +
-                "comName='" + comName + '\'' +
+                "jobId=" + jobId +
+                ", comName='" + comName + '\'' +
                 ", comJobName='" + comJobName + '\'' +
                 ", comCity='" + comCity + '\'' +
                 ", comSalaryLow=" + comSalaryLow +
