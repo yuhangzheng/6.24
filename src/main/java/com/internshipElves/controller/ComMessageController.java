@@ -25,7 +25,7 @@ public class ComMessageController {
     @ResponseBody
     public String msgRegister(String comName, String comInterAddr, String comCity, String comField, String comScale, String comDeplo,
                               String comIntroduce , HttpServletRequest request){
-
+        System.out.println(comName);
         Company company = (Company)request.getSession().getAttribute("c");
         Integer comId = company.getComId();
 //        System.out.println(comId);

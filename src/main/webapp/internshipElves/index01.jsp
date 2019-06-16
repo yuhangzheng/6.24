@@ -185,7 +185,7 @@
         var formData = "?comName=" + comName + "&comInterAddr="+comInterAddr
             +"&comCity="+comCity+"&comField="+comField+"&comScale="+comScale+"&comDeplo="+comDeplo+"&comIntroduce="+comIntroduce;
 
-            //    alert(formData);
+        alert(formData);
 
         xhr.open("POST", url_saveAndNext,true);
         xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=utf-8");

@@ -60,6 +60,7 @@ public class ComMessageServiceImpl implements ComMessageService {
     @Override
     public Integer insertComMessage(Integer comId, String comName, String comInterAddr, String comCity, String comField, String comScale, String comDeplo,
                                     String comIntroduce) {
+        System.out.println(comName);
         ComMessage commsg = new ComMessage();
         commsg.setComId(comId);
         commsg.setComName(comName);

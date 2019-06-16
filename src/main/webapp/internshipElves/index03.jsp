@@ -93,7 +93,6 @@
                 xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=utf-8");
                 xhr.onreadystatechange = nextIndex5;
                 xhr.send(comIntroduce);
-
             }
 
             function nextIndex5(){

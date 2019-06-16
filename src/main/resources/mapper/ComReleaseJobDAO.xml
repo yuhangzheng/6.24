@@ -297,7 +297,7 @@
       SELECT com_name AS comName,com_release_job_name AS comJobName,  com_release_job_city AS comCity,com_release_job_salary_low AS comSalaryLow,com_release_job_salary_high AS comSalaryHigh,
               com_release_job_exp AS comJobExp,
               com_release_job_requir AS comJobRequir,com_release_job_temp AS comJobTemp,com_release_job_time AS comJobTime,
-              com_field AS comField,com_founder_name AS comFounderName,com_deplo AS comDeplo,com_scale AS comScale
+              com_field AS comField,com_founder_name AS comFounderName,com_deplo AS comDeplo,com_scale AS comScale, com_release_job_id AS jobId
       FROM com_message AS s1,com_create_team AS s2,com_release_job AS s3
       where s1.com_id = s2.com_id and s2.com_id = s3.com_id
       ORDER By com_release_job_time DESC
