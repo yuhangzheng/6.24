@@ -102,9 +102,9 @@
                     <div class="ccc_tr">今日已发布 <span>1</span> 个职位   还可发布 <span>4</span> 个职位</div>
                     <div class="publish_tip">
                         <h2>恭喜你，职位发布成功！</h2>
-                        <a target="_blank" href="http://www.lagou.com/jobs/149594.html">预览职位</a><br>
-                        <a class="greylink" href="create.html">继续发布新职位</a><br>
-                        <a class="greylink" href="http://www.lagou.com/c/25927.html"> 进入我的公司主页</a><br>
+                        <a target="_blank" href="${pageContext.request.contextPath}/internshipElves/index.jsp">预览职位</a><br>
+                        <a class="greylink" href="${pageContext.request.contextPath}/internshipElves/releaseJob.jsp">继续发布新职位</a><br>
+                        <a class="greylink" href="${pageContext.request.contextPath}/internshipElves/pending.jsp"> 进入我的公司主页</a><br>
                         <div style="float:left;" class="invite_share">
                             <!-- JiaThis Button BEGIN -->
                             <div class="jiathis_style_32x32">
