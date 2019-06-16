@@ -74,7 +74,7 @@
 
 
                         <h3>公司简称</h3> <!--非必填-->
-                        <input type="text" placeholder="请输入公司简称" value="" name="comName" id="comName" class="valid">
+                        <input type="text" placeholder="请输入公司简称" value="" name="comName" id="comName">
 
 
 
@@ -182,7 +182,7 @@
         var comDeplo =  document.getElementById("s_radio_hidden").value;
         var comIntroduce =  document.getElementById("temptation").value;
 
-        var formData = "?comName=" + comName + "&comInterAddr="+comInterAddr
+        var formData = "comName=" + comName + "&comInterAddr="+comInterAddr
             +"&comCity="+comCity+"&comField="+comField+"&comScale="+comScale+"&comDeplo="+comDeplo+"&comIntroduce="+comIntroduce;
 
         alert(formData);
