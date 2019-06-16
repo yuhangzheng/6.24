@@ -113,8 +113,10 @@
                 <SCRIPT>
                     var  comasides  =document.getElementById("comaside").children;
                     var  url_getComReleaseJob="${pageContext.request.contextPath}/releaseJob/getComReleaseJob";
+                    var  url_getResume="${pageContext.request.contextPath}/company/loadResume";
                      window.onload =function () {
                          loadingComReleaseJob(1);
+                         loadingResume();
                      }
                      function loadingComReleaseJob(status) {
                          if (window.XMLHttpRequest){
@@ -129,6 +131,20 @@
                          xhr.onreadystatechange =loadRelease;
                          xhr.send(comReleaseJobStatus);
                      }
+
+                    function loadingResume() {
+                        if (window.XMLHttpRequest){
+                            xhr = new  XMLHttpRequest()
+                        }else {
+                            xhr =new ActiveXObject('Microsoft.XMLHTTP')
+                        }
+                        // var comReleaseJobStatus = "comReleaseJobStatus="+status;
+
+                        xhr.open("post",url_getResume,true);
+                        xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=utf-8");
+                        xhr.onreadystatechange =loadRelease;
+                        xhr.send;
+                    }
                      function loadRelease() {
 
                          if(xhr.readyState == 4  && xhr.status == 200 ){
@@ -163,6 +179,42 @@
                              }
                          }
                      }
+
+                    function loadResume() {
+
+                        if(xhr.readyState == 4  && xhr.status == 200 ){
+                            var result = JSON.parse(xhr.responseText);
+                            console.log(result);
+                            // var release =document.getElementById("releaseJob");
+                            // release.innerHTML="";
+                            // var resumeTitle = document.getElementById("Resumetype");
+                            // for (var j = 1; j < 3; j++) {
+                            //     if (comasides[j].className == "current")
+                            //
+                            //         resumeTitle.innerHTML = '<h1><em></em>' + comasides[j].innerText + '</h1>';
+                            // }
+                            // for(var i=0;i<result.length;i++){
+                            //     var  date =strFormat(result[i].comReleaseJobTime);
+                            //
+                            //     release.innerHTML += ('<form > <input type="hidden" value="Publish" name="type">' +
+                            //         ' <ul class="reset my_jobs"> <li > <h3' +
+                            //         '  <a target="_blank" title="随便写" href="">'+result[i].comReleaseJobName+'</a>' +
+                            //         '<span>'+"["+result[i].comReleaseJobCity+"]"+'</span></h3>' +
+                            //         ' <span class="receivedResumeNo"><a >'+"应聘简历"+'</a></span>' +
+                            //         '                                <div>'+result[i].comReleaseJobProp+"/"+result[i].comReleaseJobSalaryLow+"k-"+result[i].comReleaseJobSalaryHigh+"k /" +result[i].comReleaseJobExp+" /"+ result[i].comReleaseJobRequir+'</div>' +
+                            //         '                                <div class="c9">'+"发布时间：" +date+'</div>' +
+                            //         '                                <div class="links">' +
+                            //         '                                    <a class="job_offline" name =  "'+result[i].comReleaseJobId+'" href="javascript:void(0)" onclick="lgoutJob(this)">'+"下线"+'</a>' +
+                            //         '                                    <a class="job_del" name =  "'+result[i].comReleaseJobId+'" href="javascript:void(0)" onclick="lgoutJob(this)">'+"删除"+'</a>' +
+                            //         '                                </div>' +
+                            //         '                            </li>' +
+                            //         '                        </ul>' +
+                            //         '                    </form>');
+                            //
+                            //
+                            // }
+                        }
+                    }
                      function lgoutJob(type) {
                          var url_lgout ='${pageContext.request.contextPath}/releaseJob/lgoutComReleaseJob';
 
