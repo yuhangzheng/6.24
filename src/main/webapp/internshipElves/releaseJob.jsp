@@ -585,7 +585,7 @@
                                 <td>职位描述</td>
                                 <td>
                                     <span class="c9 f14">(建议分条描述工作职责等。请勿输入公司邮箱、联系电话及其他外链，否则将自动删除)</span>
-                                    <textarea placeholder="" maxlength="1000" name="comReleaseJobDescribe" id="description1"></textarea>
+                                    <textarea placeholder="" maxlength="1000" name="comReleaseJob" id="description1"></textarea>
 
 
                                 </td>

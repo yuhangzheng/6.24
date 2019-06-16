@@ -54,7 +54,7 @@
       com_release_job_exp, com_release_job_requir, 
       com_release_job_temp, com_release_job_describe, 
       com_release_job_addr, com_release_job_email, 
-      com_release_job_update_time, com_release_job_status,
+      com_release_job_time, com_release_job_update_time, com_release_job_status, 
       com_release_job_resume_prepare_a, com_release_job_resume_prepare_b
       )
     values (#{comReleaseJobId,jdbcType=INTEGER}, #{comId,jdbcType=INTEGER}, #{comReleaseJobType,jdbcType=VARCHAR}, 
@@ -64,7 +64,7 @@
       #{comReleaseJobExp,jdbcType=VARCHAR}, #{comReleaseJobRequir,jdbcType=VARCHAR}, 
       #{comReleaseJobTemp,jdbcType=VARCHAR}, #{comReleaseJobDescribe,jdbcType=VARCHAR}, 
       #{comReleaseJobAddr,jdbcType=VARCHAR}, #{comReleaseJobEmail,jdbcType=VARCHAR}, 
-      #{comReleaseJobUpdateTime,jdbcType=DATE}, #{comReleaseJobStatus,jdbcType=INTEGER},
+      #{comReleaseJobTime,jdbcType=DATE}, #{comReleaseJobUpdateTime,jdbcType=DATE}, #{comReleaseJobStatus,jdbcType=INTEGER}, 
       #{comReleaseJobResumePrepareA,jdbcType=VARCHAR}, #{comReleaseJobResumePrepareB,jdbcType=VARCHAR}
       )
   </insert>

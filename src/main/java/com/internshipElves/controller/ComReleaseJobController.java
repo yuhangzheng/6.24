@@ -41,9 +41,8 @@ public class ComReleaseJobController {
 
     //添加企业发布简历的记录
     @RequestMapping("insert")
-    public String insert(ComReleaseJob comReleaseJob, HttpServletRequest request) {
-        Company company =(Company)request.getSession().getAttribute("c");
-        comReleaseJob.setComId(company.getComId());
+    public String insert(ComReleaseJob comReleaseJob) {
+        comReleaseJob.setComId(1);
         int row = comReleaseJobService.insert(comReleaseJob);
         return "index06";
     }

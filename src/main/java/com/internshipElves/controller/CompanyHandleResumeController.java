@@ -33,7 +33,7 @@ public class CompanyHandleResumeController {
     @PostMapping("loadResume")
     public List<DeliveryAndResume> loadResume(Integer deliverResumeStatus, HttpServletRequest request) {
         List<DeliveryAndResume> list = new ArrayList<> (  );
-        Company company = (Company)request.getSession().getAttribute("c");
+        Company company = (Company)request.getSession().getAttribute("company");
          Integer comId = company.getComId();
         List<DeliverResume> deliverResumeList = deliverResumeService.queryByComIdAndStatus ( comId,deliverResumeStatus );
         for(DeliverResume deliverResume:deliverResumeList){
