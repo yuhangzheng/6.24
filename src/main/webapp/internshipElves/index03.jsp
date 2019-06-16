@@ -97,13 +97,15 @@
             }
 
             function nextIndex5(){
-                if (xhr.readyState == 4 && xhr.status == 200) {
-                    var row = xhr.responseText;
 
-                    if (row != 0) {
-                        window.location.href="${pageContext.request.contextPath}/internshipElves/comLogin.jsp";
-                    }
-                }
+                    window.location.href ="${pageContext.request.contextPath}/internshipElves/comLogin.jsp";
+                <%--if (xhr.readyState == 4 && xhr.status == 200) {--%>
+                <%--    var row = xhr.responseText;--%>
+                <%--    --%>
+                <%--    if (row != 0) {--%>
+                <%--        window.location.href="${pageContext.request.contextPath}/internshipElves/comLogin.jsp";--%>
+                <%--    }--%>
+                <%--}--%>
             }
 
         </script>

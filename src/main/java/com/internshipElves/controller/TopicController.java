@@ -178,7 +178,7 @@ public class TopicController {
                 log.info("添加主题成功!");
             }
         }
-        indexPage=new ModelAndView("redirect:/forum");
+        indexPage=new ModelAndView("redirect:/");
 
         return  indexPage;
     }
