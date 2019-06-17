@@ -280,7 +280,7 @@
                 <div class="cen_resume_list">
 
                     <div class="cen_resume" data-stype="online">
-                        <a target="_blank" href="#" class="resume-link">
+                        <a target="_blank" href="/student/myResume" class="resume-link">
                             <div class="resume_introduce">
                                 <div class="resume_name"><span class="name_length" title="默认简历">默认简历</span>
                                     <span class="name_type">-默认</span></div>

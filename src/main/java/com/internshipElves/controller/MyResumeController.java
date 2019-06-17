@@ -30,47 +30,51 @@ public class MyResumeController {
     @Autowired
     private ProExpService proExpService;
 
-    @RequestMapping("myResume")
+    @RequestMapping("/myResume")
     public ModelAndView previewResume(HttpServletRequest request) {
         ModelAndView mav = new ModelAndView();
 
         Student student = studentService.queryByStuId((Integer) request.getSession().getAttribute("stuId"));
+        try {
+            Resume resume = resumeService.queryByStuId((Integer) request.getSession().getAttribute("stuId"));
+            ProExp proExp = proExpService.queryByResumeId(resume.getResumeId());
+            Date date = student.getStuReadDate();
+            Date date2 = student.getStuGrad();
+            Date date1 = student.getStuBirth();
+            Date date3 = student.getStuUpdateTime();
+            String readDate = "";
+            String gradDate = "";
+            String updateDate = "";
+            int age = 0;
+            if (date1 != null) {
+                age = DateUtil.computeBir(date1, new Date());
+            }
 
-        Resume resume = resumeService.queryByStuId((Integer) request.getSession().getAttribute("stuId"));
-        ProExp proExp = proExpService.queryByResumeId(resume.getResumeId());
+            if (date != null) {
+                readDate = DateUtil.date2String(date, "yyyy");
+            }
 
-        Date date= student.getStuReadDate ();
-        Date date2=student.getStuGrad ();
-        Date date1 = student.getStuBirth ();
-        Date date3 = student.getStuUpdateTime();
-        String readDate="";
-        String gradDate="";
-        String updateDate="";
-        int age =0;
-        if(date1!=null){
-            age= DateUtil.computeBir ( date1,new Date (  ) );
+            if (date2 != null) {
+                gradDate = DateUtil.date2String(date2, "yyyy");
+            }
+            if (date3 != null) {
+                updateDate = DateUtil.date2String(date3, "yyyy-MM-dd HH:mm");
+            }
+
+            mav.addObject("student", student);
+            mav.addObject("readDate", readDate);
+            mav.addObject("gradDate", gradDate);
+            mav.addObject("updateDate", updateDate);
+            mav.addObject("resume", resume);
+            mav.addObject("age", age);
+            mav.addObject("proExp", proExp);
+            mav.setViewName("myResume");
+            return mav;
         }
-
-        if(date!=null){
-            readDate =DateUtil.date2String ( date,"yyyy" );
+        catch (Exception e){
+            mav.setViewName("personCenter");
+            return mav;
         }
-
-        if(date2!=null){
-            gradDate=DateUtil.date2String ( date2,"yyyy" );
-        }
-        if(date3!=null){
-            updateDate = DateUtil.date2String(date3, "yyyy-MM-dd HH:mm");
-        }
-
-        mav.addObject("student", student);
-        mav.addObject("readDate", readDate);
-        mav.addObject("gradDate", gradDate);
-        mav.addObject("updateDate", updateDate);
-        mav.addObject("resume", resume);
-        mav.addObject("age", age);
-        mav.addObject("proExp", proExp);
-        mav.setViewName("myResume");
-        return mav;
     }
 //修改学生基本信息
     @GetMapping("editStu")
