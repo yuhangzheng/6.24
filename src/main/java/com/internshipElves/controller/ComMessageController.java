@@ -28,6 +28,7 @@ public class ComMessageController {
         System.out.println(comName);
         Company company = (Company)request.getSession().getAttribute("c");
         Integer comId = company.getComId();
+        System.out.println(comName);
 //        System.out.println(comId);
             int row = comMessageService.insertComMessage(comId, comName, comInterAddr, comCity, comField, comScale, comDeplo,
                     comIntroduce ) ;
