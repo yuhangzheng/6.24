@@ -70,56 +70,59 @@ public class MyResumeController {
             mav.addObject("proExp", proExp);
             mav.setViewName("myResume");
             return mav;
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             mav.setViewName("personCenter");
             return mav;
         }
     }
-//修改学生基本信息
+
+    //修改学生基本信息
     @GetMapping("editStu")
-    public Integer  editStu(HttpServletRequest request,Student student) {
-       Integer row = studentService.updateByStuId ( (Integer)request.getSession().getAttribute("stuId") ,student );
-
-      return row;
-    }
-    //修改期望工作
-    @GetMapping("/editResume")
-    public Integer  editResume(HttpServletRequest request,Resume  resume) {
-
-    Integer row = resumeService.updateByStuId ( (Integer)request.getSession().getAttribute("stuId") ,resume );
+    public Integer editStu(HttpServletRequest request, Student student) {
+        Integer row = studentService.updateByStuId((Integer) request.getSession().getAttribute("stuId"), student);
 
         return row;
     }
+
+    //修改期望工作
+    @GetMapping("/editResume")
+    public Integer editResume(HttpServletRequest request, Resume resume) {
+
+        Integer row = resumeService.updateByStuId((Integer) request.getSession().getAttribute("stuId"), resume);
+
+        return row;
+    }
+
     //修改项目经验
     @GetMapping("/editProExp")
-    public Integer editProExp(HttpServletRequest request,ProExp proExp){
-      Integer stuId =  (Integer)request.getSession().getAttribute("stuId");
-        Resume resume = resumeService.queryByStuId ( stuId );
+    public Integer editProExp(HttpServletRequest request, ProExp proExp) {
+        Integer stuId = (Integer) request.getSession().getAttribute("stuId");
+        Resume resume = resumeService.queryByStuId(stuId);
 
-        return proExpService.updateByResumeId ( resume.getResumeId (),proExp );
+        return proExpService.updateByResumeId(resume.getResumeId(), proExp);
     }
     //修改教育经历
 
     @GetMapping("editEducation")
-    public Integer editEducation(HttpServletRequest request,Student student){
-        Integer stuId =  (Integer)request.getSession().getAttribute("stuId");
+    public Integer editEducation(HttpServletRequest request, Student student) {
+        Integer stuId = (Integer) request.getSession().getAttribute("stuId");
 
-        return studentService.updateEducationByStuId (stuId,student );
+        return studentService.updateEducationByStuId(stuId, student);
     }
 
 //修改自我描述
 
     @GetMapping("editDescription")
-    public Integer editDescription(HttpServletRequest request,Resume resume){
-        Integer stuId =  (Integer)request.getSession().getAttribute("stuId");
+    public Integer editDescription(HttpServletRequest request, Resume resume) {
+        Integer stuId = (Integer) request.getSession().getAttribute("stuId");
 
-        return resumeService.updateAByStuId ( stuId,resume );
+        return resumeService.updateAByStuId(stuId, resume);
     }
 
 
     /**
      * 判断是否登录
+     *
      * @return
      */
     @GetMapping("/isLogin")
