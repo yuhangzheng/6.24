@@ -388,7 +388,7 @@
 
 
 
-                        var byPageSmall = "<span style=\"background-color:#00b38a;color: #fff;font-weight: 500;font-size: 16px; padding: 5px 12px;margin: 0 5px;border: 1px solid #00b38a;\">" + '当前是第'+result1.currentPageCode + '页'+"</span> ";
+                        var byPageSmall = "<span style=\"background-color:#647dfa;color: #fff;font-weight: 500;font-size: 16px; padding: 5px 12px;margin: 0 5px;border: 1px solid #647dfa;\">" + '当前是第'+result1.currentPageCode + '页'+"</span> ";
                         byPage.innerHTML += byPageSmall;
 
 
@@ -431,7 +431,7 @@
             <div class="subscribe_side">
                 <a href="subscribe.html" target="_blank">
                     <div class="subpos"><span>订阅</span> 职位</div>
-                    <div class="c7">实习精灵会根据你的筛选条件，定期将符合你要求的职位信息发给你
+                    <div class="c7">SYSU就业服务中心会根据你的筛选条件，定期将符合你要求的职位信息发给你
                     </div>
                     <div class="count">已有
                         <em>3</em>

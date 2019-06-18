@@ -7,25 +7,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa4df4da-f6d1-431a-939b-7b41956a0934" name="Default" comment="修复了部分公司注册bug">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="6449c180-126c-4611-b2e6-e4fc4c44b336" name="Revert &quot;修复了部分公司注册bug&quot;" comment="Revert &quot;修复了部分公司注册bug&quot;&#10;&#10;This reverts commit 6e5e0a6d">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComCreateTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComCreateTeamController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComIntroduceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComIntroduceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/ComCreateTeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/ComCreateTeamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/ComIntroduceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/ComIntroduceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/ComProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/ComProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ComCreateTeamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ComCreateTeamServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ComIntroduceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ComIntroduceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ComProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ComProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/founder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/founder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/index02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/index02.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/internshipElves/util/DataBaseGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/internshipElves/util/DataBaseGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/internshipElves/util/DataBaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/internshipElves/util/DataBaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dbconn.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dbconn.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/companyList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/companyList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/index01.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/index01.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/index03.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/index03.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/index06.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/index06.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/jobreleasesuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/jobreleasesuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/personCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/personCenter.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/positions.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/positions.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/releaseJob.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/releaseJob.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/colorbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/colorbox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/css_register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/css_register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/css_register1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/css_register1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/delivery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/delivery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/employInformation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/employInformation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/external.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/external.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/foot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/foot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/jiathis_share.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/jiathis_share.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/login1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/login1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/personCenter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/personCenter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/personInformation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/personInformation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/reg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/reg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/style.css.bak" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/style.css.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/top.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/top.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/css/window.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/hotJobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/hotJobs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/newJobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/newJobs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实习精灵.iml" beforeDir="false" afterPath="$PROJECT_DIR$/实习精灵.iml" afterDir="false" />
     </list>
+    <list id="6449c180-126c-4611-b2e6-e4fc4c44b336" name="Revert &quot;修复了部分公司注册bug&quot;" comment="Revert &quot;修复了部分公司注册bug&quot;&#10;&#10;This reverts commit 6e5e0a6d" />
     <list id="05198abe-9bb5-4c94-ad27-4140be90ed76" name="Revert &quot;更新了AdminLoginController&quot;" comment="Revert &quot;更新了AdminLoginController&quot;&#10;&#10;This reverts commit 4a839a60" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,96 +87,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index03.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="81" column="104" selection-start-line="81" selection-start-column="104" selection-end-line="81" selection-end-column="104" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index02.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="122" column="47" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/positions.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/jobreleasesuccess.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="74" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComReleaseJobController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="-1139">
+              <caret line="149" column="64" selection-start-line="149" selection-start-column="64" selection-end-line="149" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index06.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/personCenter.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="83" column="54" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
+            <state relative-caret-position="172">
+              <caret line="500" column="59" selection-start-line="500" selection-start-column="52" selection-end-line="500" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/pending.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="73" column="101" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="101" />
-              <folding>
-                <element signature="e#791#797#0" expanded="true" />
-                <element signature="e#797#803#0" expanded="true" />
-                <element signature="e#803#809#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ComIntroduceServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/dao/ComIntroduceDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ComIntroduceDAO.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="29" />
+            <state relative-caret-position="60">
+              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -157,20 +121,13 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>产品</find>
-      <find>投个进阿里</find>
-      <find>prepareB</find>
-      <find>current</find>
-      <find>releaseJob</find>
-      <find>发展阶段</find>
-      <find>internshipElves</find>
       <find>internshipElves-master</find>
       <find>s</find>
       <find>stu</find>
@@ -194,6 +151,13 @@
       <find>/login</find>
       <find>主页</find>
       <find>首页</find>
+      <find>resume</find>
+      <find>query</find>
+      <find>默认</find>
+      <find>简历</find>
+      <find>updateByRe</find>
+      <find>insert3</find>
+      <find>green</find>
     </findStrings>
     <replaceStrings>
       <replace>admin</replace>
@@ -215,17 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/internshipElves/entity/Administrator.java" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/dao/AdministerDAO.xml" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/dao/AdministerDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/dao/AdministratorDAO.xml" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/dao/AdministratorDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/dao/AdminLoginDAO.xml" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/dao/AdminLoginDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/service/impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/service/AdminLoginService.java" />
-        <option value="$PROJECT_DIR$/src/com/internshipElves/controller/AdminLoginController.java" />
         <option value="$PROJECT_DIR$/src/com/internshipElves/service/impl/AdminLoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/internshipElves/controller/AdminRegisterController.java" />
         <option value="$PROJECT_DIR$/src/com/internshipElves/dao/AdminCheckStuDAO.java" />
@@ -256,16 +209,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/dao/Topic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/entity/Topic.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/internshipElves/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/internshipElves/signin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/dbconn.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/service/ComMessageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/dao/CompanyDAO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/ComLabelDAO.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/CompanyDAO.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/dbconn.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/controller/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/util/DataBaseGet.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ProExpDAO.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/util/DataBaseUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ResumeDAO.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/service/ResumeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ResumeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/dao/ResumeDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/controller/InformationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/internshipElves/controller/MyResumeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/internshipElves/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/internshipElves/personCenter.jsp" />
       </list>
     </option>
   </component>
@@ -300,10 +264,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="y" value="40" />
-    <option name="width" value="1139" />
-    <option name="height" value="1047" />
+    <option name="x" value="447" />
+    <option name="y" value="63" />
+    <option name="width" value="1365" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -311,112 +275,69 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
+              <item name="internshipElves6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internshipElves6.24" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
+              <item name="internshipElves6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internshipElves6.24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
+              <item name="internshipElves6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internshipElves6.24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
+              <item name="internshipElves6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internshipElves6.24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
+              <item name="internshipElves6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internshipElves6.24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="6.20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="6.20" type="462c0819:PsiDirectoryNode" />
+              <item name="internshipElves6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internshipElves6.24" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="internshipElves6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internshipElves6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="internshipElves" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="internshipElves6.24" type="b2602c69:ProjectViewProjectNode" />
+              <item name="internshipElves6.24" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,21 +346,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560415705686" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/internshipElves" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\管理信息系统\6.24\src\main\resources\mapper" />
-      <recent name="D:\study\管理信息系统\6.24\src\main\java\com" />
-      <recent name="D:\study\管理信息系统\6.24\src\main\resources" />
-      <recent name="D:\study\管理信息系统\6.24\src\main\webapp" />
-      <recent name="C:\Users\HP\Desktop\Compressed\internshipElves-master\web\internshipElves" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SYSU\study makes me happy\vhr-master\internshipElves6.24\src\main\resources" />
+      <recent name="D:\SYSU\study makes me happy\vhr-master\internshipElves6.24\src\main\webapp" />
+      <recent name="D:\SYSU\study makes me happy\vhr-master\internshipElves6.24\src\main\webapp\internshipElves" />
+      <recent name="D:\SYSU\study makes me happy\vhr-master\internshipElves6.24\src\main\webapp\internshipElves\style" />
+      <recent name="C:\CodingProjects\6.20\src\main\webapp\internshipElves" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.internshipElves.controller" />
@@ -447,12 +368,12 @@
       <recent name="com.internshipElves.service" />
       <recent name="com.internshipElves.util" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\CodingProjects\6.20\src\main\webapp\internshipElves" />
-      <recent name="C:\CodingProjects\6.20\src\main\java\com\internshipElves\controller" />
-      <recent name="C:\CodingProjects\6.20\src\main\java\com\internshipElves\service\impl" />
-      <recent name="C:\CodingProjects\6.20\src\main\java\com\internshipElves\service" />
-      <recent name="C:\CodingProjects\6.20\src\main\resources\mapper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SYSU\study makes me happy\vhr-master\internshipElves6.24\src\main\webapp\internshipElves" />
+      <recent name="D:\study\管理信息系统\6.24\src\main\resources\mapper" />
+      <recent name="D:\study\管理信息系统\6.24\src\main\java\com" />
+      <recent name="D:\study\管理信息系统\6.24\src\main\resources" />
+      <recent name="D:\study\管理信息系统\6.24\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -467,7 +388,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.33">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -476,8 +397,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataBaseUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.internshipElves.util.DataBaseUtil" />
+      <module name="实习精灵" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.internshipElves.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.internshipElves.controller.test" />
+      <module name="实习精灵" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.internshipElves.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -498,7 +447,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.33" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 8.5.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -571,6 +520,132 @@
         </option>
       </method>
     </configuration>
+    <configuration name="index01.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/internshipElves/index01.jsp" />
+      <deployment>
+        <artifact name="实习精灵:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index01_jsp_internshipElves6_24" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="实习精灵:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/internshipElves/index.jsp" />
+      <deployment>
+        <artifact name="实习精灵:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(1)_internshipElves6_24" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="实习精灵:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/internshipElves/index.jsp" />
+      <deployment>
+        <artifact name="实习精灵:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_internshipElves6_24" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="实习精灵:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DataBaseUtil" />
+        <item itemvalue="Tomcat Server.index01.jsp" />
+        <item itemvalue="Tomcat Server.index.jsp (1)" />
+        <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\HP\AppData\Roaming\Subversion</configuration>
@@ -675,6 +750,19 @@
       <workItem from="1560390223251" duration="4388000" />
       <workItem from="1560406547941" duration="4026000" />
       <workItem from="1560446870525" duration="370000" />
+      <workItem from="1560686315701" duration="755000" />
+      <workItem from="1560694080131" duration="6679000" />
+      <workItem from="1560751951734" duration="2578000" />
+      <workItem from="1560754602623" duration="390000" />
+      <workItem from="1560755097411" duration="621000" />
+      <workItem from="1560763210711" duration="4937000" />
+      <workItem from="1560781206493" duration="7236000" />
+      <workItem from="1560822788138" duration="4131000" />
+      <workItem from="1560838655172" duration="2112000" />
+      <workItem from="1560842147167" duration="104000" />
+      <workItem from="1560844380494" duration="974000" />
+      <workItem from="1560845502647" duration="189000" />
+      <workItem from="1560847092698" duration="2088000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1559028123538</created>
@@ -886,11 +974,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560350096995</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="修复了学生没有简历时跳转空指针的错误">
+      <created>1560763952982</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1560763952983</updated>
+    </task>
+    <task id="LOCAL-00032" summary="修复了项目经验插入无法显示和修改的问题&#10;DataBaseUtil的账号密码记得改回自己的数据库">
+      <created>1560826299635</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1560826299635</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="491910000" />
+    <option name="totallyTimeSpent" value="524704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -902,9 +1004,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="9" width="1283" height="698" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26857144" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3031528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -913,26 +1016,26 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32850778" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.053285968" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497979" visible="true" weight="0.30241188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39982653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5020408" side_tool="true" visible="true" weight="0.6289753" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.24680851" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.43734843" side_tool="true" weight="0.6289425" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.24675325" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4979592" weight="0.6289753" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.5626516" weight="0.432282" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32921347" />
-      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32907802" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3283859" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3283859" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.2497979" />
+      <window_info anchor="right" id="Database" order="4" weight="0.11317704" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -940,7 +1043,7 @@
       <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3031528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -949,30 +1052,30 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32850778" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3363029" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497979" visible="true" weight="0.30241188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39982653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.19933185" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.2494432" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32962137" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.43734843" side_tool="true" weight="0.6289425" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.24675325" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.5626516" weight="0.432282" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32921347" />
-      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3283859" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3283859" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.2497979" />
+      <window_info anchor="right" id="Database" order="4" weight="0.11317704" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.06510067" />
       <window_info anchor="right" id="Maven" order="9" />
     </layout-to-restore>
   </component>
@@ -1014,6 +1117,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
@@ -1034,103 +1151,321 @@
     <MESSAGE value="项目修改成maven工程" />
     <MESSAGE value="合并了论坛&#10;数据库和头像问题待修复" />
     <MESSAGE value="Revert &quot;修复了部分公司注册bug&quot;&#10;&#10;This reverts commit 6e5e0a6d" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;修复了部分公司注册bug&quot;&#10;&#10;This reverts commit 6e5e0a6d" />
+    <MESSAGE value="修复了学生没有简历时跳转空指针的错误" />
+    <MESSAGE value="修复了项目经验插入无法显示和修改的问题&#10;DataBaseUtil的账号密码记得改回自己的数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了项目经验插入无法显示和修改的问题&#10;DataBaseUtil的账号密码记得改回自己的数据库" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/entity/Topic.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/util/ProduceMD5.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/util/HexConversion.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/TopicServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/404.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/dao/TopicMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/StuLoginController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/AdminCheckComController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/AdminCheckStuController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/AdminLoginController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/AdminRegisterController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/CheckVerificationCode.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComCreateTeamController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComInformationController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComIntroduceController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComLoginController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/entity/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/signin.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/MainController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/companyList.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminLoginDAO.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/TopicController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TopicMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/cate.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/PersonCenterController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/LoginLogController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/company.min.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/side.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dbconn.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/pending.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="1241">
+          <caret line="73" column="101" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="101" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComLabelController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/ComLabelService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ComLabelServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/ComMessageController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/ComMessageService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ComMessageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/dao/CompanyDAO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/CompanyService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/CompanyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/comRegisterController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index01.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/tag.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ComLabelDAO.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CompanyDAO.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ComIntroduceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/dao/ComIntroduceDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ComIntroduceDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a3f2c2a5-9fd9-44b3-84b1-49b6e89a4468/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/hotJobs.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dbconn.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/stuRegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/StuLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/myResume.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/entity/DeliverResumeKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/entity/Resume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/DeliverResumeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index06.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="83" column="54" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index01.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/AdminLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/AdminCheckComController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/util/HexConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-880">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/util/EncipherConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/util/RegisterUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/personInformation1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9091" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/StudentDAO.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/PreviewResumeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/dao/ProExpDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/personInformation2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="440" column="10" selection-start-line="440" selection-start-column="10" selection-end-line="440" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ProExpDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/entity/ProExp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/util/DataBaseGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ProExpServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/personInformation3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="432" column="84" selection-start-line="432" selection-start-column="77" selection-end-line="432" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/InformationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/util/DataBaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/dao/ResumeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/impl/ResumeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ResumeDAO.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="198" column="10" selection-start-line="198" selection-start-column="10" selection-end-line="198" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/service/ResumeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/internshipElves/controller/MyResumeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/style/js/h.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/404.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/slider/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/images/1.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/style/js/h.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1139">
+          <caret line="149" column="64" selection-start-line="149" selection-start-column="64" selection-end-line="149" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/internshipElves/personCenter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="500" column="59" selection-start-line="500" selection-start-column="52" selection-end-line="500" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1145,6 +1480,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1211,7 +1547,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>servlet-api</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

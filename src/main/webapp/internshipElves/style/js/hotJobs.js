@@ -61,7 +61,7 @@ function hotJobsResponse() {
                '<span><em class="c7">' + "最低学历：" + '</em>' + results[i].comJobRequir + '</span>' +
                '</br><span><em class="c7">' + "职位诱惑：" + '</em>' + results[i].comJobTemp + '</span>' +
                '<br><span>' + strFormat(results[i].comJobTime) + '</span><a  class="wb">' + "分享到微博" + '</a>' + '</div>' + '<div class="hot_pos_r" id="hot_pos_r">' +
-               '<div class="mb10 recompany"><a href="comMessage/queryByName/name/' + results[i].comName + '" target="_blank">' + results[i].comName + '</a>' + '</div>' +
+               '<div class="mb10 recompany"><a href="h/c/1537.html" target="_blank">' + results[i].comName + '</a>' + '</div>' +
                '<span><em class="c7">' + "领域：" + '</em>' + results[i].comField + '</span>' +
                '<span><em class="c7">' + "创始人：" + '</em>' + results[i].comFounderName + '</span>' + '</br>' +
                '<span><em class="c7">' + "阶段：" + '</em> ' + results[i].comDeplo + '</span>' +
@@ -74,6 +74,6 @@ function hotJobsResponse() {
                '</div>' +
                '</li>';
        }
-       hotJob1.innerHTML += '<a href="/internshipElves/list.jsp" class="btn fr" target="_blank">'+"查看更多"+'</a>'
+       hotJob1.innerHTML += '<a href="/internshipElves/companyList.jsp" class="btn fr" target="_blank">'+"查看更多"+'</a>'
    }
 }

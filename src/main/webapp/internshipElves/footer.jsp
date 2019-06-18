@@ -8,20 +8,20 @@
         li {list-style-type:none;}
         html, body {
             height: 100%;
-            font-size: 14px;
-            color: #525252;
-            font-family: NotoSansHans-Regular,AvenirNext-Regular,arial,Hiragino Sans GB,"Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
-            background: #f0f2f5;
+            font-size: 15px;
+            color: #f5f5f5;
+            font-family: unset;
+            background: #f5f5f5;
         }
         .footer {
-            background-color: #fff;
-            margin-top: 22px;
-            margin-bottom: 22px;
+            background-color: #647dfa;
+            margin-top: 11px;
+            margin-bottom: 11px;
             width: 100%;
             padding-top: 22px;
-            color: #8A8A8A;
+            color: #fafafa;
             display: block;
-            height: 200px;
+            height: 150px;
             border: 1px ;
             clear:both
         }
@@ -40,7 +40,7 @@
             float: left;
         }
 a{
-    color: #8A8A8A;
+    color: #555;
     cursor: pointer;
 }
     </style>
@@ -48,17 +48,11 @@ a{
 <body>
 <footer class="footer">
     <div class="container">
-        我们是高品质的中大就业社区，致力于为全校学生及外部企业提供一个高品质、高效率的就业服务平台
+        中大高品质就业社区，致力于为全校学生及外部企业提供一个高品质、高效率的就业服务平台~
         <br/><br/><br/>
         <p>Designed by </span> ourteam</p>
     </div>
-    <div class="info">
-        <p style="text-align: center;font-size: 16px;">统计信息</p>
-        <ul >
-            <li>会员数: ${usersNum}</li>
-            <li>话题数: ${topicsNum}</li>
-        </ul>
-    </div>
+
     <div class="info">
         <p style="text-align: center;font-size: 16px;">友情链接</p>
         <ul >

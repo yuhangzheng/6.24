@@ -61,14 +61,18 @@
         </property>
     </bean>
     <!--静态资源处理-->
-    <mvc:resources mapping="/css/*" location="internshipElves/style/css/"/>
-    <mvc:resources mapping="/images/*" location="internshipElves/style/images/"/>
-    <mvc:resources mapping="/js/*" location="internshipElves/style/js/"/>
-    <mvc:resources mapping="/upload/*" location="/upload/"/>
-    <mvc:resources mapping="/json/*" location="internshipElves/style/js/"/>
-    <mvc:resources mapping="/css/img/*" location="internshipElves/style/css/img/"/>
-    <mvc:resources mapping="/images/img/*" location="internshipElves/style/images/img/"/>
-    <mvc:resources mapping="/images/avatar/*" location="internshipElves/style/images/avatar/"/>
+    <mvc:resources mapping="/css/**" location="/internshipElves/style/css/"/>
+    <mvc:resources mapping="/images/**" location="/internshipElves/style/images/"/>
+    <mvc:resources mapping="/js/**" location="/internshipElves/style/js/"/>
+    <mvc:resources mapping="/upload/**" location="/upload/"/>
+    <mvc:resources mapping="/json/**" location="/internshipElves/style/js/"/>
+    <mvc:resources mapping="/css/img/**" location="/internshipElves/style/css/img/"/>
+    <mvc:resources mapping="/images/img/**" location="/internshipElves/style/images/img/"/>
+    <mvc:resources mapping="/images/slider/**" location="/internshipElves/style/images/slider/"/>
+    <mvc:resources mapping="/images/avatar/**" location="/internshipElves/style/images/avatar/"/>
+    <mvc:resources mapping="/nivo-slider/**" location="/internshipElves/style/lib/nivo-slider/" />
+    <mvc:resources mapping="/lib/**" location="/internshipElves/style/lib/"/>
+    <mvc:resources mapping="/fonts/**" location="/internshipElves/style/fonts/"/>
 
 
 

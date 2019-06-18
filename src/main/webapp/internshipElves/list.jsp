@@ -495,7 +495,8 @@
 
                             '</span></div>' +
 
-                            '<div class="hot_pos_r"><div class="mb10"><a href="" title="" target="_blank">'+
+                            '<div class="hot_pos_r"><div class="apply" ><a href="${pageContext.request.contextPath}/releaseJob/login"target="_blank" >'+
+                            "投个简历"+'</a></div><div class="mb10"><a href="" title="" target="_blank">'+
                             objArr[i].comName+'</a></div><span><em class="c7">'+
                             "领域："+'</em>'+objArr[i].comField+'</span><span><em class="c7">'+
                             "创始人"+'</em>'+objArr[i].comFounderName+

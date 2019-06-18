@@ -27,7 +27,7 @@ body {
 
 }
 ::selection {
-    background: #019875;
+    background: #647dfa;
     color: white;
 }
 
@@ -37,7 +37,7 @@ body {
     min-width: 1024px;
     height: 60px;
     background: #fafafa;
-    border-top: 3px solid #019875;
+    border-top: 3px solid #647dfa;
 }
 #header .wrapper {
     width: 1024px;
@@ -81,7 +81,7 @@ body {
     float: right;
     *max-width: 170px;
     color: #fff;
-    background: #019875;
+    background: #647dfa;
     position: absolute;
     right: 0;
     z-index: 101;
@@ -93,7 +93,7 @@ body {
     position: relative;
     color: #fff;
     padding: 0 40px 0 20px;
-    background: #019875;
+    background: #647dfa;
     min-width: 105px;
     overflow: hidden;
 }
@@ -117,7 +117,7 @@ body {
     top: 14px;
     right: 25px;
     border: 4px solid #fff;
-    border-color: #fff #019875 #019875;
+    border-color: #fff #647dfa #647dfa;
     display: block;
     font-size: 0px;
     height: 0;
@@ -131,10 +131,10 @@ body {
     display: block;
     color: #fff;
     padding: 0 20px;
-    background: #019875;
+    background: #647dfa;
 }
 #noticeTip {
-    color: #019875;
+    color: #647dfa;
     background: #fff;
     position: relative;
     float: right;
@@ -173,7 +173,7 @@ body {
     position: absolute;
 }
 #noticeTip a {
-    color: #019875;
+    color: #647dfa;
 }
 #noticeTip a.closeNT {
     width: 12px;
@@ -229,7 +229,7 @@ dd {
     font-size: 24px;
     font-weight: normal;
     height: 43px;
-    background: #91cebe;
+    background: #647dfa;
     margin: -8px 0 10px 48px;
     padding: 0 20px;
     line-height: 43px;
@@ -291,7 +291,7 @@ ul, menu, dir {
     padding-inline-start: 40px;
 }
 .delivery_tabs li.current {
-    border-bottom: 4px solid #019875;
+    border-bottom: 4px solid #647dfa;
 }
 .delivery_tabs li {
     padding: 9px 0 5px 0;
@@ -305,10 +305,10 @@ li {
     text-align: -webkit-match-parent;
 }
 .delivery_tabs li.current a, .delivery_tabs li:hover a {
-    color: #019875;
+    color: #647dfa;
 }
 a:hover{
-    color: #019875;
+    color: #647dfa;
 }
 
 .delivery_tabs li a {
@@ -334,7 +334,7 @@ ul.my_delivery {
     margin: 20px 48px;
 }
 .my_delivery .d_item {
-    border-left: 3px solid #91cebe;
+    border-left: 3px solid #40abec;
     overflow: hidden;
     padding: 3px 12px;
 }
@@ -352,7 +352,7 @@ h2 {
 
 .my_delivery h2 em {
     font-size: 18px;
-    color: #0d9572;
+    color: #40abec;
 }
 
 em {
@@ -398,7 +398,7 @@ em {
 }
 .btn_showprogress {
     float: right;
-    color: #019875;
+    color: #647dfa;
     font-size: 16px;
     margin: 5px 0;
     position: relative;
@@ -416,7 +416,7 @@ em {
     line-height: 0;
     border-width: 6px 6px 0;
     border-style: solid dashed;
-    border-color: #019875 transparent transparent;
+    border-color: #647dfa transparent transparent;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -424,7 +424,7 @@ em {
 }
 .progress_status {
     border-top: 1px dashed #cccccc;
-    border-bottom: 2px solid #91cebe;
+    border-bottom: 2px solid #40abec;
     padding: 25px 35px;
     position: relative;
     zoom: 1;
@@ -482,7 +482,7 @@ em {
 .status_steps .status_line_done span {
     display: block;
     height: 4px;
-    background: #019875;
+    background: #647dfa;
 }
 .progress_status ul {
     margin: 0;
@@ -539,7 +539,7 @@ em {
     background: url(img/status_dot.png) left bottom no-repeat;
 }
 .status_list .top .list_body {
-    border-left: 3px solid #019875;
+    border-left: 3px solid #647dfa;
 }
 
 .status_list .list_body {
@@ -651,7 +651,7 @@ h2 {
 }
 #myRecommend .more {
     float: right;
-    color: #019875;
+    color: #647dfa;
     text-decoration: none;
     margin-top: 10px;
 }

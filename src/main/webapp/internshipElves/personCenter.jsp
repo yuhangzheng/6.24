@@ -280,7 +280,7 @@
                 <div class="cen_resume_list">
 
                     <div class="cen_resume" data-stype="online">
-                        <a target="_blank" href="/student/myResume" class="resume-link">
+                        <a target="_blank" href="#" class="resume-link">
                             <div class="resume_introduce">
                                 <div class="resume_name"><span class="name_length" title="默认简历">默认简历</span>
                                     <span class="name_type">-默认</span></div>
@@ -330,13 +330,13 @@
                 <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_next" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_icon_next.png?v=8b59c649d00f909a79097649e7cf96aa)"></span>
             </a>
             <a href="#" class="a_item" data-sa="click" data-starget="/my/collect" data-sinfo="{&quot;name&quot;: &quot;收藏&quot;}" data-sevent="intern_sub" data-sname="118" data-desc="trainee_center-我的收藏">
-                <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_num a_color_green">2</span>
+                <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_num a_color_blue">2</span>
                 <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_name" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_text_p3.png?v=7017fd7f241617e6a9d4e25b13f41afd)"></div>
                 <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_msg">喜欢的在这里哦</div>
                 <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_next" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_icon_next.png?v=8b59c649d00f909a79097649e7cf96aa)"></span>
             </a>
             <a href="#" class="a_item a_invite">
-                <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_num a_color_green">0</span>
+                <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_num a_color_blue">0</span>
                 <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_name " style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_text_p4.png?v=8b6dfdfc5e1f9f9b5c0addd6499c2002)"></div>
 
 
@@ -493,56 +493,15 @@
                 </script>
                 <div class="content_r">
                     <div class="mycenterR" id="myInfo">
-                        <h2>我的信息</h2>
-                        <a href="#">我收藏的职位</a>
+                        <h2>可能感兴趣的话题</h2>
+                        <a href="https://www.zhihu.com/question/25039418/answer/153871356">面试如何准备？</a>
                         <br>
-                        <a href="#" target="_blank">我投递的职位<span id="noticeNoPage" class="red dn">&nbsp;(0)</span></a>
+                        <a href="https://zhuanlan.zhihu.com/p/33972511" target="_blank">面试常见的问题<span id="noticeNoPage" class="red dn">&nbsp;(0)</span></a>
                         <br>
-                        <a target="_blank" href="#">我订阅的职位</a>
+                        <a target="_blank" href="https://www.zhihu.com/question/64078502/answer/216251982">职场小白怎么才能在职场混的自如呢？</a>
                         <br>
-                        <a target="_blank" href=#">我的职位推荐</a>
+                        <a target="_blank" href="https://www.zhihu.com/question/296619201/answer/526699237">知名公司潜规则你知道多少</a>
                     </div><!--end #myInfo-->
-                    <div class="mycenterR" id="myRecommend">
-                        <h2>可能适合你的职位 <i>匹配度</i></h2>
-                        <ul class="reset">
-                            <li>
-                                <a target="_blank" href="#">
-                                    <span class="f16">产品经理</span>
-                                    <span class="c7">广州百田</span>
-                                    <em>92%</em>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#">
-                                    <span class="f16">产品经理</span>
-                                    <span class="c7">短讯神州</span>
-                                    <em>92%</em>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#">
-                                    <span class="f16">产品经理</span>
-                                    <span class="c7">爱拍</span>
-                                    <em>89%</em>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#">
-                                    <span class="f16">产品经理</span>
-                                    <span class="c7">一彩票</span>
-                                    <em>88%</em>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#">
-                                    <span class="f16">产品经理</span>
-                                    <span class="c7">林安集团</span>
-                                    <em>88%</em>
-                                </a>
-                            </li>
-                        </ul>
-                        <a target="_blank" class="more" href="#">更多推荐职位&gt;&gt;</a>
-                    </div><!--end #myRecommend-->
                 </div>
             </div>
 
@@ -642,41 +601,7 @@
         <div class="cen_jump_btn" data-sa="click" data-starget="" data-sevent="jb_click" data-sinfo="{&quot;name&quot;: &quot;开启职位邀约&quot;}" data-sname="58" data-desc="trainee_center-个人中心-立即开启">开启邀约</div>
     </div>
 
-    <div class="reg_log_box login_box_X">
-        <span id="close_login" class="close_login">×</span>
-        <div class="log_box">
-            <a href="/" class="go_home" data-sa="click" data-sname="154" data-starget="/" data-sinfo="{&quot;name&quot;: &quot;logo图片&quot;}" data-desc="base-登录弹窗logo" data-sevent="menu_click" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/new_logo.png?v=750679c94f67c9843d75ac71fb642bf7)"></a>
-            <div class="log_content">
-                <div id="login_inf">
-                    <form>
-                        <input type="text" id="base_log_name" class="log_input" tabindex="1" placeholder="请输入手机号/邮箱"/>
-                        <span class="error">此用户不存在</span>
-                        <input type="password" id="base_log_password" class="log_input" tabindex="2" placeholder="请输入密码">
-                        <span class="error">密码不正确</span>
-                        <span id="remeber"><input type="checkbox" id="remember_btn" name="remember" value="1" checked="checked" class="checkbox valid">记住我</span>
-                        <a href="/user/findpass" data-sinfo="{&quot;name&quot;: &quot;找回密码&quot;}" target="_blank" class="f_col look_pas">找回密码</a>
-                        <input type="button" id="base_login_btn" value="登 录" data-sa="click" data-sname="22" data-sinfo="{&quot;name&quot;: &quot;登录弹窗&quot;}" data-starget="" data-sevent="land_click" data-desc="base-登录弹窗">
-                        <div class="login_jump">
-                            <p class="not_user">
-                                没有账号,直接
-                                <a class="to_login f_col" href="/user/register?next=/my" target="_blank" data-sa="click" data-sname="23" data-sinfo="{&quot;name&quot;: &quot;注册&quot;}" data-starget="/user/register?next=/my" data-sevent="reg_click" data-desc="base-弹窗登录注册">注册</a>
-                            </p>
-                        </div>
-                    </form>
-                </div>
-                <div class="other_login">
-                    <p>使用以下帐号直接登录:</p>
-                    <div class="other_link">
-                        <a href="/user/sso/weibo/auth" data-sa="click" data-sname="24" data-sinfo="{&quot;name&quot;: &quot;微博登录&quot;}" data-starget="/user/sso/weibo/auth" data-desc="base-弹窗微博登录" data-sevent="land_click"
-                           class="icon_wb" title="使用新浪微博帐号登录" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/new_weibo.png?v=635a5677a15fd3f78246d856e0e4ad8e)"></a>
-                        <a href="/user/sso/qq/auth" class="icon_qq" title="使用腾讯QQ帐号登录" data-sa="click" data-sname="25" data-desc="base-弹窗QQ登录" data-sinfo="{&quot;name&quot;: &quot;QQ登录&quot;}" data-starget="/user/sso/qq/auth" data-sevent="land_click" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/new_QQ.png?v=e7ace05fb4c36be397eb96456c1d8dfa)"></a>
-                        <a href="/user/sso/wechat/auth" class="icon_weixin" title="使用微信帐号登录" data-sa="click" data-sname="26" data-desc="base-弹窗微信登录" data-sinfo="{&quot;name&quot;: &quot;微信登录&quot;}" data-starget="/user/sso/wechat/auth" data-sevent="land_click" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/new_weixin.png?v=8351cf50b467b189afe5a4eb435784ea)"></a>
-                        <a href="/user/sso/alipay/auth" class="icon_alipay" title="使用支付宝帐号登录" data-sa="click" data-sname="27" data-desc="base-弹窗支付宝登录" data-sinfo="{&quot;name&quot;: &quot;支付宝登录&quot;}" data-starget="/user/sso/alipay/auth" data-sevent="land_click" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/alipay.png?v=8241337e775923962520207b01b37f49)"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <div id="shadow"></div>
     <div class="footer"></div>
 </div>

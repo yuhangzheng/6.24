@@ -4,7 +4,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <header>
-    <nav class="navbar navbar-default" role="navigation" style="background-color: white">
+    <nav class="navbar navbar-default" role="navigation" style="background-color: #647dfa">
         <div class="container-fluid" style="margin-left: 10%">
             <div class="navbar-header">
                 <a class="navbar-brand" href="/forum">主页</a>

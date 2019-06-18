@@ -1,11 +1,11 @@
 #one{
-      background-color: ghostwhite;
-      width:500px;
-      height: 555px;
-      position: relative;
-      left: 450px;
+    background-color: ghostwhite;
+    width:500px;
+    height: 555px;
+    position: relative;
+    left: 450px;
 
-  }
+}
 #lateradd{
     position: relative;
     left: 45px;
@@ -15,9 +15,9 @@
     top: 20px;
 }
 #spanName{
-     font-size: 10px;
+    font-size: 10px;
     color: red;
- }
+}
 #spanName1{
     font-size: 10px;
     color: red;
@@ -56,23 +56,23 @@
     color: red;
 }
 #button{
-    background: #00B38A;
+    background: #647dfa;
     font-size: 14px;
     color: #fff;
-    border-color: #00B38A;
+    border-color: #647dfa;
 }
 #button1{
     margin-right: 30px;
-    background: #00B38A;
+    background: #647dfa;
     font-size: 14px;
     color: #fff;
-    border-color: #00B38A;
+    border-color: #647dfa;
 }
 #button2{
-    background: #00B38A;
+    background: #647dfa;
     font-size: 14px;
     color: #fff;
-    border-color: #00B38A;
+    border-color: #647dfa;
 }
 
 #nine{
@@ -108,27 +108,27 @@
     color: red;
 }
 #button3{
-    background: #00B38A;
+    background: #647dfa;
     font-size: 14px;
     color: #fff;
     margin-right: 30px;
     position: relative;
     top: 20px;
-    border-color: #00B38A;
+    border-color: #647dfa;
 }
 #button4{
-    background: #00B38A;
+    background: #647dfa;
     font-size: 14px;
     color: #fff;
     position: relative;
     top: 20px;
-    border-color: #00B38A;
+    border-color: #647dfa;
 }
 #button5{
-    background: #00B38A;
+    background: #647dfa;
     font-size: 14px;
     color: #fff;
-    border-color: #00B38A;
+    border-color: #647dfa;
 }
 #six{
     background-color: ghostwhite;
@@ -165,10 +165,10 @@
     font-size: 10px;
 }
 #eight{
-    background: #00B38A;
+    background: #647dfa;
     font-size: 14px;
     color: #fff;
-    border-color: #00B38A;
+    border-color: #647dfa;
 }
 
 
