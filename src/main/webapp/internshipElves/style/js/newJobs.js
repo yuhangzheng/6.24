@@ -24,7 +24,7 @@ function newJobsResponse() {
         for(var j = 0; j < results.length; j++){
             newJob.innerHTML +=  '<li class="clearfix"><div class="hot_pos_l" id="hot_pos_l">' +
                 '<div class="mb10">' +
-                '<a href="h/jobs/149389.html" target="_blank">' + results[j].comJobName + '</a>'+
+                '<a href="/releaseJob/queryByComReleaseJobId/id/' + results[j].jobId + '" target="_blank">' + results[j].comJobName + '</a>'+
                 '&nbsp;' +
                 '<span class="c9">' + "[" + results[j].comCity + "]" + '</span>' +
                 '</div><span><em class="c7">' + "月薪：" + '</em>' + results[j].comSalaryLow + "k-" + results[j].comSalaryHigh + "k" + '</span>' +
@@ -32,7 +32,7 @@ function newJobsResponse() {
                 '<span><em class="c7">' + "最低学历：" + '</em>' + results[j].comJobRequir + '</span>' +
                 '</br><span><em class="c7">' + "职位诱惑：" + '</em>' + results[j].comJobTemp + '</span>' +
                 '<br><span>' + strFormat(results[j].comJobTime) + '</span><a  class="wb">' + "分享到微博" + '</a>' + '</div>' + '<div class="hot_pos_r">' +
-                '<div class="mb10"><a href="h/c/8250.html" target="_blank">' + results[j].comName + '</a>' + '</div>' +
+                '<div class="mb10 recompany"><a href="comMessage/queryByName/name/' + results[j].comName + '" target="_blank">' + results[j].comName + '</a>' + '</div>' +
                 '<span><em class="c7">' + "领域：" + '</em>' + results[j].comField + '</span>' +
                 '<span><em class="c7">' + "创始人：" + '</em>' + results[j].comFounderName + '</span>' + '</br>' +
                 '<span><em class="c7">' + "阶段：" + '</em> ' + results[j].comDeplo + '</span>' +
@@ -45,6 +45,6 @@ function newJobsResponse() {
                 '</div>' +
                 '</li>';
         }
-        newJob.innerHTML += '<a href="/internshipElves/companyList.jsp" class="btn fr" target="_blank">'+"查看更多"+'</a>'
+        newJob.innerHTML += '<ul><a href="/internshipElves/list.jsp" class="btn fr" target="_blank">'+"查看更多"+'</a></ul>'
     }
 }

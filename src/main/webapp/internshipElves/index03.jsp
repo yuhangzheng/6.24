@@ -41,7 +41,7 @@
             <ul id="navheader" class="reset">
                 <li><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
                 <li><a target="_blank" href="${pageContext.request.contextPath}/internshipElves/companyList.jsp">公司</a></li>
-                <li><a rel="nofollow" href="${pageContext.request.contextPath}/internshipElves/myhome2.jsp">企业中心</a></li>
+                <li><a rel="nofollow" href="${pageContext.request.contextPath}/internshipElves/pending.jsp">企业中心</a></li>
             </ul>
             <dl class="collapsible_menu">
                 <dt>
@@ -93,7 +93,6 @@
                 xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=utf-8");
                 xhr.onreadystatechange = nextIndex5;
                 xhr.send(comIntroduce);
-
             }
 
             function nextIndex5(){

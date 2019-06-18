@@ -491,7 +491,7 @@
                                             <span>k</span>
                                         </div>
                                         <div>
-                                            <input type="text" placeholder="最高月薪" value="" id="salaryMax" name="comReleaseJobSalaryLow">
+                                            <input type="text" placeholder="最高月薪" value="" id="salaryMax" name="comReleaseJobSalaryHigh">
                                             <span>k</span>
                                         </div>
                                         <span>只能输入整数</span>

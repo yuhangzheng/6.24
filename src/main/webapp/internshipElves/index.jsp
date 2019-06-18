@@ -1,6 +1,5 @@
-
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 
@@ -75,7 +74,8 @@
 </head>
 <body>
 <!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
 <![endif]-->
 
 <!--Main Wrapper Start-->
@@ -87,53 +87,56 @@
             <div id="header">
                 <div class="wrapper">
                     <a href="index.html" class="logo">
-                        <img src="/images/logo.png" width="229" height="43" alt="实习精灵" />
+                        <img src="/images/logo.png" width="229" height="43" alt="实习精灵"/>
                     </a>
                     <ul class="reset" id="navheader">
                         <li class="current"><a href="">首页</a></li>
-                        <li ><a href="${pageContext.request.contextPath}/internshipElves/companyList.jsp" target="_blank">公司</a></li>
-                        <li ><a href="${pageContext.request.contextPath}/forum" rel="nofollow">论坛</a></li>
-                        <li ><a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/" target="_blank">政策公告</a></li>
-                        <li ><a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow">个人中心</a></li>
-
-
-                        <c:choose>
-                            <c:when test="${empty stuId}">
-                                <li ><a href="create.html" rel="nofollow">企业中心</a></li>preview
-                            </c:when>
-                        </c:choose>
+                        <li><a href="${pageContext.request.contextPath}/internshipElves/companyList.jsp"
+                               target="_blank">公司</a></li>
+                        <li><a href="${pageContext.request.contextPath}/forum" rel="nofollow">论坛</a></li>
+                        <li><a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/" target="_blank">政策公告</a></li>
+                        <li><a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow">个人中心</a>
+                        </li>
                     </ul>
                     <ul class="loginTop">
                         <c:choose>
                             <c:when test="${empty stuId  && empty comId && empty adminId}">
-
-                                <li><a href="${pageContext.request.contextPath}/internshipElves/comLogin.jsp" rel="nofollow">企业登录</a></li>
+                                <li><a href="${pageContext.request.contextPath}/internshipElves/adminLogin.jsp"
+                                       rel="nofollow">管理员登录</a></li>
                                 <li>|</li>
-                                <li><a href="${pageContext.request.contextPath}/internshipElves/login.jsp" rel="nofollow">学生登录</a></li>
+                                <li><a href="${pageContext.request.contextPath}/internshipElves/login.jsp"
+                                       rel="nofollow">学生登录</a></li>
                                 <li>|</li>
-                                <li><a href="${pageContext.request.contextPath}/internshipElves/adminLogin.jsp" rel="nofollow">管理员登录</a></li>
+                                <li><a href="${pageContext.request.contextPath}/internshipElves/comLogin.jsp"
+                                       rel="nofollow">企业登录</a></li>
                             </c:when>
 
                             <c:when test="${!empty stuId && !empty stuName}">
-                                <li><a href="${pageContext.request.contextPath}/personCenter/isLogin">欢迎${stuName}</a></li>
+                                <li><a href="${pageContext.request.contextPath}/student/isLogin">欢迎${stuName}</a>
+                                </li>
                                 <li>|</li>
                                 <li><a href="${pageContext.request.contextPath}/stuLogin/logout">退出</a></li>
                             </c:when>
 
-                            <c:when test = "${!empty stuId || !empty stuPhoneMail}">
-                                <li> <a href="${pageContext.request.contextPath}/personCenter/loginIn">欢迎${stuPhoneMail}</a></li>
+                            <c:when test="${!empty stuId || !empty stuPhoneMail}">
+                                <li>
+                                    <a href="${pageContext.request.contextPath}/student/loginIn">欢迎${stuPhoneMail}</a>
+                                </li>
                                 <li>|</li>
                                 <li><a href="${pageContext.request.contextPath}/stuLogin/logout">退出</a></li>
                             </c:when>
 
-                            <c:when test = "${!empty comId || !empty comPhoneMail}">
-                                <li> <a href="${pageContext.request.contextPath}/internshipElves/jobreleasesuccess.jsp">欢迎${comPhoneMail}</a></li>
+                            <c:when test="${!empty comId || !empty comPhoneMail}">
+                                <li><a href="${pageContext.request.contextPath}/internshipElves/jobreleasesuccess.jsp">欢迎${comPhoneMail}</a>
+                                </li>
                                 <li>|</li>
                                 <li><a href="${pageContext.request.contextPath}/comLogin/logout">退出</a></li>
                             </c:when>
 
                             <c:when test="${!empty adminId && !empty adminName}">
-                                <li><a href="${pageContext.request.contextPath}/personCenter/isLogin">欢迎管理员${adminName}</a></li>
+                                <li>
+                                    <a href="${pageContext.request.contextPath}/personCenter/isLogin">欢迎管理员${adminName}</a>
+                                </li>
                                 <li>|</li>
                                 <li><a href="${pageContext.request.contextPath}/adminLogin/logout">退出</a></li>
                             </c:when>
@@ -147,7 +150,8 @@
             <div class="slider-area">
                 <div class="preview-2">
                     <div id="nivoslider" class="slides">
-                        <img src="${pageContext.request.contextPath}/images/slider/1.jpg" alt="" title="#slider-1-caption1"/>
+                        <img src="${pageContext.request.contextPath}/images/slider/1.jpg" alt=""
+                             title="#slider-1-caption1"/>
                     </div>
                     <div id="slider-1-caption1" class="nivo-html-caption nivo-caption">
                         <div class="banner-content slider-1">
@@ -156,8 +160,10 @@
                                     <div class="col-md-12">
                                         <div class="text-content-wrapper">
                                             <div class="text-content">
-                                                <h1 class="title1 wow bounceInDown text-uppercase text-white mb-16" data-wow-duration="3s" data-wow-delay="0s">中山大学就业服务中心</h1>
-                                                <p class="sub-title wow bounceInRight hidden-xs" data-wow-duration="3s" data-wow-delay="1s"> 方便学生</br>服务社会</p>
+                                                <h1 class="title1 wow bounceInDown text-uppercase text-white mb-16"
+                                                    data-wow-duration="3s" data-wow-delay="0s">中山大学就业服务中心</h1>
+                                                <p class="sub-title wow bounceInRight hidden-xs" data-wow-duration="3s"
+                                                   data-wow-delay="1s"> 方便学生</br>服务社会</p>
 
                                             </div>
                                         </div>
@@ -185,21 +191,21 @@
                 </div>
                 <ul class="reset hotabbing">
                     <li class="current" onclick="hotJobs()">热门职位</li>
-                    <li  onclick="newJobs()">最新职位</li>
+                    <li onclick="newJobs()">最新职位</li>
                 </ul>
                 <div id="hotList">
                     <ul class="hot_pos reset" id="hotPos">
                     </ul>
                     <ul class="hot_pos hot_posHotPosition reset" style="display:none;" id="newJob">
-
                     </ul>
                 </div>
 
                 <div class="clear"></div>
             </div>
-            <input type="hidden" value="" name="userid" id="userid" />
+            <input type="hidden" value="" name="userid" id="userid"/>
         </div>
     </div>
+</div>
     <!-- End of Job Post Area -->
 
 
@@ -223,18 +229,32 @@
                                         <div class="advertise-content pl-15">
                                             <h3 class="uppercase pb-16 mb-21 mt-26">政策公告</h3>
                                             <ul>
-                                                <li><a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/content/post_2510403.html">广东省人民政府关于印发广东省进一步促进就业若...</a><span>[2019-06-10]</span></li><br>
-                                                <li><a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/content/post_2510397.html">广东省人民政府办公厅关于印发广东省建设大众创...</a><span>[2019-06-10]</span></li><br>
-                                                <li><a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/content/post_2510397.html">广东省人民政府办公厅关于印发广东省建设大众创业...</a><span>[2019-06-10]</span></li><br>
-                                                <li><a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/content/post_2510387.html">广东省人民政府关于印发贯彻落实国家《“十三五”...</a><span>[2019-06-10]</span></li><br>
+                                                <li>
+                                                    <a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/content/post_2510403.html">广东省人民政府关于印发广东省进一步促进就业若...</a><span>[2019-06-10]</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/content/post_2510397.html">广东省人民政府办公厅关于印发广东省建设大众创...</a><span>[2019-06-10]</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/content/post_2510397.html">广东省人民政府办公厅关于印发广东省建设大众创业...</a><span>[2019-06-10]</span>
+                                                </li>
+                                                <br>
+                                                <li>
+                                                    <a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/content/post_2510387.html">广东省人民政府关于印发贯彻落实国家《“十三五”...</a><span>[2019-06-10]</span>
+                                                </li>
+                                                <br>
                                             </ul>
-                                            <a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/" class="btn fr" target="_blank">查看更多 </a>'
+                                            <ul>
+                                            <a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/" class="btn fr"
+                                               target="_blank">查看更多 </a>'
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
 
 
                     </div>
@@ -253,9 +273,12 @@
                                     <div class="single-footer-widget">
                                         <h3 class="text-white mb-22">联系邮箱</h3>
                                         <p class="text-white pr-10">
-                                            <b>本科派遣管理:</b> <a href="jyzx@mail.sysu.edu.cn">jyzx@mail.sysu.edu.cn</a><br/>
-                                            <b>研究生派遣管理:</b> <a href="jyzxyjs@mail.sysu.edu.cn">jyzxyjs@mail.sysu.edu.cn</a><br/>
-                                            <b>选调生:</b><a href="xzbjob@mail.sysu.edu.cn">xzbjob@mail.sysu.edu.cn</a><br/>
+                                            <b>本科派遣管理:</b> <a
+                                                href="jyzx@mail.sysu.edu.cn">jyzx@mail.sysu.edu.cn</a><br/>
+                                            <b>研究生派遣管理:</b> <a
+                                                href="jyzxyjs@mail.sysu.edu.cn">jyzxyjs@mail.sysu.edu.cn</a><br/>
+                                            <b>选调生:</b><a
+                                                href="xzbjob@mail.sysu.edu.cn">xzbjob@mail.sysu.edu.cn</a><br/>
                                         </p>
                                     </div>
                                 </div>
@@ -289,108 +312,109 @@
                         </div>
                     </footer>
                     <!-- End of Footer area -->
-
-
                 </div>
-                <!--End of Main Wrapper Area-->
+            </div>
+        </div>
+    </div>
+    <!--End of Main Wrapper Area-->
 
 
-                <script>
-                    function turnSearch(jobName) {
-                        //alert(jobName.innerText);
-                        if (window.XMLHttpRequest) {
-                            xhr = new XMLHttpRequest();
-                        } else {
-                            xhr = new ActiveXObject('Microsoft.XMLHTTP');
-                        }
-                        var url_getJob = '${pageContext.request.contextPath}/student/returnToList'
-                        var comReleaseJobSalaryLow = -1;
-                        var comReleaseJobSalaryHigh = -1;
-                        url_getJob+="?comReleaseJobName="+jobName.innerText+"&comReleaseJobCity="+"全国"+"&comReleaseJobSalaryLow="+
-                            comReleaseJobSalaryLow+"&comReleaseJobSalaryHigh="+comReleaseJobSalaryHigh+"&comReleaseJobExp="+
-                            "exp"+"&comReleaseJobRequir="+"dg"+"&comReleaseJobProp="+"jp";
+    <script>
+        function turnSearch(jobName) {
+            //alert(jobName.innerText);
+            if (window.XMLHttpRequest) {
+                xhr = new XMLHttpRequest();
+            } else {
+                xhr = new ActiveXObject('Microsoft.XMLHTTP');
+            }
+            var url_getJob = '${pageContext.request.contextPath}/student/returnToList'
+            var comReleaseJobSalaryLow = -1;
+            var comReleaseJobSalaryHigh = -1;
+            url_getJob += "?comReleaseJobName=" + jobName.innerText + "&comReleaseJobCity=" + "全国" + "&comReleaseJobSalaryLow=" +
+                comReleaseJobSalaryLow + "&comReleaseJobSalaryHigh=" + comReleaseJobSalaryHigh + "&comReleaseJobExp=" +
+                "exp" + "&comReleaseJobRequir=" + "dg" + "&comReleaseJobProp=" + "jp";
 
-                        xhr.open("GET",url_getJob );
-                        xhr.setRequestHeader("Content-Type", "application/json;charset=utf-8");
-                        xhr.onreadystatechange = returnToList;
-                        xhr.send();
+            xhr.open("GET", url_getJob);
+            xhr.setRequestHeader("Content-Type", "application/json;charset=utf-8");
+            xhr.onreadystatechange = returnToList;
+            xhr.send();
 
-                    }
+        }
 
-                    function returnToList() {
-                        window.location.href="${pageContext.request.contextPath}/internshipElves/list.jsp";
-                    }
+        function returnToList() {
+            window.location.href = "${pageContext.request.contextPath}/internshipElves/list.jsp";
+        }
 
-                    function turnSearch2() {
-                        if (window.XMLHttpRequest) {
-                            xhr = new XMLHttpRequest();
-                        } else {
-                            xhr = new ActiveXObject('Microsoft.XMLHTTP');
-                        }
-                        var url_getJob = '${pageContext.request.contextPath}/student/returnToList'
-                        var comReleaseJobSalaryLow = -1;
-                        var comReleaseJobSalaryHigh = -1;
-                        var comReleaseJobName = document.getElementById("search_input").value;
-                        url_getJob+="?comReleaseJobName="+comReleaseJobName+"&comReleaseJobCity="+"全国"+"&comReleaseJobSalaryLow="+
-                            comReleaseJobSalaryLow+"&comReleaseJobSalaryHigh="+comReleaseJobSalaryHigh+"&comReleaseJobExp="+
-                            "exp"+"&comReleaseJobRequir="+"dg"+"&comReleaseJobProp="+"jp";
+        function turnSearch2() {
+            if (window.XMLHttpRequest) {
+                xhr = new XMLHttpRequest();
+            } else {
+                xhr = new ActiveXObject('Microsoft.XMLHTTP');
+            }
+            var url_getJob = '${pageContext.request.contextPath}/student/returnToList'
+            var comReleaseJobSalaryLow = -1;
+            var comReleaseJobSalaryHigh = -1;
+            var comReleaseJobName = document.getElementById("search_input").value;
+            url_getJob += "?comReleaseJobName=" + comReleaseJobName + "&comReleaseJobCity=" + "全国" + "&comReleaseJobSalaryLow=" +
+                comReleaseJobSalaryLow + "&comReleaseJobSalaryHigh=" + comReleaseJobSalaryHigh + "&comReleaseJobExp=" +
+                "exp" + "&comReleaseJobRequir=" + "dg" + "&comReleaseJobProp=" + "jp";
 
-                        xhr.open("GET",url_getJob );
-                        xhr.setRequestHeader("Content-Type", "application/json;charset=utf-8");
-                        xhr.onreadystatechange = returnToList;
-                        xhr.send();
-                    }
-                </script>
-                <!-- jquery latest version
-                ========================================================= -->
-                <script src="/js/vendor/jquery-1.12.4.min.js"></script>
+            xhr.open("GET", url_getJob);
+            xhr.setRequestHeader("Content-Type", "application/json;charset=utf-8");
+            xhr.onreadystatechange = returnToList;
+            xhr.send();
+        }
+    </script>
+    <!-- jquery latest version
+    ========================================================= -->
 
-                <!-- Bootstrap framework js
-                ========================================================= -->
-                <script src="/js/bootstrap.min.js"></script>
+    <!-- Bootstrap framework js
+    ========================================================= -->
+    <script src="/js/bootstrap.min.js"></script>
 
-                <!-- Owl Carousel js
-                ========================================================= -->
-                <script src="/js/owl.carousel.min.js"></script>
+    <!-- Owl Carousel js
+    ========================================================= -->
+    <script src="/js/owl.carousel.min.js"></script>
 
-                <!-- nivo slider js
-                ========================================================= -->
-                <script src="/lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-                <script src="/lib/nivo-slider/home.js" type="text/javascript"></script>
+    <!-- nivo slider js
+    ========================================================= -->
+    <script src="/lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+    <script src="/lib/nivo-slider/home.js" type="text/javascript"></script>
 
-                <!-- Js plugins included in this file
-                ========================================================= -->
-                <script src="/js/plugins.js"></script>
+    <!-- Js plugins included in this file
+    ========================================================= -->
+    <script src="/js/plugins.js"></script>
 
-                <!-- Video Player JS
-                ========================================================= -->
-                <script src="/js/jquery.mb.YTPlayer.js"></script>
+    <!-- Video Player JS
+    ========================================================= -->
+    <script src="/js/jquery.mb.YTPlayer.js"></script>
 
-                <!-- Mail Chimp JS
-                        ========================================================= -->
-                <script src="js/jquery.ajaxchimp.min.js"></script>
-                <!-- styleSwitch JS
-                ========================================================= -->
-                <script src="/js/styleswitch.js"></script>
+    <!-- Mail Chimp JS
+            ========================================================= -->
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <!-- styleSwitch JS
+    ========================================================= -->
+    <script src="/js/styleswitch.js"></script>
 
-                <!-- Waypoint Js
-                ========================================================= -->
-                <script src="/js/waypoints.min.js"></script>
+    <!-- Waypoint Js
+    ========================================================= -->
+    <script src="/js/waypoints.min.js"></script>
 
-                <!-- Main js file contents all jQuery plugins activation
-                ========================================================= -->
-                <script src="/js/main.js"></script>
-
-                <script type="text/javascript" src="/js/core.min.js"></script>
-                <script type="text/javascript" src="/js/popup.min.js"></script>
-                <script type="text/javascript" src="/js/newJobs.js"></script>
-                <!-- 在页面加载的时候，调用指定的方法 -->
-                <script>
-                    window.onload = function () {
-                        hotJobs();
-                    }
-                </script>
-
+    <!-- Main js file contents all jQuery plugins activation
+    ========================================================= -->
+    <script src="/js/main.js"></script>
+    <script type="text/javascript" src="/js/Chart.min.js"></script>
+    <script type="text/javascript" src="/js/home.min.js"></script>
+    <script type="text/javascript" src="/js/count.js"></script>
+    <script type="text/javascript" src="/js/core.min.js"></script>
+    <script type="text/javascript" src="/js/popup.min.js"></script>
+    <script type="text/javascript" src="/js/newJobs.js"></script>
+    <!-- 在页面加载的时候，调用指定的方法 -->
+    <script>
+        window.onload = function () {
+            hotJobs();
+        }
+    </script>
 </body>
 </html>
 

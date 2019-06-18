@@ -44,7 +44,7 @@ span.error{display:block; margin:5px 0 10px 0; font-size:14px; color:#ff6a6a;tex
 #navheader li i{position:absolute;right:-10px;top:10px;width:23px;height:15px;background:url(img/icon_new.png) right top no-repeat;}
 #navheader li b{font-size: 12px;line-height:18px;font-weight: 100;position:absolute;left:100px;top:10px;color:#fff;background:#fd470c;padding:0 5px;-moz-border-radius:9px;-webkit-border-radius:9px;border-radius:9px;}
 #header ul.loginTop{margin:0;padding:0;list-style:none; position:absolute;right:0;top:0; overflow:hidden;}
-#header ul.loginTop li{float:left;color:#fff; height:40px;background:#637dfa;padding:8px 3;}
+#header ul.loginTop li{float:left;color:#fff; height:40px;background:#637dfa;padding:8px;}
 #header ul.loginTop a{color:#fff; padding:0 12px;}
 #header ul.loginTop a:hover{color:#cceae3;}
 #header dl{float:right;*max-width:170px; color:#fff;background:#647dfa; position:absolute; right:0;z-index:101; cursor:pointer;line-height:30px;}
@@ -100,7 +100,7 @@ span.error{display:block; margin:5px 0 10px 0; font-size:14px; color:#ff6a6a;tex
 #sidebar .subscribe{display:block;font-size:18px;height:46px;line-height:46px;background:#fafafa url(img/sub_icon.png) 180px center no-repeat;padding:0 80px 0 20px;margin-top:12px;border-bottom:2px solid #647dfa;}
 
 /*index content*/
-.content{ width:744px; float:right;}
+.content{ width:744px; float:left;}
 .da-thumbs {list-style: none;height: 118px;	position: relative;	margin: 0 0 25px 0;	padding: 0;}
 .da-thumbs li {	float: left;margin-right:8px;background: #fff;position: relative;	border:2px solid #fafafa;}
 .da-thumbs li.last{margin-right:0;}
@@ -175,7 +175,7 @@ ul.hot_pos i{width: 12px;height: 14px;position:absolute;background:url(img/hot.p
 #footer .copyright{color:#999;float:right; *margin-top:-36px; }
 #footer .copyright a{color:#999;}
 /*search_list.html*/
-.sidebar{width:230px; float:left;}
+.sidebar{width:230px; float:right;}
 .greybg{ background:#fafafa; padding:20px 20px 10px 20px; *padding-bottom:20px; }
 #selected{margin-bottom:4px;}
 #selected div{font-size:16px; color:#393d3f; margin-bottom:13px;}

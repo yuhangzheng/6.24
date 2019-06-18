@@ -11,9 +11,9 @@ import java.sql.Statement;
 
 public class DataBaseUtil {
 
-    static String uri = "jdbc:mysql://localhost:3306/internship_elves?characterEncoding=UTF-8";
-    static String root="uroot";
-    static String password="123456";
+    static String uri = "jdbc:mysql://localhost:3306/job_center?characterEncoding=UTF-8";
+    static String root="root";
+    static String password="password";
 
     public DataBaseUtil(){
         try { Class.forName("com.mysql.jdbc.Driver"); }
