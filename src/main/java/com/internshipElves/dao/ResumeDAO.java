@@ -29,4 +29,6 @@ public interface ResumeDAO {
 
     //根据学生id修改自我描述
     Integer updateAByStuId(@Param ( "stuId" )Integer stuId,@Param ( "resume" ) Resume resume);
+
+    Integer updateResumeId(@Param("proExpId")Integer proExpId, @Param("resumeId") Integer resumeId);
 }

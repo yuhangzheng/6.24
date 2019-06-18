@@ -6,6 +6,7 @@ import com.internshipElves.entity.Student;
 import com.internshipElves.service.ProExpService;
 import com.internshipElves.service.ResumeService;
 import com.internshipElves.service.StudentService;
+import com.internshipElves.util.DataBaseUtil;
 import com.internshipElves.util.EncipherConst;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("information")
@@ -68,11 +70,10 @@ public class InformationController {
 
     //添加项目经验
     @RequestMapping("insert2")
-    public String insert(ProExp record){
+    public String insert(ProExp record, HttpServletRequest request){
         int row = proExpService.insert(record);
         return "personInformation3";
     }
-
 
     //添加求职意向的记录
     @RequestMapping("insert3")
@@ -80,8 +81,15 @@ public class InformationController {
         Student s = (Student)request.getSession().getAttribute("student1");
         resume.setStuId(s.getStuId());
         int row = resumeService.insert(resume);
+
+        int pid = DataBaseUtil.getCurrentProExpId();
+        resume = resumeService.queryByStuId(s.getStuId());
+        System.out.println("resumeId"+resume.getResumeId());
+
+        int row2 = resumeService.updateResumeIdByProExpId(pid,resume.getResumeId());
         return "personCenter";
     }
+
     //注册的时候对密码进行加密
     @RequestMapping("register")
     public String insert3(Student student){

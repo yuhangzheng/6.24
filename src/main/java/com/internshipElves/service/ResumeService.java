@@ -17,6 +17,11 @@ public interface ResumeService {
 
     //根据学生id修改自我描述
     public int updateAByStuId(Integer stuId ,Resume resume);
+
+//    把resume_id插入pro_exp表中
+    public int updateResumeIdByProExpId(Integer proExpId,Integer resumeId);
+
+
 }
 
 

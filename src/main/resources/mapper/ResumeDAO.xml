@@ -213,4 +213,9 @@
       resume_stu_job_status = #{resumeStuJobStatus,jdbcType=INTEGER}
     where resume_id = #{resumeId,jdbcType=INTEGER}
   </update>
+  <update id="updateResumeId" parameterType="java.lang.Integer">
+    update pro_exp
+    set resume_id = #{resumeId,jdbcType=INTEGER}
+    where pro_exp_id = #{proExpId,jdbcType=INTEGER}
+  </update>
 </mapper>

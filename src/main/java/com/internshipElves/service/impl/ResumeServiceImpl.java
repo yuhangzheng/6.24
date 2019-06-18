@@ -35,4 +35,9 @@ public class ResumeServiceImpl implements ResumeService {
         return resumeDAO.updateAByStuId ( stuId,resume );
     }
 
+//    把resume_id更新到pro_exp表中
+    public int updateResumeIdByProExpId(Integer proExpId,Integer resumeId){
+        return resumeDAO.updateResumeId(proExpId,resumeId);
+    }
+
 }

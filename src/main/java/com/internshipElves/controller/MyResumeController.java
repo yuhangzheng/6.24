@@ -84,7 +84,7 @@ public class MyResumeController {
       return row;
     }
     //修改期望工作
-    @GetMapping("editResume")
+    @GetMapping("/editResume")
     public Integer  editResume(HttpServletRequest request,Resume  resume) {
 
     Integer row = resumeService.updateByStuId ( (Integer)request.getSession().getAttribute("stuId") ,resume );
@@ -92,7 +92,7 @@ public class MyResumeController {
         return row;
     }
     //修改项目经验
-    @GetMapping("editProExp")
+    @GetMapping("/editProExp")
     public Integer editProExp(HttpServletRequest request,ProExp proExp){
       Integer stuId =  (Integer)request.getSession().getAttribute("stuId");
         Resume resume = resumeService.queryByStuId ( stuId );
