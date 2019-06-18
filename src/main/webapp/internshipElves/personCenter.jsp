@@ -324,7 +324,7 @@
 
         <div class="a_list">
             <a href="#" class="a_item" data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位">
-                <span class="a_num a_color_green" data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位">5</span>
+                <span class="a_num a_color_blue" data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位">5</span>
                 <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_name" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_text_p2.png?v=a454fb32f7cc6ce78bf50d3ddff2565b)"></div>
                 <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_msg">看看大数据显示吧</div>
                 <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_next" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_icon_next.png?v=8b59c649d00f909a79097649e7cf96aa)"></span>

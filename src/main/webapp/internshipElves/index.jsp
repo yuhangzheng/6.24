@@ -61,13 +61,13 @@
                     </c:when>
 
                     <c:when test="${!empty stuId && !empty stuName}">
-                        <li><a href="${pageContext.request.contextPath}/personCenter/isLogin">欢迎${stuName}</a></li>
+                        <li><a href="${pageContext.request.contextPath}/student/isLogin">欢迎${stuName}</a></li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/stuLogin/logout">退出</a></li>
                     </c:when>
 
                     <c:when test = "${!empty stuId || !empty stuPhoneMail}">
-                        <li> <a href="${pageContext.request.contextPath}/personCenter/isLogin">欢迎${stuPhoneMail}</a></li>
+                        <li> <a href="${pageContext.request.contextPath}/student/isLogin">欢迎${stuPhoneMail}</a></li>
                         <li>|</li>
                         <li><a href="${pageContext.request.contextPath}/stuLogin/logout">退出</a></li>
                     </c:when>

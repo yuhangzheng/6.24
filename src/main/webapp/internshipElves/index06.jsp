@@ -104,7 +104,7 @@
                         <h2>恭喜你，职位发布成功！</h2>
                         <a target="_blank" href="${pageContext.request.contextPath}/internshipElves/index.jsp">预览职位</a><br>
                         <a class="greylink" href="${pageContext.request.contextPath}/internshipElves/releaseJob.jsp">继续发布新职位</a><br>
-                        <a class="greylink" href="${pageContext.request.contextPath}/internshipElves/pending.jsp"> 进入我的公司主页</a><br>
+                        <a class="greylink" href="${pageContext.request.contextPath}/internshipElves/myhome.jsp"> 进入我的公司主页</a><br>
                         <div style="float:left;" class="invite_share">
                             <!-- JiaThis Button BEGIN -->
                             <div class="jiathis_style_32x32">
