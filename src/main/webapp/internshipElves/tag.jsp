@@ -143,7 +143,6 @@
                     xhr= new ActiveXObject("Microsoft.XMLHTTP");
                 }
                 var comLabelOne = "comLabelOne="+ document.getElementById("labels").innerText;
-                alert(comLabelOne);
                 xhr.open("POST",url_saveLabel,true);
                 xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=utf-8");
                 xhr.onreadystatechange = nextIndex2;

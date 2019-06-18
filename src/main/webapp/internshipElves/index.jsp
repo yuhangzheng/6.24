@@ -112,7 +112,7 @@
                             </c:when>
 
                             <c:when test="${!empty stuId && !empty stuName}">
-                                <li><a href="${pageContext.request.contextPath}/student/isLogin">欢迎${stuName}</a>
+                                <li><a href="${pageContext.request.contextPath}/personCenter/loginIn">欢迎${stuName}</a>
                                 </li>
                                 <li>|</li>
                                 <li><a href="${pageContext.request.contextPath}/stuLogin/logout">退出</a></li>
@@ -120,14 +120,14 @@
 
                             <c:when test="${!empty stuId || !empty stuPhoneMail}">
                                 <li>
-                                    <a href="${pageContext.request.contextPath}/student/loginIn">欢迎${stuPhoneMail}</a>
+                                    <a href="${pageContext.request.contextPath}/personCenter/loginIn">欢迎${stuPhoneMail}</a>
                                 </li>
                                 <li>|</li>
                                 <li><a href="${pageContext.request.contextPath}/stuLogin/logout">退出</a></li>
                             </c:when>
 
                             <c:when test="${!empty comId || !empty comPhoneMail}">
-                                <li><a href="${pageContext.request.contextPath}/internshipElves/jobreleasesuccess.jsp">欢迎${comPhoneMail}</a>
+                                <li><a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">欢迎${comPhoneMail}</a>
                                 </li>
                                 <li>|</li>
                                 <li><a href="${pageContext.request.contextPath}/comLogin/logout">退出</a></li>
@@ -135,7 +135,7 @@
 
                             <c:when test="${!empty adminId && !empty adminName}">
                                 <li>
-                                    <a href="${pageContext.request.contextPath}/personCenter/isLogin">欢迎管理员${adminName}</a>
+                                    <a href="${pageContext.request.contextPath}/internshipElves/check.jsp">欢迎管理员${adminName}</a>
                                 </li>
                                 <li>|</li>
                                 <li><a href="${pageContext.request.contextPath}/adminLogin/logout">退出</a></li>
@@ -161,7 +161,7 @@
                                         <div class="text-content-wrapper">
                                             <div class="text-content">
                                                 <h1 class="title1 wow bounceInDown text-uppercase text-white mb-16"
-                                                    data-wow-duration="3s" data-wow-delay="0s">中山大学就业服务中心</h1>
+                                                    data-wow-duration="3s" data-wow-delay="0s" style="color: white">中山大学就业服务中心</h1>
                                                 <p class="sub-title wow bounceInRight hidden-xs" data-wow-duration="3s"
                                                    data-wow-delay="1s"> 方便学生</br>服务社会</p>
 
@@ -305,7 +305,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="footer-text">
-                                        <a target="_blank" href="http://sysu.edu.cn">@中山大学</a>
+                                        <a target="_blank" href="http://sysu.edu.cn">郑宇航、彭泳欣、张然、邓凯文、韦婕、温惠琴@中山大学</a>
                                     </div>
                                 </div>
                             </div>

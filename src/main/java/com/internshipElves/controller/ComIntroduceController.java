@@ -32,7 +32,7 @@ public class ComIntroduceController {
         Integer comId = company.getComId();
         Integer  rows  =comIntroduceService.insertComIntroduce(comId, comIntroduce);
 
-        return   rows.toString();
+        return   "pending";
     }
 
 

@@ -46,7 +46,7 @@
             <ul id="navheader" class="reset">
                 <li><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
                 <li><a target="_blank" href="${pageContext.request.contextPath}/internshipElves/companyList.jsp">公司</a></li>
-                <li><a rel="nofollow" href="${pageContext.request.contextPath}/internshipElves/myhome2.jsp">企业中心</a></li>
+                <li><a rel="nofollow" href="${pageContext.request.contextPath}/internshipElves/pending.jsp">企业中心</a></li>
             </ul>
             <dl class="collapsible_menu">
                 <dt>
@@ -59,23 +59,23 @@
     <div id="container">
 
         <div class="sidebar">
-            <a class="btn_create" href="create.html">发布新职位</a>
+            <a class="btn_create" href="">发布新职位</a>
             <dl class="company_center_aside">
                 <dt>我收到的简历</dt>
                 <dd>
-                    <a href="pending">待查看简历</a>
+                    <a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">待查看简历</a>
                 </dd>
                 <dd>
-                    <a href="pending">待处理简历</a>
+                    <a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">待处理简历</a>
                 </dd>
                 <dd>
-                    <a href="pending">待定简历</a>
+                    <a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">待定简历</a>
                 </dd>
                 <dd>
-                    <a href="pending">已通知面试简历</a>
+                    <a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">已通知面试简历</a>
                 </dd>
                 <dd class="btm">
-                    <a href="pending">不合适简历</a>
+                    <a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">不合适简历</a>
                 </dd>
             </dl>
             <dl class="company_center_aside">

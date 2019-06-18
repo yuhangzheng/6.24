@@ -259,7 +259,7 @@
         <div class="center-header">
             <div class="header_people">
                 <div class="header_img">
-                    <img src="https://sxsimg.xiaoyuanzhao.com/4E/1D/4EBF399A932DF5F0D0E3D05AFE2F6F1D.png" alt="" class="people_img">
+                    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560884077801&di=11742ebc8e9a07647c2dcebbf8441907&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201511%2F17%2F20151117001927_fABta.jpeg" alt="" class="people_img">
                     <div id="croppic"></div>
                     <span class="btn" id="cropContainerHeaderButton"></span>
                 </div>
@@ -276,7 +276,7 @@
                 </c:choose>
             </div>
             <div class="header_con">
-                <div class="resume_til"><a href="${pageContext.request.contextPath}/information/insert4"><label style="font-weight: 600;font-size:20px;color:#000;position: relative;bottom: 18px;"><label style="font-weight: 600;font-size:20px;color:#000;">${tip1}</label>填写</label><span class="resume_til_name" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_text_p1.png?v=468f287b04bfd25a278e041b43a87c66)"></span></a><span class="til_tips">磨刀不误砍柴工，填写下简历吧</span><span class="til_add_resume" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_new_resume.png?v=294e2870a821e4613d6ead741d5609be)"><span class="close_tip"></span></span></div>
+                <div class="resume_til"><a href="${pageContext.request.contextPath}/information/insert4"><label style="font-weight: 600;font-size:20px;color:#000;position: relative;bottom: 18px;"><label style="font-weight: 600;font-size:20px;color:#000;">${tip1}</label>填写</label><span class="resume_til_name" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_text_p1.png?v=468f287b04bfd25a278e041b43a87c66)"></span></a><span class="til_tips">磨刀不误砍柴工，填写下简历吧</span><a href="${pageContext.request.contextPath}/information/insert4"><span class="til_add_resume" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_new_resume.png?v=294e2870a821e4613d6ead741d5609be)"><span class="close_tip"></span></span></a></div>
                 <div class="cen_resume_list">
 
                     <div class="cen_resume" data-stype="online">
@@ -289,7 +289,7 @@
                         </a>
 
                         <span class="resume_english">
-                            <span class="resume_status not_have" data-guuid="grp_9mlskqzgjktr">创建英文</span>
+                            <a href="${pageContext.request.contextPath}/information/insert4"><span class="resume_status not_have" data-guuid="grp_9mlskqzgjktr">创建英文</span></a>
                         </span>
 
                         <a target="_blank" href="#"
@@ -308,7 +308,7 @@
                             </div>
                         </a>
                         <span class="resume_english">
-                                                  <span class="resume_status not_have" data-guuid="grp_aldzycmupk03">创建英文</span>
+                            <a href="${pageContext.request.contextPath}/information/insert4"><span class="resume_status not_have" data-guuid="grp_aldzycmupk03">创建英文</span></a>
                                         </span>
 
                         <a target="_blank" href="#"
@@ -320,30 +320,6 @@
 
                 </div>
             </div>
-        </div>
-
-        <div class="a_list">
-            <a href="#" class="a_item" data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位">
-                <span class="a_num a_color_blue" data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位">5</span>
-                <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_name" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_text_p2.png?v=a454fb32f7cc6ce78bf50d3ddff2565b)"></div>
-                <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_msg">看看大数据显示吧</div>
-                <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_next" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_icon_next.png?v=8b59c649d00f909a79097649e7cf96aa)"></span>
-            </a>
-            <a href="#" class="a_item" data-sa="click" data-starget="/my/collect" data-sinfo="{&quot;name&quot;: &quot;收藏&quot;}" data-sevent="intern_sub" data-sname="118" data-desc="trainee_center-我的收藏">
-                <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_num a_color_blue">2</span>
-                <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_name" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_text_p3.png?v=7017fd7f241617e6a9d4e25b13f41afd)"></div>
-                <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_msg">喜欢的在这里哦</div>
-                <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_next" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_icon_next.png?v=8b59c649d00f909a79097649e7cf96aa)"></span>
-            </a>
-            <a href="#" class="a_item a_invite">
-                <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_num a_color_blue">0</span>
-                <div data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_name " style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_text_p4.png?v=8b6dfdfc5e1f9f9b5c0addd6499c2002)"></div>
-
-
-                <div class="a_msg"><span class="open_invite"style="color: grey">职位</span>能够自动找你哦</div>
-
-                <span data-sa="click" data-starget="/my/match" data-sinfo="{&quot;name&quot;: &quot;推荐职位&quot;}" data-sevent="jb_click" data-sname="117" data-desc="trainee_center-推荐职位" class="a_next" style="background-image: url(https://sxsimg.xiaoyuanzhao.com/static/new_main/img/center_icon_next.png?v=8b59c649d00f909a79097649e7cf96aa)"></span>
-            </a>
         </div>
 
         <div id="container" >

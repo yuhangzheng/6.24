@@ -104,7 +104,6 @@
                 var  formData=  "comProductName=" + comProductName + "&comProductAddr="+comProductAddr
                     +"&comProductIntro="+comProductIntro;
 
-                alert(formData);
 
                 xhr.open("POST", url_saveProduct,true);
                 xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=utf-8");

@@ -136,7 +136,7 @@ h5,
 h6 {
     font-family: 'montserratbold';
     margin: 0px;
-    color: #6d6d6d
+    color: #fafafa
 }
 h1 a,
 h2 a,
@@ -654,7 +654,7 @@ textarea {
 .pt-99 { padding-top: 99px }
 .pt-100 { padding-top: 100px }
 .pt-110 { padding-top: 110px }
-.pt-120 { padding-top: 120px }
+.pt-120 { padding-top: 40px }
 .pt-130 { padding-top: 130px }
 .pt-140 { padding-top: 140px }
 .pt-150 { padding-top: 150px }
@@ -791,7 +791,7 @@ textarea {
 .pb-98 { padding-bottom: 98px }
 .pb-99 { padding-bottom: 99px }
 .pb-100 { padding-bottom: 100px }
-.pb-110 { padding-bottom: 110px }
+.pb-110 { padding-bottom: 30px }
 .pb-115 { padding-bottom: 115px }
 .pb-120 { padding-bottom: 120px }
 .pb-130 { padding-bottom: 130px }
@@ -846,7 +846,7 @@ textarea {
 .ptb-90 { padding-top: 90px; padding-bottom: 90px; }
 .ptb-100 { padding-top: 100px; padding-bottom: 100px; }
 .ptb-110 { padding-top: 110px; padding-bottom: 110px; }
-.ptb-120 { padding-top: 120px; padding-bottom: 120px; }
+.ptb-120 { padding-top: 50px; padding-bottom: 50px; }
 .ptb-130 { padding-top: 130px; padding-bottom: 130px; }
 .ptb-140 { padding-top: 140px; padding-bottom: 140px; }
 .ptb-150 { padding-top: 150px; padding-bottom: 150px; }
@@ -1026,7 +1026,7 @@ a.button.extra-small i { padding: 11px; width: 38px; font-size: 13px; }
 /*************************
     07. Text color
 *************************/
-.text-white { color: #fff ;}
+.text-white { color: #555555 ;}
 .text-black { color: #363636; }
 .text-dark { color: #3F5771; }
 
@@ -1141,7 +1141,7 @@ textarea:focus {
 .white-bg, .bg-white { background: #fff; }
 .gray-bg { background: #eceff7; }
 .light-gray-bg { background: #F4F4F4; }
-.black-bg { background: #2C2C2C; }
+.black-bg { background: #FFFFFF; }
 .dark-blue-bg { background: #2D3E50; }
 .transparent-bg { background: transparent; }
 
