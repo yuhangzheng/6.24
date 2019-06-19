@@ -16,7 +16,7 @@
 <body>
 <div id = "nav">
     <div class="nav_img">
-        <a href=""><img src="/images/logo.png"></a>
+        <a href="${pageContext.request.contextPath}/internshipElves/index.jsp"><img src="/images/logo.png"></a>
     </div>
 </div>
 
@@ -30,8 +30,8 @@
         <div class="register_left_r2">
             <form>
                 <span class="registerMessage" id="registerMsg"></span>
-                <input type="text" placeholder="请输入公司邮箱" class="registerMailAndPwd" id="registerId" name="stuPhone" onblur="registerMail()"/>
-                <span class="registerMailMsg"></span>
+                <input type="text" placeholder="请输入公司邮箱" class="registerMailAndPwd" id="registerId" name="stuPhone" onblur="registerMail()" style="height: 35px;width: 300px;margin-top: 30px;margin-left: 70px;"/>
+                <span class="registerMailMsg" style="display: block;font-size: 2px;color: red;margin-left: 70px;"></span>
                 <input type="password" placeholder="请输入密码" class="registerTelAndPwd" id = "registerPwd" name="stuPwd" onblur="registerPassword()"/>
                 <span class="registerPwdMsg"></span>
                 <%/*
@@ -41,7 +41,7 @@
                 */%>
                 <div class="agreement">
                     <div class="agreement_one" onblur="stuCheckBox()"><input type="checkbox" class="agreement_agree"><label> 我已阅读并同意</label></div>
-                    <div class="agreement_check"><a href=""><pre>《实习精灵用户协议》</pre></a></div>
+                    <div class="agreement_check"><a href=""><pre>《就业中心服务协议》</pre></a></div>
                     <span class="agreementMsg"></span>
                 </div>
                 <button type="button" class="register" onclick="comRegister()"><span>注册</span></button>

@@ -9,7 +9,7 @@
 <body>
 <div id = "nav">
     <div class="nav_img">
-        <a href=""><img src="/images/logo.png"></a>
+        <a href="${pageContext.request.contextPath}/internshipElves/index.jsp"><img src="/images/logo.png"></a>
     </div>
 </div>
 

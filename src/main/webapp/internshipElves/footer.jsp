@@ -21,7 +21,7 @@
             padding-top: 22px;
             color: #fafafa;
             display: block;
-            height: 150px;
+            height: 120px;
             border: 1px ;
             clear:both
         }
@@ -31,8 +31,8 @@
             margin-left: 5%;
             padding-left: 15px;
             padding-right: 15px;
-            width: 40%;
-            float: left;
+            width: 50%;
+
         }
         .info {
             margin-right: 5%;
@@ -48,26 +48,20 @@ a{
 <body>
 <footer class="footer">
     <div class="container">
-        中大高品质就业社区，致力于为全校学生及外部企业提供一个高品质、高效率的就业服务平台~
-        <br/><br/><br/>
-        <p>Designed by </span> ourteam</p>
+        <p><a href="${pageContext.request.contextPath}/internshipElves/index.jsp" style="color:white">关于本站</a></p>
+        <p>致力于为全校学生及外部企业提供一个高品质、高效率的就业服务平台</p>
+
+
     </div>
 
     <div class="info">
         <p style="text-align: center;font-size: 16px;">友情链接</p>
         <ul >
-            <li><a style="color:white" href="/">Github</a></li>
-            <li><a style="color:white" href="/">Segmentfault</a></li>
-            <li><a style="color:white" href="/">v2ex</a></li>
+            <li><a style="color:white" href="github.com">Github</a></li>
+
         </ul>
     </div>
-    <div class="info" >
-        <p style="text-align: center;font-size: 16px;">其他信息</p>
-        <ul >
-            <li><a style="color:white" href="/">关于本站</a></li>
-            <li><a style="color:white" href="/">联系我们</a></li>
-        </ul>
-    </div>
+
 </footer>
 </body>
 </html>

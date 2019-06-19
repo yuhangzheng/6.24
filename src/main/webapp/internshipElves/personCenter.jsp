@@ -289,7 +289,7 @@
                         </a>
 
                         <span class="resume_english">
-                            <a href="${pageContext.request.contextPath}/information/insert4"><span class="resume_status not_have" data-guuid="grp_9mlskqzgjktr">创建英文</span></a>
+                            <a href="${pageContext.request.contextPath}/information/insert4"><span class="resume_status not_have" data-guuid="grp_9mlskqzgjktr">创建简历</span></a>
                         </span>
 
                         <a target="_blank" href="#"
@@ -308,7 +308,7 @@
                             </div>
                         </a>
                         <span class="resume_english">
-                            <a href="${pageContext.request.contextPath}/information/insert4"><span class="resume_status not_have" data-guuid="grp_aldzycmupk03">创建英文</span></a>
+                            <a href="${pageContext.request.contextPath}/information/insert4"><span class="resume_status not_have" data-guuid="grp_aldzycmupk03">创建简历</span></a>
                                         </span>
 
                         <a target="_blank" href="#"
