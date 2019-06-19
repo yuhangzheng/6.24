@@ -140,7 +140,6 @@
                   var formData = "comFounderName=" + comFounderName + "&comPosition="+comPosition
                       +"&comWeibo="+comWeibo+"&comFounderIntro="+comFounderIntro+"&comFounderImg="+comFounderImg;
 
-                  alert(formData);
 
                   xhr.open("POST", url_saveTeam,true);
                   xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded; charset=utf-8");
