@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.internshipElves</groupId>
-    <artifactId>实习精灵</artifactId>
+    <artifactId>job_center</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 

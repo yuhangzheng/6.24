@@ -162,8 +162,6 @@
                                             <div class="text-content">
                                                 <h1 class="title1 wow bounceInDown text-uppercase text-white mb-16"
                                                     data-wow-duration="3s" data-wow-delay="0s" style="color: white">中山大学就业服务中心</h1>
-                                                <p class="sub-title wow bounceInRight hidden-xs" data-wow-duration="3s"
-                                                   data-wow-delay="1s"> 方便学生</br>服务社会</p>
 
                                             </div>
                                         </div>
@@ -227,7 +225,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-xs-12">
                                         <div class="advertise-content pl-15">
-                                            <h3 class="uppercase pb-16 mb-21 mt-26">政策公告</h3>
+                                            <h3 class="uppercase pb-16 mb-21 mt-26" style="color:#555555">政策公告</h3>
                                             <ul>
                                                 <li>
                                                     <a href="http://job.gd.gov.cn/zuixinzixun/zhengwugongkai/content/post_2510403.html">广东省人民政府关于印发广东省进一步促进就业若...</a><span>[2019-06-10]</span>
