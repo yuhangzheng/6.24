@@ -14,8 +14,8 @@
         </div>
         <ul class="list-group" style="width: 100%">
             <li class="list-group-item">
-                <a  href="/signin" class="btn btn-primary btn-block">登录</a>
-                <a  href="/signup" class="btn btn-default btn-block">注册</a>
+                <a  href="${pageContext.request.contextPath}/internshipElves/login.jsp" class="btn btn-primary btn-block">登录</a>
+                <a  href="${pageContext.request.contextPath}/internshipElves/register.jsp" class="btn btn-default btn-block">注册</a>
             </li>
         </ul>
     </div>

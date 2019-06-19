@@ -41,10 +41,10 @@
                 <!--未登陆-->
                  <ul class="nav navbar-nav navbar-right">
                        <li>
-                           <p class="navbar-text"><a style="color:white" href="/signin">登录</a></p>
+                           <p class="navbar-text"><a style="color:white" href="${pageContext.request.contextPath}/internshipElves/login.jsp">登录</a></p>
                        </li>
                        <li>
-                               <p class="navbar-text"><a style="color:white" href="/signup">注册</a></p>
+                               <p class="navbar-text"><a style="color:white" href="${pageContext.request.contextPath}/internshipElves/register.jsp">注册</a></p>
                        </li>
                  </ul>
                 </c:if>
