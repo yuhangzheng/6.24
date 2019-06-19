@@ -325,7 +325,10 @@
       stu_status = #{stuStatus,jdbcType=INTEGER},
       stu_prepare_a = #{stuPrepareA,jdbcType=VARCHAR},
       stu_prepare_b = #{stuPrepareB,jdbcType=VARCHAR}
-    where stu_id = #{stuId,jdbcType=INTEGER}
+    where stu_id = #{stuId,jdbcType=INTEGER};
+    update `user`
+    set username = #{stuName,jdbcType=VARCHAR}
+    where id = #{stuId,jdbcType=INTEGER}
   </update>
 
 
@@ -396,12 +399,16 @@
 
   <insert id="saveRegistByEmailAndPwd">
     INSERT into student(stu_id,stu_pwd,stu_email,stu_create_time)
-    VALUES (#{stuId},#{stuPwd},#{stuEmail},#{stuCreateTime})
+    VALUES (#{stuId},#{stuPwd},#{stuEmail},#{stuCreateTime});
+    insert into `user`(id, username, password, email, create_time, credit, avatar)
+    values (#{stuId}, 'null', #{stuPwd},#{stuEmail},#{stuCreateTime}, 0, '/images/avatar/avatar-default-9.png')
   </insert>
 
   <insert id="saveRegistByTelAndPwd">
     INSERT INTO student(stu_id,stu_pwd,stu_tel,stu_create_time)
-    VALUES (#{stuId},#{stuPwd},#{stuTel},#{stuCreateTime})
+    VALUES (#{stuId},#{stuPwd},#{stuTel},#{stuCreateTime});
+    insert into `user`(id, username, password, phone_num, create_time, credit, avatar)
+    values (#{stuId}, 'null', #{stuPwd},#{stuTel},#{stuCreateTime}, 0, '/images/avatar/avatar-default-9.png')
   </insert>
 
   <select id="queryById" resultType="com.internshipElves.entity.Student">

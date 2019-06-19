@@ -137,7 +137,7 @@
                     if (session.getAttribute("comList") != null&& session.getAttribute("status") != null && session.getAttribute("status").equals("com")) {
                         List<AdminGetCom> list = (List<AdminGetCom>) session.getAttribute("comList");
                         System.out.println(list);
-                        out.print("<tr><th width=\"25%\" style=\"word-break : break-all; \">公司邮箱</th><th width=\"25%\" style=\"word-break : break-all; \">公司创始日期</th><th width=\"25%\" style=\"word-break : break-all; \">公司名字</th><th width=\"25%\" style=\"word-break : break-all; \">公司地址</th><th width=\"25%\" style=\"word-break : break-all; \">公司所在城市</th><th width=\"25%\" style=\"word-break : break-all; \">公司简介</th><th></th></tr>");
+                        out.print("<tr><th width=\"25%\" style=\"word-break : break-all; \">公司邮箱</th><th width=\"25%\" style=\"word-break : break-all; \">公司创始日期</th><th width=\"25%\" style=\"word-break : break-all; \">公司名字</th><th width=\"25%\" style=\"word-break : break-all; \">公司地址</th><th width=\"25%\" style=\"word-break : break-all; \">公司所在城市</th><th width=\"25%\" style=\"word-break : break-all;\">公司简介</th><th></th></tr>");
                         for (AdminGetCom agc : list) {
                             out.print("<tr><th>" + agc.getComEmail() + "</th>");
                             out.print("<th>" + agc.getComCreateDate() + "</th>");

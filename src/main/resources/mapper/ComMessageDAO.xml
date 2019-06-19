@@ -243,6 +243,9 @@
     values (#{comId,jdbcType=VARCHAR},#{comName,jdbcType=VARCHAR},
     #{comInterAddr,jdbcType=VARCHAR}, #{comCity,jdbcType=VARCHAR}, #{comField,jdbcType=VARCHAR},
     #{comScale,jdbcType=VARCHAR}, #{comDeplo,jdbcType=VARCHAR}, #{comIntroduce,jdbcType=VARCHAR}
-    )
+    );
+    update `user`
+    set username = #{comName,jdbcType=VARCHAR}
+    where id = #{comId,jdbcType=INTEGER}
   </insert>
 </mapper>
