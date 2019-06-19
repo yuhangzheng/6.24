@@ -51,7 +51,7 @@
             <dl class="company_center_aside" id="handlemethd">
                 <dt>我收到的简历</dt>
                 <dd class="current" >
-                    <a href="${pageContext.request.contextPath}/company/loadResume">待查看简历</a>
+                    <a href="javascript:void(0)">待查看简历</a>
                 </dd>
                 <dd  >
                     <a href="javascript:void(0)">待处理简历</a>
