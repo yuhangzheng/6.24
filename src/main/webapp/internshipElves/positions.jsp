@@ -58,19 +58,19 @@
             <dl class="company_center_aside">
                 <dt>我收到的简历</dt>
                 <dd>
-                    <a href="pending">待查看简历</a>
+                    <a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">待查看简历</a>
                 </dd>
                 <dd>
-                    <a href="pending">待处理简历</a>
+                    <a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">待处理简历</a>
                 </dd>
                 <dd>
-                    <a href="pending">待定简历</a>
+                    <a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">待定简历</a>
                 </dd>
                 <dd>
-                    <a href="pending">已通知面试简历</a>
+                    <a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">已通知面试简历</a>
                 </dd>
                 <dd class="btm">
-                    <a href="pending">不合适简历</a>
+                    <a href="${pageContext.request.contextPath}/internshipElves/pending.jsp">不合适简历</a>
                 </dd>
             </dl>
             <dl class="company_center_aside"  id="comaside">
