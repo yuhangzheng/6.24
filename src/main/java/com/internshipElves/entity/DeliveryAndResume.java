@@ -4,6 +4,8 @@ import java.util.Date;
 
 public class DeliveryAndResume {
 
+    private int stuId;
+
     /**
      * 职位名
      *
@@ -64,6 +66,14 @@ public class DeliveryAndResume {
 
     //简历记录id
     private Integer deliverResumeId;
+
+    public int getStuId() {
+        return stuId;
+    }
+
+    public void setStuId(int stuId) {
+        this.stuId = stuId;
+    }
 
     public Integer getDeliverResumeId() {
         return deliverResumeId;

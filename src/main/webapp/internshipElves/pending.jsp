@@ -175,7 +175,7 @@
                         resumeList.innerHTML += ( '<li data-id="1686182" class="onlineResume"> <div class="resumeShow">' +
                             '<a title="预览在线简历" target="_blank" class="resumeImg" href="#">' +
                             '<img src="'+result[i].stuProfile+'"> </a> <div class="resumeIntro">' +
-                            '<h3 class="unread"><a target="_blank" title="预览jason的简历" href="">' +
+                            '<h3 class="unread"><a target="_blank" title="预览jason的简历" href="/company/reviewResume/id/' + result[i].stuId + '">' +
                             result[i].stuName + "的简历" + ' </a><em></em></h3><span class="fr">' +
                             "投递时间：" + date + '</span><div>' + result[i].stuName + " / " + result[i].stuGender + " / " +
                             "应届毕业生 / " + result[i].stuAddr + '<br>' + result[i].stuDegree + " · " + result[i].stuSchool +
