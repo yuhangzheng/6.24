@@ -230,7 +230,7 @@
             <li><a href="${pageContext.request.contextPath}/internshipElves/companyList.jsp">公司</a></li>
 
             <li><a rel="nofollow" href="${pageContext.request.contextPath}/student/isLogin">我的简历<label style="color: red;font-size: 14px;">${tip}</label></a></li>
-            <li style="border-bottom: 3px solid #019875"><a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow">个人中心</a></li>
+            <li style="border-bottom: 3px solid #647dfa"><a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow">个人中心</a></li>
         </ul>
         <dl class="collapsible_menu" onclick="sw_fo()">
             <dt >

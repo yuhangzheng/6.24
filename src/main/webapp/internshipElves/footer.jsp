@@ -56,16 +56,16 @@ a{
     <div class="info">
         <p style="text-align: center;font-size: 16px;">友情链接</p>
         <ul >
-            <li><a href="/">Github</a></li>
-            <li><a href="/">Segmentfault</a></li>
-            <li><a href="/">v2ex</a></li>
+            <li><a style="color:white" href="/">Github</a></li>
+            <li><a style="color:white" href="/">Segmentfault</a></li>
+            <li><a style="color:white" href="/">v2ex</a></li>
         </ul>
     </div>
     <div class="info" >
         <p style="text-align: center;font-size: 16px;">其他信息</p>
         <ul >
-            <li><a href="/">关于本站</a></li>
-            <li><a href="/">联系我们</a></li>
+            <li><a style="color:white" href="/">关于本站</a></li>
+            <li><a style="color:white" href="/">联系我们</a></li>
         </ul>
     </div>
 </footer>
