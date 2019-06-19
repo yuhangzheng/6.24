@@ -209,7 +209,7 @@
                             </tr>
                             <tr>
                                 <td>规模</td>
-                                <td>${c.comScale}人</td>
+                                <td>${c.comScale}</td>
                             </tr>
                             <tr>
                                 <td>主页</td>
