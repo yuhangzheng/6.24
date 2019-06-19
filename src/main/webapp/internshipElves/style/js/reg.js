@@ -58,14 +58,14 @@ function regConfirmPwdMsg() {
 }
 
 /**
- * 检查是否同意《实习精灵协议》
+ * 检查是否同意《就业服务中心协议》
  */
 function checkTip() {
     document.getElementsByClassName("pwdMsg")[0].innerText = "";
     if(document.getElementsByName("agree")[0].value == 1){
         return true;
     }else {
-        document.getElementsByClassName("pwdMsg")[0].innerText = "请阅读并接受《实习精灵协议说明》";
+        document.getElementsByClassName("pwdMsg")[0].innerText = "请阅读并接受《就业服务中心协议说明》";
         return false;
     }
 }

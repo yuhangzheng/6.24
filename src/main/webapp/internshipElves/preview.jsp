@@ -3,10 +3,10 @@
 
 <html><head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <title>简历预览-我的简历-实习精灵-最专业的互联网招聘平台</title>
+    <title>简历预览-我的简历-就业服务中心-最专业的互联网招聘平台</title>
     <meta content="23635710066417756375" property="qc:admins">
-    <meta name="description" content="实习精灵">
-    <meta name="keywords" content="实习精灵">
+    <meta name="description" content="就业服务中心">
+    <meta name="keywords" content="就业服务中心">
 
     <meta content="QIQ6KC1oZ6" name="baidu-site-verification">
 
@@ -62,7 +62,7 @@
         <div class="profile_box" id="expectJob">
             <h2>期望工作</h2>
             <div class="expectShow">
-                &nbsp;&nbsp;&nbsp; ${resume.resumeStuWorkAddr}，${ resume.resumeStuJobNature}，月薪:${resume.resumeStuSalaryLow}k-${resume.resumeStuSalaryHigh}k，${resume.resumeStuOccupation},${resume.resumeStuIndustry}
+                &nbsp;&nbsp;&nbsp; ${resume.resumeStuWorkAddr}，月薪:${resume.resumeStuSalaryLow}k-${resume.resumeStuSalaryHigh}k，${resume.resumeStuOccupation}，${resume.resumeStuIndustry}
             </div><!--end .expectShow-->
         </div><!--end #expectJob-->
         <div class="profile_box" id="projectExperience">
@@ -71,8 +71,8 @@
                 <ul class="plist clearfix">
                     <li class="noborder">
                         <div class="projectList">
-                            <div class="f16 mb10">${proExp.proExpName}，${student.stuName}
-                                <span class="c9">（2018.09-至今）</span>
+                            <div class="f16 mb10">${proExp.proExpName}
+                                <span class="c9"></span>
                             </div>
                             <div class="dl1"></div>
                         </div>
@@ -107,7 +107,7 @@
                 <ul class="slist clearfix">
                     <li class="noborder">
                         <div class="workList c7">
-                            <div class="f16">网址：<a target="_blank" href="index.jsp">http://www.internshipElves.com</a></div>
+                            <div class="f16"></div>
                             <p>产品:${proExp.proExpName}<br>描述:${proExp.proExpDesc} </p>
                         </div>
                     </li>

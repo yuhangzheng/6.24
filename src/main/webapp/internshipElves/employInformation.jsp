@@ -54,7 +54,7 @@
 <div id="header">
     <div class="wrapper">
         <a href="${pageContext.request.contextPath}/internshipElves/index.jsp" class="logo">
-            <img src="/images/logo.png" width="229" height="43" alt="实习精灵" />
+            <img src="/images/logo.png" width="229" height="43" alt="就业服务中心" />
         </a>
         <ul class="reset" id="navheader">
             <li ><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>

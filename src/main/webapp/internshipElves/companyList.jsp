@@ -11,8 +11,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>公司列表</title>
     <meta property="qc:admins" content="23635710066417756375" />
-    <meta content="实习精灵" name="description">
-    <meta content="实习精灵" name="keywords">
+    <meta content="就业服务中心" name="description">
+    <meta content="就业服务中心" name="keywords">
     <meta name="baidu-site-verification" content="QIQ6KC1oZ6" />
 
 
@@ -26,18 +26,14 @@
 </head>
 <div style="position:relative; left: 150px; bottom: 15px;">
     <a href="${pageContext.request.contextPath}/internshipElves/index.jsp" class="logo">
-        <img src="/images/logo.png" width="229" height="43" alt="实习精灵" />
+        <img src="/images/logo.png" width="229" height="43" alt="就业服务中心" />
     </a>
     <ul class="reset" id="navheader" >
         <li ><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
         <li><a href="${pageContext.request.contextPath}/student/isLogin" >我的简历</a></li>
         <li class="current"><a href="${pageContext.request.contextPath}/internshipElves/companyList.jsp" rel="nofollow">公司</a></li>
         <li ><a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow">个人中心</a></li>
-        <c:choose>
-            <c:when test="${empty stuId}">
-                <li ><a href="" rel="nofollow">企业中心</a></li>
-            </c:when>
-        </c:choose>
+
     </ul>
     <ul class="loginTop">
         <%--<c:choose>--%>

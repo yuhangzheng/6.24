@@ -38,7 +38,7 @@
     <div id="header">
         <div class="wrapper">
             <a class="logo" href="index.html">
-                <img width="229" height="43" alt="实习精灵" src="${pageContext.request.contextPath}/images/logo.png">
+                <img width="229" height="43" alt="就业服务中心" src="${pageContext.request.contextPath}/images/logo.png">
             </a>
             <ul id="navheader" class="reset">
                 <li><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
@@ -88,7 +88,7 @@
                         <h2 style="margin-top: 25px;" title="平潭协创进出口贸易有限公司">${c.comName}</h2>
 
                         <em class="unvalid"></em>
-                        <span class="va dn">实习精灵未认证企业</span>
+                        <span class="va dn">就业服务中心未认证企业</span>
                         <a target="_blank" class="applyC" href="http://www.lagou.com/c/auth.html">申请认证</a>
                         <div class="clear"></div>
 
@@ -472,7 +472,7 @@
         <a rel="nofollow" target="_blank" href="about.html">联系我们</a>
         <a target="_blank" href="http://www.lagou.com/af/zhaopin.html">互联网公司导航</a>
         <a rel="nofollow" target="_blank" href="http://e.weibo.com/lagou720">微博</a>
-        <a rel="nofollow" href="javascript:void(0)" class="footer_qr">拉勾微信<i></i></a>
+        <a rel="nofollow" href="javascript:void(0)" class="footer_qr">就业服务中心微信<i></i></a>
         <div class="copyright">&copy;2013-2014 Lagou <a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action" target="_blank">京ICP备14023790号-2</a></div>
     </div>
 </div>

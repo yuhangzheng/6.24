@@ -781,7 +781,7 @@ a.greylink{ color:#555;font-size:18px; margin-right:60px;text-decoration:underli
 #box_labels dd ul{ overflow:hidden;}
 #box_labels dd li{ color:#555; float:left; font-size:18px; width:135px; height:38px; background:#fafafa; margin:0 0 12px 12px; line-height:38px; text-align:center; cursor:pointer; transition:background 0.2s ease-in 0s;}
 #box_labels dd li:hover{ color:#fff; background:#93b7bb;}
-#box_labels dd li.selected{color:#fff; background:##40abec;}
+#box_labels dd li.selected{color:#fff; background:#40abec;}
 #memberForm .s_input1{width:392px;}
 #memberForm span.error{width:380px;/* width: 120px;margin: 180px 0 0 0; */}
 .new_portrait{ float:right; margin:50px 0px 0 0; width:120px; height:180px;position:relative;}

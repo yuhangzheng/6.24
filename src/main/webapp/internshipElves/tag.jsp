@@ -14,7 +14,7 @@
     <link  media="handheld" rel="alternate">
     <!-- end 云适配 -->
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <title>公司标签-招聘服务-实习精灵-最专业的互联网招聘平台</title>
+    <title>公司标签-招聘服务-就业服务中心-最专业的互联网招聘平台</title>
     <meta content="23635710066417756375" property="qc:admins">
     <meta content="QIQ6KC1oZ6" name="baidu-site-verification">
 
@@ -38,7 +38,7 @@
     <div id="header">
         <div class="wrapper">
             <a class="logo" href="${pageContext.request.contextPath}/internshipElves/index.jsp">
-                <img width="229" height="43" alt="实习精灵" src="/images/logo.png">
+                <img width="229" height="43" alt="就业服务中心" src="/images/logo.png">
             </a>
             <ul id="navheader" class="reset">
                 <li><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
@@ -172,7 +172,7 @@
         <div class="wrapper">
             <a rel="nofollow" target="_blank" href=#">联系我们</a>
             <a target="_blank" href="#">互联网公司导航</a>
-            <a rel="nofollow" target="_blank" href="#">实习精灵微博</a>
+            <a rel="nofollow" target="_blank" href="#">就业服务中心微博</a>
             <div class="copyright">©2018-2019 internshipElves <a href="#" target="_blank">京ICP备18023790号-2</a></div>
         </div>
     </div>

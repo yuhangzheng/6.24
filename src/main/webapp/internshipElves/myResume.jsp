@@ -8,10 +8,10 @@
 <link  media="handheld" rel="alternate">
 <!-- end 云适配 -->
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>我的简历-实习精灵-最专业的互联网招聘平台</title>
+<title>我的简历-就业服务中心-最专业的互联网招聘平台</title>
 <meta content="23635710066417756375" property="qc:admins">
-<meta name="description" content="拉勾网是3W旗下的互联网领域垂直招聘网站,互联网职业机会尽在拉勾网">
-<meta name="keywords" content="拉勾,拉勾网,拉勾招聘,拉钩, 拉钩网 ,互联网招聘,拉勾互联网招聘, 移动互联网招聘, 垂直互联网招聘, 微信招聘, 微博招聘, 拉勾官网, 拉勾百科,跳槽, 高薪职位, 互联网圈子, IT招聘, 职场招聘, 猎头招聘,O2O招聘, LBS招聘, 社交招聘, 校园招聘, 校招,社会招聘,社招">
+<meta name="description" content="找工作就找就业服务中心">
+<meta name="keywords" content="就业服务，找工作，找实习">
 <meta content="QIQ6KC1oZ6" name="baidu-site-verification">
 
 <!-- <div class="web_root"  style="display:none">h</div> -->
@@ -40,7 +40,7 @@ var youdao_conv_id = 271546;
 	<div id="header">
     	<div class="wrapper">
     		<a class="logo" href="h/">
-    			<img width="229" height="43" alt="实习精灵-专注互联网招聘" src="${pageContext.request.contextPath}/images/logo.png">
+    			<img width="229" height="43" alt="就业服务中心-专注互联网招聘" src="${pageContext.request.contextPath}/images/logo.png">
     		</a>
     		<ul id="navheader" class="reset">
     			<li><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
@@ -714,7 +714,7 @@ var youdao_conv_id = 271546;
 					<a target="_blank" href="">我订阅的职位</a>
 				</div><!--end #myInfo-->
 
-				<div class="mycenterR" id="myResume">
+				<!--<div class="mycenterR" id="myResume">
 					<h2>我的附件简历
 						<a title="上传附件简历" href="#uploadFile" class="inline cboxElement">上传简历</a>
 					</h2>
@@ -723,10 +723,10 @@ var youdao_conv_id = 271546;
 					</div>
 				</div><!--end #myResume-->
 
-				<div class="mycenterR" id="resumeSet">
+				<!--<div class="mycenterR" id="resumeSet">
 					<h2>投递简历设置  <span>修改设置</span></h2>
 					<!-- -1 (0=附件， 1=在线， 其他=未设置) -->
-					<div class="noSet set0 dn">默认使用<span>附件简历</span>进行投递</div>
+				<!--	<div class="noSet set0 dn">默认使用<span>附件简历</span>进行投递</div>
 					<div class="noSet set1 dn">默认使用<span>在线简历</span>进行投递</div>
 					<div class="noSet">暂未设置默认投递简历</div>
 					<input type="hidden" class="defaultResume" value="-1">
@@ -799,8 +799,8 @@ $(function(){
 		<div class="wrapper">
 			<a rel="nofollow" target="_blank" href="h/about.html">联系我们</a>
 		    <a target="_blank" href="h/af/zhaopin.html">互联网公司导航</a>
-		    <a rel="nofollow" target="_blank" href="http://e.weibo.com/lagou720">拉勾微博</a>
-		    <a rel="nofollow" href="javascript:void(0)" class="footer_qr">拉勾微信<i></i></a>
+		    <a rel="nofollow" target="_blank" href="http://e.weibo.com/lagou720">就业服务中心微博</a>
+		    <a rel="nofollow" href="javascript:void(0)" class="footer_qr">就业服务中心微信<i></i></a>
 			<div class="copyright">&copy;2013-2014 Lagou <a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action" target="_blank">京ICP备14023790号-2</a></div>
 		</div>
 	</div>

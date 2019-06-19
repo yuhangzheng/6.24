@@ -31,7 +31,7 @@
                 <span class="registerIdentifyingCodeMsg"></span>
                 <div class="agreement">
                     <div class="agreement_one" onblur="stuCheckBox()"><input type="checkbox" class="agreement_agree"><label> 我已阅读并同意</label></div>
-                    <div class="agreement_check"><a href=""><pre>《实习精灵用户协议》</pre></a></div>
+                    <div class="agreement_check"><a href=""><pre>《就业服务中心用户协议》</pre></a></div>
                     <span class="agreementMsg"></span>
                 </div>
                 <button type="button" class="register" onclick="register()"><span>注册</span></button>

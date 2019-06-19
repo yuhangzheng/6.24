@@ -91,7 +91,7 @@ function registerIdentifyingCode() {
 function stuCheckBox() {
     document.getElementById("registerMsg").innerText = "";
     if(!document.getElementsByClassName("agreement_agree")[0].checked){
-        document.getElementsByClassName("agreementMsg")[0].innerText = "请接受实习精灵协议";
+        document.getElementsByClassName("agreementMsg")[0].innerText = "请接受就业服务中心协议";
         return false;
     }else{
         document.getElementsByClassName("agreementMsg")[0].innerText = "";

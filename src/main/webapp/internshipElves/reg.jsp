@@ -35,7 +35,7 @@
                 <span class="z"><i class="icon-ok-sign boxcol" nullmsg="请同意!"></i></span>
                 <input type="hidden" name="agree" value="1">
                 <div class="Validform_checktip"></div>
-                <p>我已阅读并接受 <a href="#" target="_brack">《实习精灵协议说明》</a></p>
+                <p>我已阅读并接受 <a href="#" target="_brack">《就业服务中心协议说明》</a></p>
             </div>
 
             <button class="lang-btn" onclick="reg()">重置密码</button>

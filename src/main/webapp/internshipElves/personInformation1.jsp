@@ -17,8 +17,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
-    <meta name="description" content="实习精灵是国内领先的实习生招聘平台,500强名企实习,靠谱实习机会,优质实习信息,优秀实习生,找实习就上实习僧,实习生招聘首选实习僧。">
-    <meta name="keywords" content="实习,实习生,找实习,实习生招聘,暑期实习,实习僧">
+    <meta name="description" content="就业服务中心。">
+    <meta name="keywords" content="就业服务，找工作，找实习">
     <meta name="Robots" content="all">
     <!--<meta property="qc:admins" content="2040752403463010135676375"/>-->
     <!--<meta name="baidu-site-verification" content="wTCpQ2cQYQ" />-->
@@ -245,8 +245,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Content-Type" content="text/html; charset=gbk">
     <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-    <title>人才招聘求职网-实习精灵 | 51job 简历分析</title>
-    <meta name="description" content="实习精灵为企业提供人才招聘、猎头、培训、测评和人事外包在内的全方位的人力资源服务，帮助个人求职者与企业搭建最佳的人才招募和人才培养渠道">
+    <title>人才招聘求职网-就业服务中心 | 51job 简历分析</title>
+    <meta name="description" content="就业服务中心为企业提供人才招聘、猎头、培训、测评和人事外包在内的全方位的人力资源服务，帮助个人求职者与企业搭建最佳的人才招募和人才培养渠道">
     <meta name="keywords" content="人才，招聘，简历，工作，面试，薪酬，跳槽，猎头，培训，测评，人事">
     <meta name="robots" content="all">
     <meta http-equiv="Expires" content="0">
@@ -378,7 +378,7 @@
 
     <div style="height: 60px;width:780px;background-color:#fafafa;border-top: 0px solid white;
 line-height: 57px;font-size: 20px;color: #999;display: inline-block; ">
-        <img src="/images/logo.png" width="229" height ="43"style="position: relative;left: 300px;top:10px;"  alt="实习精灵">
+        <img src="/images/logo.png" width="229" height ="43"style="position: relative;left: 300px;top:10px;"  alt="就业服务中心">
         <div style="position: relative;bottom: 40px;left: 550px;">
 
             <a href="${pageContext.request.contextPath}/internshipElves/index.jsp"><label style="padding: 30px;">首页</label></a>

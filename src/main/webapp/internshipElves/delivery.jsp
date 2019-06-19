@@ -9,7 +9,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
 <head>
-    <title>我的投递记录-招聘服务-实习精灵-最专业的互联网招聘平台</title>
+    <title>我的投递记录-招聘服务-就业服务中心-最专业的互联网招聘平台</title>
     <link href="${pageContext.request.contextPath}/css/delivery.css" type="text/css" rel="stylesheet">
     <script src="${pageContext.request.contextPath}/js/delivery.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.1.10.1.min.js"></script>
@@ -19,7 +19,7 @@
 <div id="header">
     <div class="wrapper">
         <a class="logo" href="index.html">
-            <img width="229" height="43" alt="拉勾招聘-专注互联网招聘" src="${pageContext.request.contextPath}/images/logo.png">
+            <img width="229" height="43" alt="就业服务中心招聘-专注互联网招聘" src="${pageContext.request.contextPath}/images/logo.png">
         </a>
         <ul id="navheader" class="reset">
             <li><a href="index.html">首页</a></li>
@@ -249,8 +249,8 @@
                 <a target="_blank" class="more" href="mList.html">更多推荐职位&gt;&gt;</a>
             </div><!--end #myRecommend-->
             <div class="greybg qrcode mt20">
-                <img width="242" height="242" alt="拉勾微信公众号二维码" src="${pageContext.request.contextPath}/images/qr_delivery.png">
-                <span class="c7">扫描拉勾二维码，微信轻松搜工作</span>
+                <img width="242" height="242" alt="就业服务中心微信公众号二维码" src="${pageContext.request.contextPath}/images/qr_delivery.png">
+                <span class="c7">扫描就业服务中心二维码，微信轻松搜工作</span>
             </div>
         </div>
     </div>

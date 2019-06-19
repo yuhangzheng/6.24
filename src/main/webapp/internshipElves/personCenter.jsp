@@ -10,8 +10,8 @@
     <meta charset="UTF-8">
 
     <title>个人中心</title>
-    <meta name="description" content="实习精灵">
-    <meta name="keywords" content="实习精灵">
+    <meta name="description" content="就业服务中心">
+    <meta name="keywords" content="就业服务中心">
 
     <meta name="sogou_site_verification" content="Xs9pZRBFow"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -223,7 +223,7 @@
 <div id="header">
     <div class="wrapper">
         <a class="logo" href="index.html">
-            <img width="229" height="43" alt="实习精灵" src="${pageContext.request.contextPath}/images/logo.png">
+            <img width="229" height="43" alt="就业服务中心" src="${pageContext.request.contextPath}/images/logo.png">
         </a>
         <ul id="navheader" class="reset">
             <li><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>

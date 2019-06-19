@@ -13,8 +13,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>后台管理</title>
     <meta property="qc:admins" content="23635710066417756375"/>
-    <meta content="实习精灵" name="description">
-    <meta content="实习精灵" name="keywords">
+    <meta content="就业服务中心" name="description">
+    <meta content="就业服务中心" name="keywords">
     <meta name="baidu-site-verification" content="QIQ6KC1oZ6"/>
 
     <!-- <div class="web_root"  style="display:none">h</div> -->
@@ -49,7 +49,7 @@
         <div class="wrapper">
             <a href="index.html" class="logo">
                 <img src="${pageContext.request.contextPath}/images/logo.png" width="229" height="43"
-                     alt="拉勾招聘-专注互联网招聘"/>
+                     alt="就业服务中心-专注互联网招聘"/>
             </a>
             <ul class="reset" id="navheader">
                 <li class="current"><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
@@ -183,7 +183,7 @@
     <div class="wrapper">
         <a href="h/about.html" target="_blank" rel="nofollow">联系我们</a>
         <a href="h/af/zhaopin.html" target="_blank">互联网公司导航</a>
-        <a href="http://e.weibo.com/lagou720" target="_blank" rel="nofollow">实习精灵微博</a>
+        <a href="http://e.weibo.com/lagou720" target="_blank" rel="nofollow">就业服务中心微博</a>
         <div class="copyright">&copy;2018-2019 InternshipElves <a target="_blank"
                                                                   href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action">京ICP备18023790号-2</a>
         </div>

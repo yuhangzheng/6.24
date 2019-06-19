@@ -8,7 +8,7 @@
     <link  media="handheld" rel="alternate">
     <!-- end 云适配 -->
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <title>实习精灵-最专业的互联网招聘平台</title>
+    <title>就业服务中心-最专业的互联网招聘平台</title>
 
     <link href="/css/style.css" type="text/css" rel="stylesheet">
     <link href="/css/external.min.css" type="text/css" rel="stylesheet">
@@ -30,7 +30,7 @@
     <div id="header">
         <div class="wrapper">
             <a class="logo" href="${pageContext.request.contextPath}/internshipElves/index.jsp">
-                <img width="229" height="43" alt="实习精灵" src="/images/logo.png">
+                <img width="229" height="43" alt="就业服务中心" src="/images/logo.png">
             </a>
             <ul id="navheader" class="reset">
                 <li><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
@@ -127,7 +127,7 @@
             .jiathis_style_32x32 .jtico{height:auto !important;background:none;line-height:22px !important;padding-left:0 !important;}
         </style>
         <script type="text/javascript">
-            var jiathis_config={summary:"【公司名称随便写招聘随便写】我们公司正在招聘随便写，月薪1k-2k，如果你对这个职位感兴趣，请进入详情页投递简历：http://www.lagou.com/jobs/149594.html @拉勾网",boldNum:6,title:"#拉勾网热招职位#",url:"http://www.lagou.com/jobs/149594.html",hideMore:!0,appkey:{tsina:"3761453225"},pic:"",evt:{share:""}};
+            var jiathis_config={summary:"【公司名称随便写招聘随便写】我们公司正在招聘随便写，月薪1k-2k，如果你对这个职位感兴趣，请进入详情页投递简历：@就业服务中心",boldNum:6,title:"#就业服务中心热招职位#",url:"http://www.lagou.com/jobs/149594.html",hideMore:!0,appkey:{tsina:"3761453225"},pic:"",evt:{share:""}};
             popQR();
             function popQR(){
                 $.ajax({
@@ -151,7 +151,7 @@
         <div class="wrapper">
             <a rel="nofollow" target="_blank" href=#">联系我们</a>
             <a target="_blank" href="#">互联网公司导航</a>
-            <a rel="nofollow" target="_blank" href="#">实习精灵微博</a>
+            <a rel="nofollow" target="_blank" href="#">就业服务中心微博</a>
             <div class="copyright">©2018-2019 internshipElves <a href="#" target="_blank">京ICP备18023790号-2</a></div>
         </div>
     </div>

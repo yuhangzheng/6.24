@@ -31,7 +31,7 @@ $(function(){
 		isLeave = false;
 	})
 	
-	/*判断是否有拉勾帐号*/
+	/*判断是否有就业服务中心帐号*/
 	$('.user_firstMainContent').css({"padding-bottom":"10px"});
 	$('#user_selectAccount label').not('.agreeNotice').click(function(){		
 		$(this).addClass('checked').parent('form').siblings('form').children('label').removeClass('checked');		
@@ -258,7 +258,7 @@ $(function(){
 		});
 	});	
 	
-	/*注册拉勾帐号的表单验证  新帐号*/	
+	/*注册就业服务中心帐号的表单验证  新帐号*/
 	$("#user_regBindForm").validate({  
 		/*onkeyup: false,
     	focusCleanup:true,*/
@@ -278,7 +278,7 @@ $(function(){
     	},
     	messages: {
     		type:{
-        		required:"请选择使用拉勾的目的"
+        		required:"请选择使用就业服务中心的目的"
         	},
     	 	email: {
     	    	required: "请输入常用邮箱地址",
@@ -289,7 +289,7 @@ $(function(){
     	    	rangelength: "请输入6-16位密码，字母区分大小写"
     	   	},
     	   	checkbox: {
-    	    	required: "请接受拉勾用户协议"
+    	    	required: "请接受就业服务中心用户协议"
     	   	}
     	},
     	errorPlacement:function(label, element){
