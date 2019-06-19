@@ -52,16 +52,13 @@
                    <!--已登陆-->
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <p class="navbar-text"><a href="/" style="color:white">回到首页</a></p>
-                    </li>
-                    <li>
                         <p class="navbar-text"><a style="color:white" href="/member/${user.username}">${user.username}</a></p>
                     </li>
                     <li>
                         <p class="navbar-text"><a style="color:white" href="/settings">设置</a></p>
                     </li>
                     <li>
-                        <p class="navbar-text"><a style="color:white" href="javascript:signout_confirm();">登出</a></p>
+                        <p class="navbar-text"><a href="/" style="color:white">回到首页</a></p>
                     </li>
                 </ul>
             </c:if>

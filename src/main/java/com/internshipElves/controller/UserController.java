@@ -215,7 +215,8 @@ public class UserController {
         String suffix=fileName.substring(fileName.lastIndexOf(".")+1, fileName.length());
         Long date=new Date().getTime();
         String newFileName=date+"-"+uid+"."+suffix;
-        String absolutePath=session.getServletContext().getRealPath("/static/images/avatar")+"/"+newFileName;
+        System.out.println( session.getServletContext().getRealPath("/internshipElves//style/images/avatar"));
+        String absolutePath=session.getServletContext().getRealPath("/internshipElves//style/images/avatar")+"/"+newFileName;
         //调试的时候可以写绝对路径对应本机工程路径(或者修改tomcat部署)
         //String absolutePath = "D:\study\管理信息系统\Genesis-master\src\main\webapp\static\img\avatar"
         //由于调试的时候会重新部署，正式发布的时候不会，所以可以不用更改tomcat/conf 的热部署
