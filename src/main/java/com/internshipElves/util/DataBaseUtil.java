@@ -13,7 +13,7 @@ public class DataBaseUtil {
 
     static String uri = "jdbc:mysql://localhost:3306/job_center?characterEncoding=UTF-8";
     static String root="root";
-    static String password="password";
+    static String password="root";
 
     public DataBaseUtil(){
         try { Class.forName("com.mysql.jdbc.Driver"); }

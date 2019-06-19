@@ -15,7 +15,7 @@ public class DataBaseGet {
 
     static String uri = "jdbc:mysql://localhost:3306/job_center?characterEncoding=UTF-8";
     static String root="root";
-    static String password="password";
+    static String password="root";
 
     public static User getUser(HttpServletRequest request, HttpSession session){
         try { Class.forName("com.mysql.jdbc.Driver"); }

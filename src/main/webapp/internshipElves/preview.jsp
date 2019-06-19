@@ -48,7 +48,7 @@
             <h2>基本信息</h2>
             <div class="basicShow">
                    <span>${student.stuName} |
-                    ${student.stuGender==1?"男":"女"} | ${age}岁|${empty student.stuPrepareA ? "应届毕业生":student.stuPrepareA }
+                    ${student.stuGender==1?"男":"女"} |${empty student.stuPrepareA ? "应届毕业生":student.stuPrepareA }
                     | ${student.stuAddrProvince}<br>
                      ${student.stuDegree} · ${student.stuSchool}<br>${student.stuTel} | ${student.stuEmail}<br>
             		</span>
