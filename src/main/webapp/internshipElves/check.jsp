@@ -53,16 +53,11 @@
             </a>
             <ul class="reset" id="navheader">
                 <li class="current"><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
-                <li><a href="${pageContext.request.contextPath}/student/isLogin">我的简历</a></li>
-                <li><a href="${pageContext.request.contextPath}/internshipElves/companyList.jsp" target="_blank">公司</a>
+
+                <li><a href="${pageContext.request.contextPath}/internshipElves/companyList.jsp" target="_blank">公司列表</a>
                 </li>
-                <li><a href="${pageContext.request.contextPath}/personCenter/loginIn" rel="nofollow">个人中心</a></li>
-                <c:choose>
-                    <c:when test="${empty stuId}">
-                        <li><a href="create.html" rel="nofollow">企业中心</a></li>
-                        preview
-                    </c:when>
-                </c:choose>
+
+
             </ul>
             <ul class="loginTop">
                 <c:choose>

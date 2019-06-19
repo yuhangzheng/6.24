@@ -55,11 +55,11 @@ var youdao_conv_id = 271546;
             		<i></i>
             	</dt>
                                 	<dd><a rel="nofollow" href="">我的简历</a></dd>
-                	                	<dd><a href="">我收藏的职位</a></dd>
-                	                	                	<dd class="btm"><a href="">我的订阅</a></dd>
-                	<dd><a href="">我要招人</a></dd>
-                                                <dd><a href="">帐号设置</a></dd>
-                                <dd class="logout"><a rel="nofollow" href="">退出</a></dd>
+
+
+
+								<dd><a href="${pageContext.request.contextPath}/internshipElves/personCenter.jsp">帐号设置</a></dd>
+                                <dd class="logout"><a rel="nofollow" href="${pageContext.request.contextPath}/stuLogin/logout">退出</a></dd>
             </dl>
                                     <div class="dn" id="noticeTip">
             	<span class="bot"></span>
