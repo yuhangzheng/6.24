@@ -190,8 +190,10 @@
 
   <!--注册添加 邮箱 和 密码-->
   <insert id="saveRegistByEmailAndPwd" >
-    INSERT  INTO  company(com_email,com_pwd,com_create_date)
-    VALUES  (#{comEmail},#{comPwd},#{comCreateDate})
+    INSERT  INTO  company(com_id, com_email,com_pwd,com_create_date)
+    VALUES  (#{comId},#{comEmail},#{comPwd},#{comCreateDate});
+    insert into `user`(id, username, password, email, create_time, credit, avatar)
+    values (#{comId}, 'null', #{comPwd},#{comEmail},#{comCreateDate}, 0, '/images/avatar/avatar-default-9.png')
   </insert>
 
   <!--根据ID 获取邮箱密码-->
