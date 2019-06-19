@@ -274,11 +274,11 @@
                                         <h3 class="text-white mb-22">联系邮箱</h3>
                                         <p class="text-white pr-10">
                                             <b>本科派遣管理:</b> <a
-                                                href="jyzx@mail.sysu.edu.cn">jyzx@mail.sysu.edu.cn</a><br/>
+                                                href="">jyzx@mail.sysu.edu.cn</a><br/>
                                             <b>研究生派遣管理:</b> <a
-                                                href="jyzxyjs@mail.sysu.edu.cn">jyzxyjs@mail.sysu.edu.cn</a><br/>
+                                                href="">jyzxyjs@mail.sysu.edu.cn</a><br/>
                                             <b>选调生:</b><a
-                                                href="xzbjob@mail.sysu.edu.cn">xzbjob@mail.sysu.edu.cn</a><br/>
+                                                href="">xzbjob@mail.sysu.edu.cn</a><br/>
                                         </p>
                                     </div>
                                 </div>
