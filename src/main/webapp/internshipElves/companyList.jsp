@@ -368,8 +368,7 @@
                                 result[i].comField + '</a>' +
                                 '<a href="h/jobs/148931.html" target="_blank">' +
                                 result[i].comDeplo + '</a>' +
-                                '<ul class="reset ctags"><li>' +
-                                result[i].comIntroduce + '</li></ul></li>');
+                                '</li>');
                         }
 
 
@@ -445,10 +444,10 @@
                 </a>
             </div>
             <!-- <a href="h/speed/speed3.html" target="_blank" class="adSpeed"></a> -->
-            <a href="h/subject/jobguide.html" target="_blank" class="eventAd">
+            <a href="https://coffee.pmcaff.com/article/659668081521792/pmcaff?utm_source=forum&pmc_param=1" target="_blank" class="eventAd">
                 <img src="/images/subject280.jpg" width="280" height="135" />
             </a>
-            <a href="h/subject/risingPrice.html" target="_blank" class="eventAd">
+            <a href="https://www.shujike.com/blog/50759" target="_blank" class="eventAd">
                 <img src="/images/rising280.png" width="280" height="135" />
             </a>
         </div>

@@ -7,7 +7,7 @@
     <nav class="navbar navbar-default" role="navigation" style="background-color: #647dfa">
         <div class="container-fluid" style="margin-left: 10%">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/forum">主页</a>
+                <a class="navbar-brand" href="/forum" style="padding:15px">论坛主页</a>
             </div>
             <div>
 
@@ -41,10 +41,10 @@
                 <!--未登陆-->
                  <ul class="nav navbar-nav navbar-right">
                        <li>
-                           <p class="navbar-text"><a href="/signin">登录</a></p>
+                           <p class="navbar-text"><a style="color:white" href="/signin">登录</a></p>
                        </li>
                        <li>
-                               <p class="navbar-text"><a href="/signup">注册</a></p>
+                               <p class="navbar-text"><a style="color:white" href="/signup">注册</a></p>
                        </li>
                  </ul>
                 </c:if>
@@ -52,16 +52,16 @@
                    <!--已登陆-->
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <p class="navbar-text"><a href="/">回到首页</a></p>
+                        <p class="navbar-text"><a href="/" style="color:white">回到首页</a></p>
                     </li>
                     <li>
-                        <p class="navbar-text"><a href="/member/${user.username}">${user.username}</a></p>
+                        <p class="navbar-text"><a style="color:white" href="/member/${user.username}">${user.username}</a></p>
                     </li>
                     <li>
-                        <p class="navbar-text"><a href="/settings">设置</a></p>
+                        <p class="navbar-text"><a style="color:white" href="/settings">设置</a></p>
                     </li>
                     <li>
-                        <p class="navbar-text"><a href="javascript:signout_confirm();">登出</a></p>
+                        <p class="navbar-text"><a style="color:white" href="javascript:signout_confirm();">登出</a></p>
                     </li>
                 </ul>
             </c:if>
