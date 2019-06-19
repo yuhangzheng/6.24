@@ -39,6 +39,7 @@ public interface ComMessageDAO {
     //根据名称查询查询公司
     ComMessage queryByName(String name);
 
+
     /**
      *    根据公司基本信息id 查询公司基本信息
      * @param comId   公司id

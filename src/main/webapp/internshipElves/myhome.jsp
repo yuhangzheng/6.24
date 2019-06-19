@@ -68,7 +68,7 @@
                 <div class="c_detail">
                     <div style="background-color:#fff;" class="c_logo">
                         <a title="上传公司LOGO" id="logoShow" class="inline cboxElement" href="#logoUploader">
-                            <img width="190" height="190" alt="公司logo" src="/images/timg${c.comMessagePrepareA}">
+                            <img width="190" height="190" alt="公司logo" src="/images/timg<%=(int)Math.random()*26+1%>.jpg">
 
                         </a>
                     </div>
@@ -130,50 +130,6 @@
 
                 <div class="c_breakline"></div>
 
-                <div id="Product">
-
-                    <div class="product_wrap">
-
-                        <!--无产品 -->
-                        <dl class="c_section dn">
-                            <dt>
-                                <h2><em></em>公司产品</h2>
-                            </dt>
-                            <dd>
-                                <div class="addnew">
-                                    酒香不怕巷子深已经过时啦！<br>
-                                    把自己优秀的产品展示出来吸引人才围观吧！<br>
-                                </div>
-                            </dd>
-                        </dl>
-
-                        <!--产品编辑-->
-                        <dl id="newProduct" class="newProduct dn">
-                            <dt>
-                                <h2><em></em>公司产品</h2>
-                            </dt>
-                            <dd>
-
-                            </dd>
-                        </dl>
-                        <!--有产品-->
-                        <dl class="c_product">
-                            <dt>
-                                <h2><em></em>公司产品</h2>
-                            </dt>
-                            <dd>
-                                <img width="380" height="220" alt="发大发" src="${c.comMessagePrepareB}">
-                                <div class="cp_intro" style="position: relative;bottom: 18px;right: 20px;" >
-                                    <h3><a target="_blank" href="http://www.weimob.com"></a></h3>
-                                    <img width="300" height="221" alt="发大发" src="${c.comMessagePrepareB}">
-                                </div>
-                                <a title="编辑公司产品" class="c_edit product_edit" href="javascript:void(0)"></a>
-                                <a title="新增公司产品" class="c_add product_add" href="javascript:void(0)"></a>
-                            </dd>
-                        </dl>
-
-                    </div>
-                </div>   <!-- end #Product -->
 
                 <div id="Profile">
                     <div class="profile_wrap">
@@ -404,44 +360,6 @@
                     </dd>
                 </dl><!-- end .c_stages -->
 
-
-                <div id="Member">
-                    <%--<!--有创始团队-->--%>
-                    <%--<dl class="c_section c_member">--%>
-                        <%--<dt>--%>
-                            <%--<h2><em></em>创始团队</h2>--%>
-                            <%--<a title="添加创始人" class="c_add" href="javascript:void(0)"></a>--%>
-                        <%--</dt>--%>
-                        <%--<dd>--%>
-
-                            <div class="member_wrap">
-
-                                <!-- 无创始人 -->
-                                <div class="member_info addnew_right dn">
-                                    展示公司的领导班子，<br>提升诱人指数！<br>
-                                    <a class="member_edit" href="javascript:void(0)">+添加成员</a>
-                                </div>
-
-
-
-                                <%--<!-- 显示创始人 -->--%>
-                                <div class="member_info">
-                                    <a title="编辑创始人" class="c_edit member_edit" href="javascript:void(0)"></a>
-                                    <div class="m_portrait">
-                                        <div></div>
-                                        <img width="120" height="120" alt="" src="/images/50.jpg">
-                                    </div>
-                                    <div class="m_name">
-                                        <a target="_blank" class="weibo" href="http://weimob.weibo.com"></a>
-                                    </div>
-                                    <div class="m_position">ceo</div>
-                                    <div class="m_intro" style="font-weight: 500;">孙泰英，男，1954年10月24日生于四川省广元市苍溪县，1989年起担任平潭协进出口贸易有限公司董事长，毕业于辽宁大学。</div>
-                                </div>
-
-                            </div><!-- end .member_wrap -->
-                        </dd>
-                    </dl>
-                </div> <!-- end #Member -->
 
 
                 <!--公司深度报道-->

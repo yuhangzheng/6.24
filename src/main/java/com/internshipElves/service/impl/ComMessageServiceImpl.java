@@ -52,6 +52,11 @@ public class ComMessageServiceImpl implements ComMessageService {
         return comMessageDAO.queryByName(name);
     }
 
+    @Override
+    public ComMessage queryById(Integer id) {
+        return comMessageDAO.queryByComId(id);
+    }
+
     /**
      *  添加公司基本信息
      * @

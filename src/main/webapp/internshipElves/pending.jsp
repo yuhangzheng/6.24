@@ -1,3 +1,4 @@
+<%@ page import="com.internshipElves.entity.Company" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -35,7 +36,7 @@
             <ul id="navheader" class="reset">
                 <li><a href="${pageContext.request.contextPath}/internshipElves/index.jsp">首页</a></li>
                 <li><a target="_blank" href="${pageContext.request.contextPath}/internshipElves/companyList.jsp">公司</a></li>
-                <li><a rel="nofollow" href="${pageContext.request.contextPath}/internshipElves/myhome2.jsp">企业中心</a></li>
+                <li><a rel="nofollow" href="${pageContext.request.contextPath}/comMessage/queryById/id/<%=((Company)session.getAttribute("c")).getComId()%>">企业中心</a></li>
             </ul>
             <dl class="collapsible_menu">
                 <dt>

@@ -32,7 +32,7 @@ function newJobsResponse() {
                 '<span><em class="c7">' + "最低学历：" + '</em>' + results[j].comJobRequir + '</span>' +
                 '</br><span><em class="c7">' + "职位诱惑：" + '</em>' + results[j].comJobTemp + '</span>' +
                 '<br><span>' + strFormat(results[j].comJobTime) + '</span><a  class="wb">' + "分享到微博" + '</a>' + '</div>' + '<div class="hot_pos_r">' +
-                '<div class="mb10 recompany"><a href="comMessage/queryByName/name/' + results[j].comName + '" target="_blank">' + results[j].comName + '</a>' + '</div>' +
+                '<div class="mb10 recompany"><a href="/comMessage/queryByName/name/' + results[j].comName + '" target="_blank">' + results[j].comName + '</a>' + '</div>' +
                 '<span><em class="c7">' + "领域：" + '</em>' + results[j].comField + '</span>' +
                 '<span><em class="c7">' + "创始人：" + '</em>' + results[j].comFounderName + '</span>' + '</br>' +
                 '<span><em class="c7">' + "阶段：" + '</em> ' + results[j].comDeplo + '</span>' +

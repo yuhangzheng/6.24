@@ -49,7 +49,15 @@ public class ComMessageController {
         return mav;
     }
 
-
+    //根据名称查询公司
+    @RequestMapping("queryById/id/{id}")
+    public ModelAndView queryById(@PathVariable Integer id){
+        ModelAndView mav = new ModelAndView();
+        ComMessage comMessage = comMessageService.queryById(id);
+        mav.addObject("c",comMessage);
+        mav.setViewName("myhome");
+        return mav;
+    }
 
 
     //查询所有的公司列表

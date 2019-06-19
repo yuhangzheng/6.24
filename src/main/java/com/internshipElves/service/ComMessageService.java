@@ -55,4 +55,6 @@ public interface ComMessageService {
     public Integer queryAllCountByCondition(ComMessage comMessage);
     //根据姓名查询公司列表
     public ComMessage queryByName(String name);
+
+    public ComMessage queryById(Integer id);
 }

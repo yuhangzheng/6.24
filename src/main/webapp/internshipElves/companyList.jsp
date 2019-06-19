@@ -358,7 +358,7 @@
                                 '<a href="h/c/25829.html" target="_blank">' +
                                 '<h3 title="CCIC">' + '<a href="'+url+'">'+result[i].comName+'</a>' + '</h3>' +
                                 '<div class="comLogo">' +
-                                '<img src="' + '/images/timg'+result[i].comMessagePrepareA + '"  width="200" height="250" alt="CCIC" />' +
+                                '<img src="' + '/images/timg'+ Math.ceil(Math.random()*27) +'.jpg "  width="200" height="250" alt="CCIC" />' +
                                 // '<ul><li>' +
                                 // result[i].comCity + '</li><li>' +
                                 // result[i].comScale + '</li></ul> </div></a>' +
