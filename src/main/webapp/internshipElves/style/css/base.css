@@ -256,7 +256,7 @@ textarea {resize: none;}
 .log-input::-moz-placeholder { color: #b8c4ce;}
 .log-input::-ms-input-placeholder { color: #b8c4ce;}
 .log-input::-webkit-input-placeholder { color: #b8c4ce;}
-.log-input:placeholder { color: #b8c4ce;}
+.log-input::placeholder { color: #b8c4ce;}
 
 textarea::-moz-placeholder { color: #b8c4ce;}
 textarea::-ms-input-placeholder { color: #b8c4ce;}

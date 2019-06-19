@@ -9,7 +9,7 @@
         html, body {
             height: 100%;
             font-size: 15px;
-            color: #f5f5f5;
+            color: #000000;
             font-family: unset;
             background: #f5f5f5;
         }
