@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.AdminCheckComDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.AdminCheckCom">
+<mapper namespace="com.jobcenter.dao.AdminCheckComDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.AdminCheckCom">
     <id column="admin_check_com_id" jdbcType="INTEGER" property="adminCheckComId" />
     <result column="com_id" jdbcType="INTEGER" property="comId" />
     <result column="admin_check_com_status" jdbcType="INTEGER" property="adminCheckComStatus" />
@@ -27,7 +27,7 @@
     delete from admin_check_com where com_id = #{comId,jdbcType=INTEGER};
     delete from company where com_id = #{comId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.AdminCheckCom">
+  <insert id="insert" parameterType="com.jobcenter.entity.AdminCheckCom">
     insert into admin_check_com (admin_check_com_id, com_id, admin_check_com_status,
       admin_check_com_time, admin_check_com_prepare_a,
       admin_check_com_prepare_b)
@@ -35,7 +35,7 @@
       #{adminCheckComTime,jdbcType=DATE}, #{adminCheckComPrepareA,jdbcType=VARCHAR},
       #{adminCheckComPrepareB,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.AdminCheckCom">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.AdminCheckCom">
     insert into admin_check_com
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="adminCheckComId != null">
@@ -78,7 +78,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.AdminCheckCom">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.AdminCheckCom">
     update admin_check_com
     <set>
       <if test="comId != null">
@@ -99,7 +99,7 @@
     </set>
     where admin_check_com_id = #{adminCheckComId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.AdminCheckCom">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.AdminCheckCom">
     update admin_check_com
     set com_id = #{comId,jdbcType=INTEGER},
       admin_check_com_status = #{adminCheckComStatus,jdbcType=INTEGER},
@@ -109,7 +109,7 @@
     where admin_check_com_id = #{adminCheckComId,jdbcType=INTEGER}
   </update>
 
-  <select id="queryAll" resultType="com.internshipElves.entity.AdminGetCom">
+  <select id="queryAll" resultType="com.jobcenter.entity.AdminGetCom">
     SELECT com_email As comEmail, com_create_date As comCreateDate, com_name As comName,
     com_inter_addr As comInterAddr, com_city As comCity, com_field As comField, com_scale As comScale,
     com_deplo As comDeplo, c2.com_introduce As comIntroduce, com_founder_name As comFounderName,

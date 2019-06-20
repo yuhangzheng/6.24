@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.AdministratorDAO">
-    <resultMap id="BaseResultMap" type="com.internshipElves.entity.Administrator">
+<mapper namespace="com.jobcenter.dao.AdministratorDAO">
+    <resultMap id="BaseResultMap" type="com.jobcenter.entity.Administrator">
         <id column="admin_id" jdbcType="INTEGER" property="adminId" />
         <result column="admin_name" jdbcType="VARCHAR" property="adminName" />
         <result column="admin_pwd" jdbcType="VARCHAR" property="adminPwd" />
@@ -21,13 +21,13 @@
     delete from administrator
     where admin_id = #{adminId,jdbcType=INTEGER}
   </delete>
-    <insert id="insert" parameterType="com.internshipElves.entity.Administrator">
+    <insert id="insert" parameterType="com.jobcenter.entity.Administrator">
     insert into administrator (admin_id, admin_name, admin_pwd,
         admin_prepare_a, admin_prepare_b)
     values (#{adminId,jdbcType=INTEGER}, #{adminName,jdbcType=VARCHAR}, #{adminPwd,jdbcType=VARCHAR}, 
         #{adminPrepareA,jdbcType=VARCHAR}, #{adminPrepareB,jdbcType=VARCHAR})
   </insert>
-    <insert id="insertSelective" parameterType="com.internshipElves.entity.Administrator">
+    <insert id="insertSelective" parameterType="com.jobcenter.entity.Administrator">
         insert into administrator
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="adminId != null">
@@ -64,7 +64,7 @@
             </if>
         </trim>
     </insert>
-    <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.Administrator">
+    <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.Administrator">
         update administrator
         <set>
             <if test="adminName != null">
@@ -82,7 +82,7 @@
         </set>
         where admin_id = #{adminId,jdbcType=INTEGER}
     </update>
-    <update id="update" parameterType="com.internshipElves.entity.Administrator">
+    <update id="update" parameterType="com.jobcenter.entity.Administrator">
     update administrator
     set admin_name = #{adminName,jdbcType=VARCHAR},
       admin_pwd = #{adminPwd,jdbcType=VARCHAR},
@@ -95,7 +95,7 @@
 
     <!-- 根据学生id修改-->
 
-    <update id="updateByAdminId" parameterType="com.internshipElves.entity.Administrator">
+    <update id="updateByAdminId" parameterType="com.jobcenter.entity.Administrator">
     update administrator
     set admin_name = #{administrator.adminName,jdbcType=VARCHAR},
     admin_pwd = #{administrator.adminPwd,jdbcType=VARCHAR},
@@ -136,7 +136,7 @@
     VALUES (#{adminPwd},#{adminName})
   </insert>
 
-    <select id="queryById" resultType="com.internshipElves.entity.Administrator">
+    <select id="queryById" resultType="com.jobcenter.entity.Administrator">
         SELECT <include refid="Base_Column_List"/>
         from administrator
         where admin_id = #{adminId}

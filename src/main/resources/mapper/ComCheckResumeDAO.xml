@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.ComCheckResumeDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.ComCheckResume">
+<mapper namespace="com.jobcenter.dao.ComCheckResumeDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.ComCheckResume">
     <id column="com_check_resume_id" jdbcType="INTEGER" property="comCheckResumeId" />
     <result column="resume_id" jdbcType="INTEGER" property="resumeId" />
     <result column="com_check_resume_status" jdbcType="INTEGER" property="comCheckResumeStatus" />
@@ -23,7 +23,7 @@
     delete from com_check_resume
     where com_check_resume_id = #{comCheckResumeId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.ComCheckResume">
+  <insert id="insert" parameterType="com.jobcenter.entity.ComCheckResume">
     insert into com_check_resume (com_check_resume_id, resume_id, com_check_resume_status, 
       com_check_resume_time, com_check_resume_prepare_a, 
       com_check_resume_prepare_b)
@@ -31,7 +31,7 @@
       #{comCheckResumeTime,jdbcType=DATE}, #{comCheckResumePrepareA,jdbcType=VARCHAR}, 
       #{comCheckResumePrepareB,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.ComCheckResume">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.ComCheckResume">
     insert into com_check_resume
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="comCheckResumeId != null">
@@ -74,7 +74,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.ComCheckResume">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.ComCheckResume">
     update com_check_resume
     <set>
       <if test="resumeId != null">
@@ -95,7 +95,7 @@
     </set>
     where com_check_resume_id = #{comCheckResumeId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.ComCheckResume">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.ComCheckResume">
     update com_check_resume
     set resume_id = #{resumeId,jdbcType=INTEGER},
       com_check_resume_status = #{comCheckResumeStatus,jdbcType=INTEGER},
@@ -105,7 +105,7 @@
     where com_check_resume_id = #{comCheckResumeId,jdbcType=INTEGER}
   </update>
 
-  <select id="getComResume" resultType="com.internshipElves.entity.ComGetResume">
+  <select id="getComResume" resultType="com.jobcenter.entity.ComGetResume">
     SELECT stu_name As stuName,stu_gender As stuGender,stu_degree As stuDegree,stu_addr_city As stuAddrCity,
             com_release_job_name AS comJobName,com_name As comName,com_release_job_requir As comJobRequir,
             stu_tel As stuTel,stu_email As stuEmail,deliver_resume_time As deliverResumeTime,d1.resume_id As resumeId

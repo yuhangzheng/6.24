@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.ProExpDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.ProExp">
+<mapper namespace="com.jobcenter.dao.ProExpDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.ProExp">
     <id column="pro_exp_id" jdbcType="INTEGER" property="proExpId" />
     <result column="pro_exp_name" jdbcType="VARCHAR" property="proExpName" />
     <result column="pro_exp_desc" jdbcType="VARCHAR" property="proExpDesc" />
@@ -30,7 +30,7 @@
   </select>
 
   <!-- 根据简历id修改 -->
-  <update id="updateByResumeId" parameterType="com.internshipElves.entity.ProExp">
+  <update id="updateByResumeId" parameterType="com.jobcenter.entity.ProExp">
     update pro_exp
     set pro_exp_name = #{proExp.proExpName,jdbcType=VARCHAR},
     pro_exp_desc = #{proExp.proExpDesc,jdbcType=VARCHAR},
@@ -42,7 +42,7 @@
     delete from pro_exp
     where pro_exp_id = #{proExpId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.ProExp">
+  <insert id="insert" parameterType="com.jobcenter.entity.ProExp">
     insert into pro_exp (pro_exp_id, pro_exp_name, pro_exp_desc, 
       pro_exp_duty, resume_id, pro_exp_a, 
       pro_exp_b)
@@ -50,7 +50,7 @@
       #{proExpDuty,jdbcType=VARCHAR}, #{resumeId,jdbcType=INTEGER}, #{proExpA,jdbcType=VARCHAR}, 
       #{proExpB,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.ProExp">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.ProExp">
     insert into pro_exp
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="proExpId != null">
@@ -99,7 +99,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.ProExp">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.ProExp">
     update pro_exp
     <set>
       <if test="proExpName != null">
@@ -123,7 +123,7 @@
     </set>
     where pro_exp_id = #{proExpId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.ProExp">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.ProExp">
     update pro_exp
     set pro_exp_name = #{proExpName,jdbcType=VARCHAR},
       pro_exp_desc = #{proExpDesc,jdbcType=VARCHAR},

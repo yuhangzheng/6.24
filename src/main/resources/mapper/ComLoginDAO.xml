@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.ComLoginDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.ComLogin">
+<mapper namespace="com.jobcenter.dao.ComLoginDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.ComLogin">
     <id column="com_login_id" jdbcType="INTEGER" property="comLoginId" />
     <result column="com_login_email" jdbcType="VARCHAR" property="comLoginEmail" />
     <result column="com_login_pwd" jdbcType="VARCHAR" property="comLoginPwd" />
@@ -32,7 +32,7 @@
     delete from com_login
     where com_login_id = #{comLoginId,jdbcType=INTEGER}
   </delete>
-  <insert id="save" parameterType="com.internshipElves.entity.ComLogin">
+  <insert id="save" parameterType="com.jobcenter.entity.ComLogin">
     insert into com_login (com_login_id, com_login_email, com_login_pwd, 
       com_login_time, com_pre_login_time, com_login_status, 
       com_id, com_login_prepare_a, com_login_prepare_b
@@ -43,7 +43,7 @@
       )
   </insert>
 
-  <insert id="insert" parameterType="com.internshipElves.entity.ComLogin">
+  <insert id="insert" parameterType="com.jobcenter.entity.ComLogin">
     insert into com_login (com_id,com_login_email, com_login_pwd,
     com_login_time, com_login_status
     )
@@ -52,7 +52,7 @@
     )
   </insert>
 
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.ComLogin">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.ComLogin">
     insert into com_login
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="comLoginId != null">
@@ -113,7 +113,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.ComLogin">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.ComLogin">
     update com_login
     <set>
       <if test="comLoginEmail != null">
@@ -143,7 +143,7 @@
     </set>
     where com_login_id = #{comLoginId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.ComLogin">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.ComLogin">
     update com_login
     set com_login_email = #{comLoginEmail,jdbcType=VARCHAR},
       com_login_pwd = #{comLoginPwd,jdbcType=VARCHAR},
@@ -156,7 +156,7 @@
     where com_login_id = #{comLoginId,jdbcType=INTEGER}
   </update>
 
-  <select id="checkEmailAndPwd" resultType="com.internshipElves.entity.Company">
+  <select id="checkEmailAndPwd" resultType="com.jobcenter.entity.Company">
     SELECT <include refid="Base_Column_List1"/>
     from company
     where com_email = #{email} and com_pwd = #{password}

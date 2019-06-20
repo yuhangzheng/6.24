@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.ComReleaseJobDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.ComReleaseJob">
+<mapper namespace="com.jobcenter.dao.ComReleaseJobDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.ComReleaseJob">
     <id column="com_release_job_id" jdbcType="INTEGER" property="comReleaseJobId" />
     <result column="com_id" jdbcType="INTEGER" property="comId" />
     <result column="com_release_job_type" jdbcType="VARCHAR" property="comReleaseJobType" />
@@ -46,7 +46,7 @@
     delete from com_release_job
     where com_release_job_id = #{comReleaseJobId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.ComReleaseJob">
+  <insert id="insert" parameterType="com.jobcenter.entity.ComReleaseJob">
     insert into com_release_job (com_release_job_id, com_id, com_release_job_type, 
       com_release_job_name, com_release_job_depart, 
       com_release_job_prop, com_release_job_salary_low, 
@@ -68,7 +68,7 @@
       #{comReleaseJobResumePrepareA,jdbcType=VARCHAR}, #{comReleaseJobResumePrepareB,jdbcType=VARCHAR}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.ComReleaseJob">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.ComReleaseJob">
     insert into com_release_job
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="comReleaseJobId != null">
@@ -195,7 +195,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.ComReleaseJob">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.ComReleaseJob">
     update com_release_job
     <set>
       <if test="comId != null">
@@ -258,7 +258,7 @@
     </set>
     where com_release_job_id = #{comReleaseJobId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.ComReleaseJob">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.ComReleaseJob">
     update com_release_job
     set com_id = #{comId,jdbcType=INTEGER},
       com_release_job_type = #{comReleaseJobType,jdbcType=VARCHAR},
@@ -282,7 +282,7 @@
     where com_release_job_id = #{comReleaseJobId,jdbcType=INTEGER}
   </update>
   
-  <select id="hotJob" resultType="com.internshipElves.entity.HotJob">
+  <select id="hotJob" resultType="com.jobcenter.entity.HotJob">
       SELECT  com_name AS comName,com_release_job_name AS comJobName,  com_release_job_city AS comCity,com_release_job_salary_low AS comSalaryLow,com_release_job_salary_high AS comSalaryHigh,
               com_release_job_exp AS comJobExp,
               com_release_job_requir AS comJobRequir,com_release_job_temp AS comJobTemp,com_release_job_time AS comJobTime,
@@ -293,7 +293,7 @@
       Limit 0,6
   </select>
 
-  <select id="newJob" resultType="com.internshipElves.entity.HotJob">
+  <select id="newJob" resultType="com.jobcenter.entity.HotJob">
       SELECT com_name AS comName,com_release_job_name AS comJobName,  com_release_job_city AS comCity,com_release_job_salary_low AS comSalaryLow,com_release_job_salary_high AS comSalaryHigh,
               com_release_job_exp AS comJobExp,
               com_release_job_requir AS comJobRequir,com_release_job_temp AS comJobTemp,com_release_job_time AS comJobTime,

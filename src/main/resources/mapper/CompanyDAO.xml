@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.CompanyDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.Company">
+<mapper namespace="com.jobcenter.dao.CompanyDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.Company">
     <id column="com_id" jdbcType="INTEGER" property="comId" />
     <result column="com_pwd" jdbcType="VARCHAR" property="comPwd" />
     <result column="com_email" jdbcType="VARCHAR" property="comEmail" />
@@ -30,7 +30,7 @@
     delete from company
     where com_id = #{comId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.Company">
+  <insert id="insert" parameterType="com.jobcenter.entity.Company">
     insert into company (com_id, com_pwd, com_email, 
       com_release_job_id, com_message_id, com_product_id, 
       com_label_id, com_create_team_id, com_status, 
@@ -42,7 +42,7 @@
       #{comCreateDate,jdbcType=TIMESTAMP}, #{companyPrepareA,jdbcType=VARCHAR}, #{companyPrepareB,jdbcType=VARCHAR}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.Company">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.Company">
     insert into company
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="comId != null">
@@ -121,7 +121,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.Company">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.Company">
     update company
     <set>
       <if test="comPwd != null">
@@ -160,7 +160,7 @@
     </set>
     where com_id = #{comId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.Company">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.Company">
     update company
     set com_pwd = #{comPwd,jdbcType=VARCHAR},
       com_email = #{comEmail,jdbcType=VARCHAR},
@@ -197,20 +197,20 @@
   </insert>
 
   <!--根据ID 获取邮箱密码-->
-  <select id="queryById"  resultType="com.internshipElves.entity.Company">
+  <select id="queryById"  resultType="com.jobcenter.entity.Company">
     SELECT com_id com_email, com_pwd
     FROM  company
   </select>
 
   <!--根据邮箱获取id-->
-  <select id="queryByMail"  resultType="com.internshipElves.entity.Company">
+  <select id="queryByMail"  resultType="com.jobcenter.entity.Company">
     SELECT com_id
     FROM  company
     WHERE com_email=#{email}
   </select>
 
   <!--根据邮箱和密码登录-->
-  <select id="checkEmailAndPwd" resultType="com.internshipElves.entity.Company">
+  <select id="checkEmailAndPwd" resultType="com.jobcenter.entity.Company">
     SELECT  com_id , com_email, com_pwd ,com_create_date
     from company
     WHERE  com_email=#{email} and com_pwd =#{password}

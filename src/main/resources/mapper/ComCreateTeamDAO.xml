@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.ComCreateTeamDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.ComCreateTeam">
+<mapper namespace="com.jobcenter.dao.ComCreateTeamDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.ComCreateTeam">
     <id column="com_create_team_id" jdbcType="INTEGER" property="comCreateTeamId" />
     <result column="com_id" jdbcType="INTEGER" property="comId" />
     <result column="com_founder_name" jdbcType="VARCHAR" property="comFounderName" />
@@ -37,7 +37,7 @@
     delete from com_create_team
     where com_create_team_id = #{comCreateTeamId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.ComCreateTeam">
+  <insert id="insert" parameterType="com.jobcenter.entity.ComCreateTeam">
     insert into com_create_team (com_create_team_id, com_id, com_founder_name, 
       com_position, com_weibo, com_founder_intro, 
       com_founder_img, com_create_team_prepare_a, com_create_team_prepare_b
@@ -47,7 +47,7 @@
       #{comFounderImg,jdbcType=VARCHAR}, #{comCreateTeamPrepareA,jdbcType=VARCHAR}, #{comCreateTeamPrepareB,jdbcType=VARCHAR}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.ComCreateTeam">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.ComCreateTeam">
     insert into com_create_team
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="comCreateTeamId != null">
@@ -108,7 +108,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.ComCreateTeam">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.ComCreateTeam">
     update com_create_team
     <set>
       <if test="comId != null">
@@ -138,7 +138,7 @@
     </set>
     where com_create_team_id = #{comCreateTeamId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.ComCreateTeam">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.ComCreateTeam">
     update com_create_team
     set com_id = #{comId,jdbcType=INTEGER},
       com_founder_name = #{comFounderName,jdbcType=VARCHAR},

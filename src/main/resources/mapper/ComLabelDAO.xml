@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.ComLabelDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.ComLabel">
+<mapper namespace="com.jobcenter.dao.ComLabelDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.ComLabel">
     <id column="com_label_id" jdbcType="INTEGER" property="comLabelId" />
     <result column="com_id" jdbcType="INTEGER" property="comId" />
     <result column="com_label_one" jdbcType="VARCHAR" property="comLabelOne" />
@@ -25,7 +25,7 @@
     delete from com_label
     where com_label_id = #{comLabelId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.ComLabel">
+  <insert id="insert" parameterType="com.jobcenter.entity.ComLabel">
     insert into com_label (com_label_id, com_id, com_label_one, 
       com_label_two, com_label_three, com_label_prepare_a, 
       com_label_prepare_b)
@@ -33,7 +33,7 @@
       #{comLabelTwo,jdbcType=VARCHAR}, #{comLabelThree,jdbcType=VARCHAR}, #{comLabelPrepareA,jdbcType=VARCHAR}, 
       #{comLabelPrepareB,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.ComLabel">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.ComLabel">
     insert into com_label
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="comLabelId != null">
@@ -82,7 +82,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.ComLabel">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.ComLabel">
     update com_label
     <set>
       <if test="comId != null">
@@ -106,7 +106,7 @@
     </set>
     where com_label_id = #{comLabelId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.ComLabel">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.ComLabel">
     update com_label
     set com_id = #{comId,jdbcType=INTEGER},
       com_label_one = #{comLabelOne,jdbcType=VARCHAR},
@@ -117,7 +117,7 @@
     where com_label_id = #{comLabelId,jdbcType=INTEGER}
   </update>
 
-  <insert id="save" parameterType="com.internshipElves.entity.ComLabel">
+  <insert id="save" parameterType="com.jobcenter.entity.ComLabel">
     insert into com_label (com_id, com_label_one)
     values (#{comId,jdbcType=INTEGER}, #{comLabelOne,jdbcType=VARCHAR}
     )

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.internshipElves.dao.LoginLogMapper" >
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.LoginLog" >
+<mapper namespace="com.jobcenter.dao.LoginLogMapper" >
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.LoginLog" >
     <id column="id" property="id" jdbcType="BIGINT" />
     <result column="user_id" property="userId" jdbcType="INTEGER" />
     <result column="login_time" property="loginTime" jdbcType="TIMESTAMP" />
@@ -21,13 +21,13 @@
     delete from login_log
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.LoginLog" >
+  <insert id="insert" parameterType="com.jobcenter.entity.LoginLog" >
     insert into login_log (user_id, login_time,
       ip, device)
     values (#{userId,jdbcType=INTEGER}, #{loginTime,jdbcType=TIMESTAMP},
       #{ip,jdbcType=VARCHAR}, #{device,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.LoginLog" >
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.LoginLog" >
     insert into login_log
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -64,7 +64,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.LoginLog" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.LoginLog" >
     update login_log
     <set >
       <if test="userId != null" >
@@ -82,7 +82,7 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.LoginLog" >
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.LoginLog" >
     update login_log
     set user_id = #{userId,jdbcType=INTEGER},
       login_time = #{loginTime,jdbcType=TIMESTAMP},

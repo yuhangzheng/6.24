@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.AdminLoginDAO">
-    <resultMap id="BaseResultMap" type="com.internshipElves.entity.AdminLogin">
+<mapper namespace="com.jobcenter.dao.AdminLoginDAO">
+    <resultMap id="BaseResultMap" type="com.jobcenter.entity.AdminLogin">
         <id column="admin_login_id" jdbcType="INTEGER" property="adminLoginId" />
         <result column="admin_login_name" jdbcType="VARCHAR" property="adminLoginName" />
         <result column="admin_login_pwd" jdbcType="VARCHAR" property="adminLoginPwd" />
@@ -31,7 +31,7 @@
     delete from admin_login
     where admin_login_id = #{adminLoginId,jdbcType=INTEGER}
   </delete>
-    <insert id="save" parameterType="com.internshipElves.entity.AdminLogin">
+    <insert id="save" parameterType="com.jobcenter.entity.AdminLogin">
     insert into admin_login (admin_login_id, admin_login_name,
       admin_login_pwd, admin_login_time, admin_pre_login_time,
       admin_login_status, admin_id, admin_login_prepare_a,
@@ -41,7 +41,7 @@
       #{adminLoginStatus,jdbcType=INTEGER}, #{adminId,jdbcType=INTEGER}, #{adminLoginPrepareA,jdbcType=VARCHAR},
       #{adminLoginPrepareB,jdbcType=VARCHAR})
   </insert>
-    <insert id="insertSelective" parameterType="com.internshipElves.entity.AdminLogin">
+    <insert id="insertSelective" parameterType="com.jobcenter.entity.AdminLogin">
         insert into admin_login
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="adminLoginId != null">
@@ -102,7 +102,7 @@
             </if>
         </trim>
     </insert>
-    <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.AdminLogin">
+    <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.AdminLogin">
         update admin_login
         <set>
             <if test="adminLoginName != null">
@@ -132,7 +132,7 @@
         </set>
         where admin_login_id = #{adminLoginId,jdbcType=INTEGER}
     </update>
-    <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.AdminLogin">
+    <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.AdminLogin">
     update admindent_login
     set admin_login_name = #{adminLoginName,jdbcType=VARCHAR},
       admin_login_pwd = #{adminLoginPwd,jdbcType=VARCHAR},
@@ -145,7 +145,7 @@
     where admin_login_id = #{adminLoginId,jdbcType=INTEGER}
   </update>
 
-    <select id="checkNameAndPwd" resultType="com.internshipElves.entity.Administrator">
+    <select id="checkNameAndPwd" resultType="com.jobcenter.entity.Administrator">
         SELECT <include refid="Base_Column_List1"/>
         from administrator
         where admin_name = #{name} and admin_pwd = #{password}

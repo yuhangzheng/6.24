@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.StudentDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.Student">
+<mapper namespace="com.jobcenter.dao.StudentDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.Student">
     <id column="stu_id" jdbcType="INTEGER" property="stuId" />
     <result column="stu_name" jdbcType="VARCHAR" property="stuName" />
     <result column="stu_pwd" jdbcType="VARCHAR" property="stuPwd" />
@@ -44,7 +44,7 @@
     delete from student
     where stu_id = #{stuId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.Student">
+  <insert id="insert" parameterType="com.jobcenter.entity.Student">
     insert into student (stu_id, stu_name, stu_pwd, 
       stu_tel, stu_email, stu_gender, 
       stu_birth, stu_hometown_province, stu_hometown_city, 
@@ -64,7 +64,7 @@
       #{stuGen,jdbcType=INTEGER}, #{stuStatus,jdbcType=INTEGER}, #{stuPrepareA,jdbcType=VARCHAR}, 
       #{stuPrepareB,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.Student">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.Student">
     insert into student
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="stuId != null">
@@ -221,7 +221,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.Student">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.Student">
     update student
     <set>
       <if test="stuName != null">
@@ -299,7 +299,7 @@
     </set>
     where stu_id = #{stuId,jdbcType=INTEGER}
   </update>
-  <update id="update" parameterType="com.internshipElves.entity.Student">
+  <update id="update" parameterType="com.jobcenter.entity.Student">
     update student
     set stu_name = #{stuName,jdbcType=VARCHAR},
       stu_pwd = #{stuPwd,jdbcType=VARCHAR},
@@ -335,7 +335,7 @@
 
   <!-- 根据学生id修改-->
 
-  <update id="updateByStuId" parameterType="com.internshipElves.entity.Student">
+  <update id="updateByStuId" parameterType="com.jobcenter.entity.Student">
     update student
     set stu_name = #{student.stuName,jdbcType=VARCHAR},
     stu_tel = #{student.stuTel,jdbcType=VARCHAR},
@@ -349,7 +349,7 @@
 
 
   <!-- 根据学生id修改教育经历-->
-  <update id="updateEducationByStuId" parameterType="com.internshipElves.entity.Student">
+  <update id="updateEducationByStuId" parameterType="com.jobcenter.entity.Student">
     update student
     set
     stu_school=#{student.stuSchool},
@@ -411,7 +411,7 @@
     values (#{stuId}, 'null', #{stuPwd},#{stuTel},#{stuCreateTime}, 0, '/images/avatar/avatar-default-9.png')
   </insert>
 
-  <select id="queryById" resultType="com.internshipElves.entity.Student">
+  <select id="queryById" resultType="com.jobcenter.entity.Student">
     SELECT <include refid="Base_Column_List"/>
     from student
     where stu_id = #{stuId}

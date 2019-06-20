@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.LoginDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.Login">
+<mapper namespace="com.jobcenter.dao.LoginDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.Login">
     <id column="login_id" jdbcType="INTEGER" property="loginId" />
     <result column="login_tel" jdbcType="VARCHAR" property="loginTel" />
     <result column="login_email" jdbcType="VARCHAR" property="loginEmail" />
@@ -27,7 +27,7 @@
     delete from login
     where login_id = #{loginId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.Login">
+  <insert id="insert" parameterType="com.jobcenter.entity.Login">
     insert into login (login_id, login_tel, login_email, 
       login_pwd, login_time, pre_login_time, 
       login_status, user_id, login_prepare_a, 
@@ -37,7 +37,7 @@
       #{loginStatus,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{loginPrepareA,jdbcType=VARCHAR}, 
       #{loginPrepareB,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.Login">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.Login">
     insert into login
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="loginId != null">
@@ -104,7 +104,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.Login">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.Login">
     update login
     <set>
       <if test="loginTel != null">
@@ -137,7 +137,7 @@
     </set>
     where login_id = #{loginId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.Login">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.Login">
     update login
     set login_tel = #{loginTel,jdbcType=VARCHAR},
       login_email = #{loginEmail,jdbcType=VARCHAR},

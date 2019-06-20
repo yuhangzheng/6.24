@@ -23,11 +23,11 @@
 
     <mvc:annotation-driven/>
     <!-- 配置次级控制器-->
-    <context:component-scan base-package="com.internshipElves.controller"/>
+    <context:component-scan base-package="com.jobcenter.controller"/>
 
     <!--解析配置请求是jsp页面的时候，不需要到次级控制器，直接到web目录下-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/internshipElves/" />
+        <property name="prefix" value="/jobcenter/" />
         <property  name="suffix" value=".jsp"/>
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
         <property name="redirectHttp10Compatible" value="false"></property>
@@ -61,18 +61,18 @@
         </property>
     </bean>
     <!--静态资源处理-->
-    <mvc:resources mapping="/css/**" location="/internshipElves/style/css/"/>
-    <mvc:resources mapping="/images/**" location="/internshipElves/style/images/"/>
-    <mvc:resources mapping="/js/**" location="/internshipElves/style/js/"/>
+    <mvc:resources mapping="/css/**" location="/jobcenter/style/css/"/>
+    <mvc:resources mapping="/images/**" location="/jobcenter/style/images/"/>
+    <mvc:resources mapping="/js/**" location="/jobcenter/style/js/"/>
     <mvc:resources mapping="/upload/**" location="/upload/"/>
-    <mvc:resources mapping="/json/**" location="/internshipElves/style/js/"/>
-    <mvc:resources mapping="/css/img/**" location="/internshipElves/style/css/img/"/>
-    <mvc:resources mapping="/images/img/**" location="/internshipElves/style/images/img/"/>
-    <mvc:resources mapping="/images/slider/**" location="/internshipElves/style/images/slider/"/>
-    <mvc:resources mapping="/images/avatar/**" location="/internshipElves/style/images/avatar/"/>
-    <mvc:resources mapping="/nivo-slider/**" location="/internshipElves/style/lib/nivo-slider/" />
-    <mvc:resources mapping="/lib/**" location="/internshipElves/style/lib/"/>
-    <mvc:resources mapping="/fonts/**" location="/internshipElves/style/fonts/"/>
+    <mvc:resources mapping="/json/**" location="/jobcenter/style/js/"/>
+    <mvc:resources mapping="/css/img/**" location="/jobcenter/style/css/img/"/>
+    <mvc:resources mapping="/images/img/**" location="/jobcenter/style/images/img/"/>
+    <mvc:resources mapping="/images/slider/**" location="/jobcenter/style/images/slider/"/>
+    <mvc:resources mapping="/images/avatar/**" location="/jobcenter/style/images/avatar/"/>
+    <mvc:resources mapping="/nivo-slider/**" location="/jobcenter/style/lib/nivo-slider/" />
+    <mvc:resources mapping="/lib/**" location="/jobcenter/style/lib/"/>
+    <mvc:resources mapping="/fonts/**" location="/jobcenter/style/fonts/"/>
 
 
 

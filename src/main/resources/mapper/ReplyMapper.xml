@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.internshipElves.dao.ReplyMapper" >
+<mapper namespace="com.jobcenter.dao.ReplyMapper" >
 
   <!--  评论信息   -->
-  <resultMap id="replyAndUser" type="com.internshipElves.entity.Reply" >
+  <resultMap id="replyAndUser" type="com.jobcenter.entity.Reply" >
     <id column="id" property="id" jdbcType="BIGINT" />
     <result column="topic_id" property="topicId" jdbcType="INTEGER" />
     <result column="reply_user_id" property="replyUserId" jdbcType="INTEGER" />
@@ -11,7 +11,7 @@
     <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
     <result column="device" property="device" jdbcType="VARCHAR" />
     <result column="content" property="content" jdbcType="LONGVARCHAR" />
-    <association property="user" javaType="com.internshipElves.entity.User">
+    <association property="user" javaType="com.jobcenter.entity.User">
       <id column="id" property="id" jdbcType="INTEGER" />
       <result column="username" property="username" jdbcType="VARCHAR" />
       <result column="avatar" property="avatar" jdbcType="VARCHAR" />
@@ -38,7 +38,7 @@
     where id = #{id,jdbcType=BIGINT}
   </delete>
 
-  <insert id="insert" parameterType="com.internshipElves.entity.Reply" >
+  <insert id="insert" parameterType="com.jobcenter.entity.Reply" >
     insert into reply (topic_id, reply_user_id,
       create_time, update_time,
       content)

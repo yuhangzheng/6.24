@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.AdminCheckStuDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.AdminCheckStu">
+<mapper namespace="com.jobcenter.dao.AdminCheckStuDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.AdminCheckStu">
     <id column="admin_check_stu_id" jdbcType="INTEGER" property="adminCheckStuId" />
     <result column="stu_id" jdbcType="INTEGER" property="stuId" />
     <result column="admin_check_stu_status" jdbcType="INTEGER" property="adminCheckStuStatus" />
@@ -23,7 +23,7 @@
     delete from admin_check_stu
     where admin_check_stu_id = #{adminCheckStuId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.AdminCheckStu">
+  <insert id="insert" parameterType="com.jobcenter.entity.AdminCheckStu">
     insert into admin_check_stu (admin_check_stu_id, stu_id, admin_check_stu_status,
       admin_check_stu_time, admin_check_stu_prepare_a,
       admin_check_stu_prepare_b)
@@ -31,7 +31,7 @@
       #{adminCheckStuTime,jdbcType=DATE}, #{adminCheckStuPrepareA,jdbcType=VARCHAR},
       #{adminCheckStuPrepareB,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.AdminCheckStu">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.AdminCheckStu">
     insert into admin_check_stu
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="adminCheckStuId != null">
@@ -74,7 +74,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.AdminCheckStu">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.AdminCheckStu">
     update admin_check_stu
     <set>
       <if test="stuId != null">
@@ -95,7 +95,7 @@
     </set>
     where admin_check_stu_id = #{adminCheckStuId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.AdminCheckStu">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.AdminCheckStu">
     update admin_check_stu
     set stu_id = #{stuId,jdbcType=INTEGER},
       admin_check_stu_status = #{adminCheckStuStatus,jdbcType=INTEGER},
@@ -105,7 +105,7 @@
     where admin_check_stu_id = #{adminCheckStuId,jdbcType=INTEGER}
   </update>
 
-  <select id="queryAll" resultType="com.internshipElves.entity.AdminGetStu">
+  <select id="queryAll" resultType="com.jobcenter.entity.AdminGetStu">
     SELECT stu_name As stuName, stu_birth As stuBirth, stu_gender As stuGender, stu_addr_city As stuAddrCity,
     stu_tel As stuTel, stu_email As stuEmail, stu_school As stuSchool, stu_read_date As stuReadDate,
     stu_major As stuMajor, stu_degree As stuDegree, stu_photo As stuPhoto

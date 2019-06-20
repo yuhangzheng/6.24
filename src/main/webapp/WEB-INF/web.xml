@@ -11,7 +11,7 @@
     </listener>
   
     <welcome-file-list>
-        <welcome-file>/internshipElves/index.jsp</welcome-file>
+        <welcome-file>/jobcenter/index.jsp</welcome-file>
     </welcome-file-list>
 
     <!--Ioc容器文件的位置，name必须叫contextConfigLocation-->

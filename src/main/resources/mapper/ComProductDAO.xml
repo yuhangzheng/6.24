@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.ComProductDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.ComProduct">
+<mapper namespace="com.jobcenter.dao.ComProductDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.ComProduct">
     <id column="com_product_id" jdbcType="INTEGER" property="comProductId" />
     <result column="com_id" jdbcType="INTEGER" property="comId" />
     <result column="com_product_name" jdbcType="VARCHAR" property="comProductName" />
@@ -32,7 +32,7 @@
     delete from com_product
     where com_product_id = #{comProductId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.internshipElves.entity.ComProduct">
+  <insert id="insert" parameterType="com.jobcenter.entity.ComProduct">
     insert into com_product (com_product_id, com_id, com_product_name, 
       com_product_addr, com_product_intro, com_product_prepare_a, 
       com_product_prepare_b)
@@ -40,7 +40,7 @@
       #{comProductAddr,jdbcType=VARCHAR}, #{comProductIntro,jdbcType=VARCHAR}, #{comProductPrepareA,jdbcType=VARCHAR}, 
       #{comProductPrepareB,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.ComProduct">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.ComProduct">
     insert into com_product
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="comProductId != null">
@@ -89,7 +89,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.ComProduct">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.ComProduct">
     update com_product
     <set>
       <if test="comId != null">
@@ -113,7 +113,7 @@
     </set>
     where com_product_id = #{comProductId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.ComProduct">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.ComProduct">
     update com_product
     set com_id = #{comId,jdbcType=INTEGER},
       com_product_name = #{comProductName,jdbcType=VARCHAR},

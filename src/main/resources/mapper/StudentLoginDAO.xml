@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.internshipElves.dao.StudentLoginDAO">
-  <resultMap id="BaseResultMap" type="com.internshipElves.entity.StudentLogin">
+<mapper namespace="com.jobcenter.dao.StudentLoginDAO">
+  <resultMap id="BaseResultMap" type="com.jobcenter.entity.StudentLogin">
     <id column="stu_login_id" jdbcType="INTEGER" property="stuLoginId" />
     <result column="stu_login_tel" jdbcType="VARCHAR" property="stuLoginTel" />
     <result column="stu_login_email" jdbcType="VARCHAR" property="stuLoginEmail" />
@@ -35,7 +35,7 @@
     delete from student_login
     where stu_login_id = #{stuLoginId,jdbcType=INTEGER}
   </delete>
-  <insert id="save" parameterType="com.internshipElves.entity.StudentLogin">
+  <insert id="save" parameterType="com.jobcenter.entity.StudentLogin">
     insert into student_login (stu_login_id, stu_login_tel, stu_login_email, 
       stu_login_pwd, stu_login_time, stu_pre_login_time, 
       stu_login_status, stu_id, stu_login_prepare_a, 
@@ -45,7 +45,7 @@
       #{stuLoginStatus,jdbcType=INTEGER}, #{stuId,jdbcType=INTEGER}, #{stuLoginPrepareA,jdbcType=VARCHAR}, 
       #{stuLoginPrepareB,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.internshipElves.entity.StudentLogin">
+  <insert id="insertSelective" parameterType="com.jobcenter.entity.StudentLogin">
     insert into student_login
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="stuLoginId != null">
@@ -112,7 +112,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.internshipElves.entity.StudentLogin">
+  <update id="updateByPrimaryKeySelective" parameterType="com.jobcenter.entity.StudentLogin">
     update student_login
     <set>
       <if test="stuLoginTel != null">
@@ -145,7 +145,7 @@
     </set>
     where stu_login_id = #{stuLoginId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.internshipElves.entity.StudentLogin">
+  <update id="updateByPrimaryKey" parameterType="com.jobcenter.entity.StudentLogin">
     update student_login
     set stu_login_tel = #{stuLoginTel,jdbcType=VARCHAR},
       stu_login_email = #{stuLoginEmail,jdbcType=VARCHAR},
@@ -159,13 +159,13 @@
     where stu_login_id = #{stuLoginId,jdbcType=INTEGER}
   </update>
 
-  <select id="checkTelnoAndPwd" resultType="com.internshipElves.entity.Student">
+  <select id="checkTelnoAndPwd" resultType="com.jobcenter.entity.Student">
     SELECT <include refid="Base_Column_List1"/>
     from student
     where stu_tel = #{telno} and stu_pwd = #{password}
   </select>
 
-  <select id="checkEmailAndPwd" resultType="com.internshipElves.entity.Student">
+  <select id="checkEmailAndPwd" resultType="com.jobcenter.entity.Student">
     SELECT <include refid="Base_Column_List1"/>
     from student
     where stu_email = #{email} and stu_pwd = #{password}
